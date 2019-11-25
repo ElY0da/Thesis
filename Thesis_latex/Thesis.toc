@@ -1,0 +1,24 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}%
+\contentsline {chapter}{\numberline {2}Modelling Larval Stage in a Vial}{3}%
+\contentsline {section}{\numberline {2.1}Ecology of a Vial in Drosophila Cultures}{3}%
+\contentsline {section}{\numberline {2.2}Larval Stage Model}{4}%
+\contentsline {section}{\numberline {2.3}Feeding Band Dynamics}{7}%
+\contentsline {section}{\numberline {2.4}Discussion}{8}%
+\contentsline {chapter}{\numberline {3}Effect of Larval Trait Parameters on Other Life-history Traits}{9}%
+\contentsline {section}{\numberline {3.1}Initial Feeding Rate and Efficiency}{9}%
+\contentsline {section}{\numberline {3.2}Initial Feeding Rate and Critical Size}{9}%
+\contentsline {section}{\numberline {3.3}Efficiency and Critical Size}{9}%
+\contentsline {section}{\numberline {3.4}Discussion}{9}%
+\contentsline {chapter}{\numberline {4}Modelling Evolution of Life-history Traits}{10}%
+\contentsline {section}{\numberline {4.1}Modelling Adult Stage}{10}%
+\contentsline {subsection}{\numberline {4.1.1}Fecundity}{10}%
+\contentsline {subsection}{\numberline {4.1.2}Inheritance}{10}%
+\contentsline {section}{\numberline {4.2}Effect of Laral Crowding on the Evolution of Life-history Traits}{10}%
+\contentsline {section}{\numberline {4.3}Effects of Variation on the Evolution of Larval Trait Parameters}{10}%
+\contentsline {subsection}{\numberline {4.3.1}Variation in the Initial Distribution of Larval Trait Parameters}{10}%
+\contentsline {subsection}{\numberline {4.3.2}Stochasticity in Mid-parent Value}{10}%
+\contentsline {section}{\numberline {4.4}Discussion}{10}%
+\contentsline {chapter}{\numberline {5}Introducing Correlations in Larval Trait Parameters}{11}%
+\contentsline {section}{\numberline {5.1}Distribution of Laral Traits with Development Time}{11}%
+\contentsline {section}{\numberline {5.2}Effects of Negative Correlation between Feeding Rate and Efficiency}{11}%
+\contentsline {section}{\numberline {5.3}Discussion}{11}%
