@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  25 NOV 2019 00:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  25 NOV 2019 22:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -247,9 +247,6 @@ File: C2/Figs/larval_model.png Graphic file (type png)
 <use C2/Figs/larval_model.png>
 Package pdftex.def Info: C2/Figs/larval_model.png  used on input line 24.
 (pdftex.def)             Requested size: 386.95897pt x 338.06548pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [4 <./C2/Figs/vial_diagram.png>] [5 <./C2/Figs/larval_model.png>] [6]
 <C2/Figs/waste build up.png, id=42, 462.528pt x 345.4506pt>
 File: C2/Figs/waste build up.png Graphic file (type png)
@@ -324,7 +321,7 @@ Here is how much of TeX's memory you used:
  6441 multiletter control sequences out of 15000+600000
  10108 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,6n,32p,1483b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,6n,32p,1485b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/t
@@ -334,7 +331,7 @@ s/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
 .pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/201
 9/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis.pdf (13 pages, 618197 bytes).
+Output written on Thesis.pdf (13 pages, 618328 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
