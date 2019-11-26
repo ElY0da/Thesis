@@ -1,5 +1,5 @@
 \chapter{Modelling Larval Stage in a Vial}
- Competition for food during larval stage is determined by not only larval density but also ecological factors inside a food vial such as nitrogenous waste build up (ref), diffusion of waste in the food below (ref), dimensions of vial (ref). Thus, in order to investigate the adaptation to larval crowding, it is crucial to understand the ecology of the vial in which larval stage of Drosophila lab populations is maintained and replicating such environment during larval feeding becomes the first step in modelling the larval growth. Previous experimental studies on Drosophila in laboratory conditions, have shown the pattern of the growth of larvae, excretion of nitrogenous waste, larval feeding behavior in response to the waste excreted, development time (ref). Based on these experimental studies, I have created an individual-based model which considers feeding rate, efficiency to convert food into biomass, critical size and waste tolerance as larval trait parameters to measure other traits which are variables such body size, development time, and survivorship. In this model, food and body size are measured in volume units. They do not represent actual volume, but are proportional to empirical data. It has been observed that post-critical development time is mostly constant in \textit{Drosophila melanogaster} larvae (ref), thus time to reach critical size is used as relative measurement for larval development time.
+ Competition for food during larval stage is determined by not only larval density but also ecological factors inside a food vial such as nitrogenous waste build up (ref), diffusion of waste in the food below (ref), total food amount (ref). Thus, in order to investigate the adaptation to larval crowding, it is crucial to understand the ecology of the vial in which larval stage of Drosophila lab populations is maintained and replicating such environment during larval feeding becomes the first step in modelling the larval growth. Previous experimental studies on Drosophila in laboratory conditions, have shown the pattern of the growth of larvae, excretion of nitrogenous waste, larval feeding behavior in response to the waste excreted, development time (ref). Based on these experimental studies, I have created an individual-based model which considers feeding rate, efficiency to convert food into biomass, critical size and waste tolerance as larval trait parameters to measure other traits which are variables such body size, development time, and survivorship.
 \section{Ecology of a Vial in Drosophila Cultures}
 During larval feeding inside a vial, larvae are able to access only a certain amount of food from the total food available at a given time point. This is due to their inability to dig more to access food (ref), and this accessible food is referred as feeding band. For simplicity, the feeding band is taken as volume of food proportional to the diameter of the vial. In the model, I also assume this feeding band to be a constant volume of food in all types of culture vials till it reaches the bottom of the vial. The growth of larvae in the model is affected by waste build up and food quality in the feeding band. I also consider a diffusion band which is a part of the total food below feeding band where some amount of waste can diffuse from feeding band. Fig ~\ref{fig:vial} is the visualization of feeding band and diffusion band during larval feeding.
 
@@ -11,13 +11,14 @@ During larval feeding inside a vial, larvae are able to access only a certain am
 \end{figure}
 
 \section{Larval Stage Model}
-Each individual egg is assigned larval trait parameters from respective distributions with certain mean and variation (table no.). For given $food$ amount and $N$ number of eggs, the model described in fig ~\ref{fig:larval_model} is simulated in discrete time steps. The sex ratio is kept at 1:1. Critical size and efficiency are taken as sexually dimorphic traits and are assigned depending on the sex of the individual larva.\\ \\
-The inital size of all larvae is same and the growth is determined by larval trait parameters. The larval growth is divided into two stages determined by whether critical size is reached or not and are pre-critical and post-critical stage. \\
-In pre-critical stage of the larva, feeding rate is a linear function of time as:
-\[Fr_{i}(t) = fr_{i} + x_{1}*t\]
+Each individual egg is assigned larval trait parameters from respective distributions with certain mean and variation (table no.). For a given amount of food and number of eggs keeping the sex ratio 1:1, the model follows certain set of rules as described in fig ~\ref{fig:larval_model} which are simulated in discrete time steps. Critical size and efficiency are taken as sexually dimorphic traits and are assigned depending on the sex of the individual larva. Critical size and efficiency of females are assumed to be higher than that of males.\\ \\
+The inital size of all larvae is same and the growth is determined by larval trait parameters such as initial feeding rate, efficiency, waste tolerance and critical size assigned to each individual from distributions with respective mean trait value and variation. The larval growth is divided into two stages determined by whether critical size is reached or not, These stages are called pre-critical and post-critical stage. \\
+In pre-critical stage of the larva, feeding rate is a linear function of time, given as:
+\[Fr_{i}(t) = fr_{i} + x_{1}\cdot t\]
 Here, \\
-$fr_{i}$: feeding rate parameter of $i^{th}$ larva; $x_{1}$: scaling parameter, \\
+$fr_{i}$: initial feeding rate of $i^{th}$ larva; $x_{1}$: scaling parameter, \\
 $t$: given time step; $Fr_{i}(t)$: Feeding rate at time $t$
+
 \newline
 \begin{figure}[h]
   \centering
@@ -26,18 +27,18 @@ $t$: given time step; $Fr_{i}(t)$: Feeding rate at time $t$
   \label{fig:larval_model}
 \end{figure}
 
-Feeding rate stays constant during post-critical stage. During pre-critical growth Volume of food taken in one bite is taken as constant $Vf_{pre}$ and during post-critical growth it is $Vf_{post} = 1.5*Vf_{pre}$. Food consumed by all larvae at time step $t$ is:
-\[FoodEaten(t) = \sum_{i}food\_eaten_{i}(t) = \sum_{i}Fr_{i}(t)*Vf\]
-The increment in body size at time $t$ is $S_{i}(t+1)$:
-\[S_{i}(t+1) = S_{i}(t) + food\_eaten_{i}(t)*eff_{i}*FQ_{fb}(t)\]
+Feeding rate stays constant During post-critical stage. During pre-critical growth Volume of food taken in one bite is taken as constant $V_{f}(pre)$ and during post-critical growth it is $V_{f}(post) = 1.5\cdot V_{f}(pre)$. Food consumed by all larvae at time step $t$ is given as:
+\[FoodEaten(t) = \sum_{i}food\_eaten_{i}(t) = \sum_{i}Fr_{i}(t)\cdot V_{f}\]
+The increase in body size at time $t$ is $S_{i}(t+1)$ and give as:
+\[S_{i}(t+1) = S_{i}(t) + food\_eaten_{i}(t)\cdot \epsilon_{i}\cdot FQ_{fb}(t)\]
 Here,\\
-$eff_{i}$: Efficiency to convert food eaten into biomass of $i^{th}$ larvae,\\
+$\epsilon_{i}$: Efficiency to convert food eaten into biomass of $i^{th}$ larvae,\\
 $FQ_{fb}(t)$: Food quality of the feeding band at time $t$ \\
 After feeding and utilizing food consumed at given time step, larva produces nitrogenous waste $waste\_prod_{i}(t)$. This affects the total waste produced by all the larvae after feeding:
-\[WasteProd(t) = \sum_{i}waste\_prod_{i} = \sum_{i}[food\_eaten_{i}(t)*(1-eff_{i}*FQ(t))]\]
+\[WasteProd(t) = \sum_{i}waste\_prod_{i} = \sum_{i}[food\_eaten_{i}(t)\cdot (1-\epsilon_{i}\cdot FQ(t))]\]
 Based on this waste produced, total waste accumulated till time step $t$ in feeding band and diffusion band is calculated considering $k_{d}$ proportion of waste in the feeding band diffuses into diffusion band at each time step.
-\[Waste_{fb}(t+1) = Waste_{fb}(t) + (1-k_{d})*WasteProd(t) + \frac{FoodEaten(t)*Waste_{db}}{dband}\]
-\[Waste_{db}(t+1) = Waste_{db}(t) + k_{d}*WasteProd(t) - \frac{FoodEaten(t)*Waste_{db}}{dband}\]
+\[Waste_{fb}(t+1) = Waste_{fb}(t) + (1-k_{d})\cdot WasteProd(t) + \frac{FoodEaten(t)\cdot Waste_{db}}{dband}\]
+\[Waste_{db}(t+1) = Waste_{db}(t) + k_{d}\cdot WasteProd(t) - \frac{FoodEaten(t)\cdot Waste_{db}}{dband}\]
 Food quality of the feeding band at time step $t$ is:
 \[FQ_{fb}(t) = 1 - \frac{Waste_{fb}(t)}{fband}\]
 If $FQ_{fb}(t) \leq 0 $, it means that there is no food available to eat and feeding band contains only nitrogenous waste and larvae stop eating.\\
