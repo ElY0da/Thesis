@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  26 NOV 2019 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  2 DEC 2019 23:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -242,23 +242,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-
-./C2/chapter2.tex:22: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \newline
-             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 <C2/Figs/larval_model.png, id=24, 819.7827pt x 716.1957pt>
 File: C2/Figs/larval_model.png Graphic file (type png)
 <use C2/Figs/larval_model.png>
-Package pdftex.def Info: C2/Figs/larval_model.png  used on input line 25.
+Package pdftex.def Info: C2/Figs/larval_model.png  used on input line 24.
 (pdftex.def)             Requested size: 386.95897pt x 338.06548pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -267,36 +254,78 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <C2/Figs/waste build up.png, id=42, 462.528pt x 345.4506pt>
 File: C2/Figs/waste build up.png Graphic file (type png)
 <use C2/Figs/waste build up.png>
-Package pdftex.def Info: C2/Figs/waste build up.png  used on input line 58.
+Package pdftex.def Info: C2/Figs/waste build up.png  used on input line 57.
 (pdftex.def)             Requested size: 386.95897pt x 289.02214pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--62
+Underfull \hbox (badness 10000) in paragraph at lines 54--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
-[7 <./C2/Figs/waste build up.png>]
+[7 <./C2/Figs/waste build up.png>] (./Thesis.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-(./Thesis.bbl))
+ [8]))
 \openout2 = `C3/chapter3.aux'.
 
- (./C3/chapter3.tex
+
+(./C3/chapter3.tex
 Chapter 3.
+<C3/Figs/Feeding rate_vs_Efficiency_MB.png, id=50, 578.16pt x 433.62pt>
+File: C3/Figs/Feeding rate_vs_Efficiency_MB.png Graphic file (type png)
+<use C3/Figs/Feeding rate_vs_Efficiency_MB.png>
+Package pdftex.def Info: C3/Figs/Feeding rate_vs_Efficiency_MB.png  used on inp
+ut line 7.
+(pdftex.def)             Requested size: 386.95897pt x 290.21953pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 4--11
 
- [9
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<C3/Figs/Feeding rate_vs_Efficiency_MCU.png, id=51, 578.16pt x 433.62pt>
+File: C3/Figs/Feeding rate_vs_Efficiency_MCU.png Graphic file (type png)
+<use C3/Figs/Feeding rate_vs_Efficiency_MCU.png>
+Package pdftex.def Info: C3/Figs/Feeding rate_vs_Efficiency_MCU.png  used on in
+put line 18.
+(pdftex.def)             Requested size: 386.95897pt x 290.21953pt.
+<C3/Figs/Feeding rate_vs_Efficiency_CCU.png, id=52, 578.16pt x 433.62pt>
+File: C3/Figs/Feeding rate_vs_Efficiency_CCU.png Graphic file (type png)
+<use C3/Figs/Feeding rate_vs_Efficiency_CCU.png>
+Package pdftex.def Info: C3/Figs/Feeding rate_vs_Efficiency_CCU.png  used on in
+put line 24.
+(pdftex.def)             Requested size: 386.95897pt x 290.21953pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--28
+
+ []
+
+[9
 
 
 
 ]
-(./Thesis.bbl))
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./C3/Figs/Feeding rate_vs_Efficiency_MB.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./C3/Figs/Feeding rate_vs_Efficiency_MCU.png>] (./Thesis.bbl)) [12 <./C3/
+Figs/Feeding rate_vs_Efficiency_CCU.png>]
 \openout2 = `C4/chapter4.aux'.
 
  (./C4/chapter4.tex
@@ -304,7 +333,7 @@ Chapter 4.
 
 Underfull \vbox (badness 3758) has occurred while \output is active []
 
- [10
+ [13
 
 
 
@@ -323,7 +352,7 @@ te
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11
+ [14
 
 
 
@@ -331,13 +360,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./Thesis.bbl)) (./Thesis.aux (./C1/intro.aux) (./C2/chapter2.aux)
 (./C3/chapter3.aux) (./C4/chapter4.aux) (./C5/chapter5.aux)) ) 
 Here is how much of TeX's memory you used:
- 2137 strings out of 492164
- 30497 string characters out of 6129087
- 104673 words of memory out of 5000000
- 6440 multiletter control sequences out of 15000+600000
+ 2165 strings out of 492164
+ 31588 string characters out of 6129087
+ 105706 words of memory out of 5000000
+ 6464 multiletter control sequences out of 15000+600000
  9761 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,6n,32p,1107b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,6n,32p,1107b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/t
@@ -347,10 +376,10 @@ s/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
 .pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/201
 9/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis.pdf (13 pages, 617056 bytes).
+Output written on Thesis.pdf (16 pages, 785532 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
