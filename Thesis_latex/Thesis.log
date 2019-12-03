@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  2 DEC 2019 23:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  4 DEC 2019 03:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -203,17 +203,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
- [2
-
-])
+)
 \tf@toc=\write3
 \openout3 = `Thesis.toc'.
 
+ [1
 
-[1]
+]
 \openout2 = `C1/intro.aux'.
 
- (./C1/intro.tex
+
+(./C1/intro.tex
 Chapter 1.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -232,7 +232,7 @@ Chapter 2.
 
 
 ]
-<C2/Figs/vial_diagram.png, id=22, 1065.7416pt x 466.3824pt>
+<C2/Figs/vial_diagram.png, id=19, 1065.7416pt x 466.3824pt>
 File: C2/Figs/vial_diagram.png Graphic file (type png)
 <use C2/Figs/vial_diagram.png>
 Package pdftex.def Info: C2/Figs/vial_diagram.png  used on input line 8.
@@ -242,7 +242,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-<C2/Figs/larval_model.png, id=24, 819.7827pt x 716.1957pt>
+<C2/Figs/larval_model.png, id=21, 819.7827pt x 716.1957pt>
 File: C2/Figs/larval_model.png Graphic file (type png)
 <use C2/Figs/larval_model.png>
 Package pdftex.def Info: C2/Figs/larval_model.png  used on input line 24.
@@ -251,7 +251,7 @@ Package pdftex.def Info: C2/Figs/larval_model.png  used on input line 24.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4 <./C2/Figs/vial_diagram.png>] [5 <./C2/Figs/larval_model.png>] [6]
-<C2/Figs/waste build up.png, id=42, 462.528pt x 345.4506pt>
+<C2/Figs/waste build up.png, id=39, 462.528pt x 345.4506pt>
 File: C2/Figs/waste build up.png Graphic file (type png)
 <use C2/Figs/waste build up.png>
 Package pdftex.def Info: C2/Figs/waste build up.png  used on input line 57.
@@ -275,57 +275,58 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 (./C3/chapter3.tex
 Chapter 3.
-<C3/Figs/Feeding rate_vs_Efficiency_MB.png, id=50, 578.16pt x 433.62pt>
+<C3/Figs/Feeding rate_vs_Efficiency_MB.png, id=47, 578.16pt x 433.62pt>
 File: C3/Figs/Feeding rate_vs_Efficiency_MB.png Graphic file (type png)
 <use C3/Figs/Feeding rate_vs_Efficiency_MB.png>
 Package pdftex.def Info: C3/Figs/Feeding rate_vs_Efficiency_MB.png  used on inp
-ut line 7.
-(pdftex.def)             Requested size: 386.95897pt x 290.21953pt.
+ut line 8.
+(pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--11
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-<C3/Figs/Feeding rate_vs_Efficiency_MCU.png, id=51, 578.16pt x 433.62pt>
-File: C3/Figs/Feeding rate_vs_Efficiency_MCU.png Graphic file (type png)
-<use C3/Figs/Feeding rate_vs_Efficiency_MCU.png>
-Package pdftex.def Info: C3/Figs/Feeding rate_vs_Efficiency_MCU.png  used on in
-put line 18.
-(pdftex.def)             Requested size: 386.95897pt x 290.21953pt.
-<C3/Figs/Feeding rate_vs_Efficiency_CCU.png, id=52, 578.16pt x 433.62pt>
-File: C3/Figs/Feeding rate_vs_Efficiency_CCU.png Graphic file (type png)
-<use C3/Figs/Feeding rate_vs_Efficiency_CCU.png>
-Package pdftex.def Info: C3/Figs/Feeding rate_vs_Efficiency_CCU.png  used on in
-put line 24.
-(pdftex.def)             Requested size: 386.95897pt x 290.21953pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--28
-
- []
 
 [9
 
 
 
-]
+] [10 <./C3/Figs/Feeding rate_vs_Efficiency_MB.png>]
+<C3/Figs/Feeding rate_vs_Efficiency_MCU.png, id=55, 578.16pt x 433.62pt>
+File: C3/Figs/Feeding rate_vs_Efficiency_MCU.png Graphic file (type png)
+<use C3/Figs/Feeding rate_vs_Efficiency_MCU.png>
+Package pdftex.def Info: C3/Figs/Feeding rate_vs_Efficiency_MCU.png  used on in
+put line 19.
+(pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
+<C3/Figs/Feeding rate_vs_Efficiency_CCU.png, id=56, 578.16pt x 433.62pt>
+File: C3/Figs/Feeding rate_vs_Efficiency_CCU.png Graphic file (type png)
+<use C3/Figs/Feeding rate_vs_Efficiency_CCU.png>
+Package pdftex.def Info: C3/Figs/Feeding rate_vs_Efficiency_CCU.png  used on in
+put line 25.
+(pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
+./C3/chapter3.tex:29: LaTeX Error: There's no line here to end.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
- [10 <./C3/Figs/Feeding rate_vs_Efficiency_MB.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./C3/Figs/Feeding rate_vs_Efficiency_MCU.png>] (./Thesis.bbl)) [12 <./C3/
-Figs/Feeding rate_vs_Efficiency_CCU.png>]
+(./Thesis.bbl)) [11 <./C3/Figs/Feeding rate_vs_Efficiency_MCU.png> <./C3/Figs/F
+eeding rate_vs_Efficiency_CCU.png>]
 \openout2 = `C4/chapter4.aux'.
 
  (./C4/chapter4.tex
@@ -333,7 +334,7 @@ Chapter 4.
 
 Underfull \vbox (badness 3758) has occurred while \output is active []
 
- [13
+ [12
 
 
 
@@ -352,7 +353,7 @@ te
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14
+ [13
 
 
 
@@ -376,10 +377,10 @@ s/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
 .pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/201
 9/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis.pdf (16 pages, 785532 bytes).
+Output written on Thesis.pdf (14 pages, 784781 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
