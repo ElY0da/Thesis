@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  6 DEC 2019 19:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  9 DEC 2019 14:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -80,7 +80,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks16
 ) (./Thesis.aux
-(./C1/intro.aux) (./C2/chapter2.aux) (./C3/chapter3.aux))
+(./C1/intro.aux) (./C2/chapter2.aux) (./C3/chapter3.aux) (./C4/chapter4.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -319,32 +319,184 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10 <./C3/Figs/Feeding rate_vs_Efficiency_MB.png>] [11 <./C3/Figs/Feeding rate
 _vs_Efficiency_MCU.png> <./C3/Figs/Feeding rate_vs_Efficiency_CCU.png>]
+<C3/Figs/Critical size_vs_Feeding rate_MB.png, id=62, 578.16pt x 433.62pt>
+File: C3/Figs/Critical size_vs_Feeding rate_MB.png Graphic file (type png)
+<use C3/Figs/Critical size_vs_Feeding rate_MB.png>
+Package pdftex.def Info: C3/Figs/Critical size_vs_Feeding rate_MB.png  used on 
+input line 32.
+(pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
+<C3/Figs/Critical size_vs_Feeding rate_MCU.png, id=63, 578.16pt x 433.62pt>
+File: C3/Figs/Critical size_vs_Feeding rate_MCU.png Graphic file (type png)
+<use C3/Figs/Critical size_vs_Feeding rate_MCU.png>
+Package pdftex.def Info: C3/Figs/Critical size_vs_Feeding rate_MCU.png  used on
+ input line 39.
+(pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
+<C3/Figs/Critical size_vs_Feeding rate_CCU.png, id=64, 578.16pt x 433.62pt>
+File: C3/Figs/Critical size_vs_Feeding rate_CCU.png Graphic file (type png)
+<use C3/Figs/Critical size_vs_Feeding rate_CCU.png>
+Package pdftex.def Info: C3/Figs/Critical size_vs_Feeding rate_CCU.png  used on
+ input line 43.
+(pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--48
+
+ []
+
+[12 <./C3/Figs/Critical size_vs_Feeding rate_MB.png>] [13 <./C3/Figs/Critical s
+ize_vs_Feeding rate_MCU.png> <./C3/Figs/Critical size_vs_Feeding rate_CCU.png>]
+<C3/Figs/Critical size_vs_Efficiency_MB.png, id=75, 578.16pt x 433.62pt>
+File: C3/Figs/Critical size_vs_Efficiency_MB.png Graphic file (type png)
+<use C3/Figs/Critical size_vs_Efficiency_MB.png>
+Package pdftex.def Info: C3/Figs/Critical size_vs_Efficiency_MB.png  used on in
+put line 52.
+(pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
+<C3/Figs/Critical size_vs_Efficiency_MCU.png, id=76, 578.16pt x 433.62pt>
+File: C3/Figs/Critical size_vs_Efficiency_MCU.png Graphic file (type png)
+<use C3/Figs/Critical size_vs_Efficiency_MCU.png>
+Package pdftex.def Info: C3/Figs/Critical size_vs_Efficiency_MCU.png  used on i
+nput line 58.
+(pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
+<C3/Figs/Critical size_vs_Efficiency_CCU.png, id=77, 578.16pt x 433.62pt>
+File: C3/Figs/Critical size_vs_Efficiency_CCU.png Graphic file (type png)
+<use C3/Figs/Critical size_vs_Efficiency_CCU.png>
+Package pdftex.def Info: C3/Figs/Critical size_vs_Efficiency_CCU.png  used on i
+nput line 62.
+(pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--67
+
+ []
+
+[14 <./C3/Figs/Critical size_vs_Efficiency_MB.png>] [15 <./C3/Figs/Critical siz
+e_vs_Efficiency_MCU.png> <./C3/Figs/Critical size_vs_Efficiency_CCU.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-(./Thesis.bbl)) (./Thesis.aux (./C1/intro.aux) (./C2/chapter2.aux)
-(./C3/chapter3.aux)) ) 
+ [16]
+(./Thesis.bbl))
+\openout2 = `C4/chapter4.aux'.
+
+ (./C4/chapter4.tex
+Chapter 4.
+[17
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+
+ []
+
+[18]
+<C4/Figs/fr.png, id=97, 578.16pt x 433.62pt>
+File: C4/Figs/fr.png Graphic file (type png)
+<use C4/Figs/fr.png>
+Package pdftex.def Info: C4/Figs/fr.png  used on input line 27.
+(pdftex.def)             Requested size: 435.32422pt x 326.49118pt.
+<C4/Figs/eff.png, id=98, 578.16pt x 433.62pt>
+File: C4/Figs/eff.png Graphic file (type png)
+<use C4/Figs/eff.png>
+Package pdftex.def Info: C4/Figs/eff.png  used on input line 30.
+(pdftex.def)             Requested size: 435.32422pt x 326.49118pt.
+
+
+LaTeX Warning: Float too large for page by 19.3659pt on input line 33.
+
+
+./C4/chapter4.tex:34: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \newpage
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+
+ []
+
+[19] [20 <./C4/Figs/fr.png> <./C4/Figs/eff.png>]
+<C4/Figs/mc.png, id=107, 578.16pt x 433.62pt>
+File: C4/Figs/mc.png Graphic file (type png)
+<use C4/Figs/mc.png>
+Package pdftex.def Info: C4/Figs/mc.png  used on input line 40.
+(pdftex.def)             Requested size: 435.32422pt x 326.49118pt.
+<C4/Figs/wtol.png, id=108, 578.16pt x 433.62pt>
+File: C4/Figs/wtol.png Graphic file (type png)
+<use C4/Figs/wtol.png>
+Package pdftex.def Info: C4/Figs/wtol.png  used on input line 43.
+(pdftex.def)             Requested size: 435.32422pt x 326.49118pt.
+
+
+LaTeX Warning: Float too large for page by 19.3659pt on input line 46.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+./C4/chapter4.tex:47: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+(./Thesis.bbl)) [22 <./C4/Figs/mc.png> <./C4/Figs/wtol.png>] (./Thesis.aux
+(./C1/intro.aux) (./C2/chapter2.aux) (./C3/chapter3.aux) (./C4/chapter4.aux)) )
+ 
 Here is how much of TeX's memory you used:
- 2136 strings out of 492164
- 31201 string characters out of 6129087
- 105203 words of memory out of 5000000
- 6455 multiletter control sequences out of 15000+600000
- 9454 words of font info for 33 fonts, out of 8000000 for 9000
+ 2243 strings out of 492164
+ 34204 string characters out of 6129087
+ 105563 words of memory out of 5000000
+ 6541 multiletter control sequences out of 15000+600000
+ 10108 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,6n,32p,1107b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
-pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti12.pfb>
-Output written on Thesis.pdf (13 pages, 782465 bytes).
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Thesis.pdf (23 pages, 1963272 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 147 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

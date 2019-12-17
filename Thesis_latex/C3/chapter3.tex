@@ -1,4 +1,4 @@
-\chapter{Interplay between Larval Trait Parameters and Life-history Traits}
+\chapter{Interplay between Larval Trait Parameters}
 In the base model of larval stage, trait parameters used are initial feeding rate, efficiency, critical size and waste tolerance. These parameters can not be measured directly via experimental approaches, but their effect on other larval traits such as body size, feeding rate at the third instar, development time can be measured easily. Here, I explore how larval trait parameters interact with each other and affect body size, time to reach critical size, feeding rate at critical size and survivorship. Since feeding rate in the model stays constant after reaching critical size, it can be taken as proxy for feeding rate at the third instar stage.
 
 \section{Initial Feeding Rate and Efficiency}
@@ -26,6 +26,45 @@ At high densities, especially at MCU density, body size and survivorship are not
 \newpage
 
 \section{Initial Feeding Rate and Critical Size}
+In MB culture, fig ~\ref{fig:fr vs cs mb} shows having higher critical size and higher initial feeding rate leads to higher larval body size. Lower critical size and higher initial feeding rate is beneficial in having lower time to reach critical size. Feeding rate at critical size is majorly determined by initial feeding rate, while having higher critical size gives slightly higher feeding rate, since time to reach critical size is more. Survivorship is not affected by either initial feeding rate or critical size at low density, since competition for food is minimal. \\ \\
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.75\textwidth]{C3/Figs/Critical size_vs_Feeding rate_MB}
+  \caption{Effect of initial feeding rate and critical size on larval traits in MB culture}
+  \label{fig:fr vs cs mb}
+\end{figure}\\
+In MCU culture fig ~\ref{fig:fr vs cs mcu}, body size is not affected by either critical size or initial feeding rate and post-critical growth is very less. Time to reach critical size and feeding rate at critical size show similar pattern as shown in MB culture with higher maxima for same values. Survivorship is only affected by critical size and initial feeding rate has no effect on survivoship at MCU density. Lower critical size shows trend for higher survivoship, since larvae are able to pupate in lesser time before food quality decreases drastically.\\ \\
+\begin{figure}[!tbp]
+  \centering
+  \includegraphics[width=0.75\textwidth]{C3/Figs/Critical size_vs_Feeding rate_MCU}
+  \caption{Effect of initial feeding rate and critical size on larval traits in MCU culture}
+  \label{fig:fr vs cs mcu}
+  \vspace{24pt}
+  \includegraphics[width=0.75\textwidth]{C3/Figs/Critical size_vs_Feeding rate_CCU}
+  \caption{Effect of initial feeding rate and critical size on larval traits in CCU culture}
+  \label{fig:fr vs cs ccu}
+\end{figure}\\\\
+In CCU culture, fig ~\ref{fig:fr vs cs ccu}, patterns of body size, time to reach critical size and feeding rate at critical size similar to the ones in MCU culture. Survivorship shows small effect of initial feeding rate as well along with critical size. Having lesser average initial feeding rate in the population leads to slower urea build up and decrease in food quality of the feeding band, thus larvae with higher critical size are able to survive.
+\section{Critical Size and Efficiency}
+In MB culture, fig ~\ref{fig:cs vs eff mb}, shows increase in body size with increase in critical size and efficiency. Feeding rate at critical size and time to reach critical size both increase with increasing critical size and decreasing efficiency. Higher efficiency leades to decrease in critical size thus feeding rate shown at critical size reaches lesser maxima. Survivorship shiws no effect of these parameters at low density.\\ \\
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.75\textwidth]{C3/Figs/Critical size_vs_Efficiency_MB}
+  \caption{Effect of critical size and efficiency on larval traits in MB culture}
+  \label{fig:cs vs eff mb}
+\end{figure}\\
+\begin{figure}[!tbp]
+  \centering
+  \includegraphics[width=0.75\textwidth]{C3/Figs/Critical size_vs_Efficiency_MCU}
+  \caption{Effect of critical size and efficiency on larval traits in MCU culture}
+  \label{fig:cs vs eff mcu}
+  \vspace{24pt}
+  \includegraphics[width=0.75\textwidth]{C3/Figs/Critical size_vs_Efficiency_CCU}
+  \caption{Effect of critical size and efficiency on larval traits in CCU culture}
+  \label{fig:cs vs eff ccu}
+\end{figure}\\\\
+In MCU and CCU culture, fig ~\ref{fig:cs vs eff mcu} and fig ~\ref{fig:cs vs eff ccu}, all the larval traits show similar pattern as in MB density with critical size and efficiency. The maxima for feeding rate at critical size and time to reach critical size is higher compared to the ones at MB density. Body size and survivoship maxima are lesser at high density.
+\section{Discussion}
 \pagebreak
 %\renewcommand\bibname{{References}}
 \bibliography{References}
