@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.12.24)  27 DEC 2019 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.31)  29 MAR 2020 16:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **Thesis.tex
 (./Thesis.tex
-LaTeX2e <2018-12-01>
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+LaTeX2e <2019-10-01> patch level 3
+(c:/texlive/2019/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2019/10/25 v1.4k Standard LaTeX document class
+(c:/texlive/2019/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -24,23 +24,19 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+(c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
 \Gm@cnth=\count89
 \Gm@cntv=\count90
 \c@Gm@tempcnt=\count91
@@ -54,27 +50,27 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+(c:/texlive/2019/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks16
 ) (./Thesis.aux
@@ -128,7 +124,7 @@ LaTeX Font Info:    ... okay on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count92
 \scratchdimen=\dimen113
@@ -141,50 +137,12 @@ LaTeX Font Info:    ... okay on input line 15.
 \MPnumerator=\count96
 \makeMPintoPDFobject=\count97
 \everyMPtoPDFconversion=\toks18
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-))))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
+) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+85.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -192,10 +150,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 17.
+ [1
 
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Thesis.toc
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Thesis.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -237,67 +194,869 @@ Chapter 2.
 
 
 ]
-<C2/Figs/vial_diagram.png, id=22, 1065.7416pt x 466.3824pt>
-File: C2/Figs/vial_diagram.png Graphic file (type png)
-<use C2/Figs/vial_diagram.png>
-Package pdftex.def Info: C2/Figs/vial_diagram.png  used on input line 8.
-(pdftex.def)             Requested size: 362.77264pt x 158.75294pt.
+./C2/chapter2.tex:13: Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...$\ldots$) = ($\lambda_{i}$ \, $|$ \, i \in
+                                                   I) the \emph{probability ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
-
- []
-
-<C2/Figs/larval_model.png, id=24, 819.7827pt x 716.1957pt>
-File: C2/Figs/larval_model.png Graphic file (type png)
-<use C2/Figs/larval_model.png>
-Package pdftex.def Info: C2/Figs/larval_model.png  used on input line 24.
-(pdftex.def)             Requested size: 386.95897pt x 338.06548pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./C2/Figs/vial_diagram.png>] [6 <./C2/Figs/larval_model.png>] [7]
-<C2/Figs/waste_build_up.png, id=42, 462.528pt x 345.4506pt>
-File: C2/Figs/waste_build_up.png Graphic file (type png)
-<use C2/Figs/waste_build_up.png>
-Package pdftex.def Info: C2/Figs/waste_build_up.png  used on input line 57.
-(pdftex.def)             Requested size: 386.95897pt x 289.02214pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--61
-
- []
+./C2/chapter2.tex:13: Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...the \emph{probability distribution} on $X_
+                                                  {n}$ if:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+./C2/chapter2.tex:17: LaTeX Error: Environment defn undefined.
 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \begin{defn}
+                  $(X_0, X_1, \ldots) = (X_n)_{n \geq 0}$ is a \emph{Markov ...
 
-[8 <./C2/Figs/waste_build_up.png>] (./Thesis.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
- [9]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+9.
+(c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-)) [10
+./C2/chapter2.tex:22: LaTeX Error: \begin{document} ended by \end{defn}.
 
-]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \end{defn}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:23: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:24: LaTeX Error: Environment thm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \begin{thm}
+                 $(X_n)_{0 \leq n \leq N}$ is Markov$(\lambda, P)$ if and on...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:27: LaTeX Error: \begin{document} ended by \end{thm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \end{thm}
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:28: LaTeX Error: Environment proof undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{proof}
+                   First, suppose $(X_n)_{0 \leq n \leq N}$ is Markov$(\lamb...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[5]
+
+./C2/chapter2.tex:42: LaTeX Error: \begin{document} ended by \end{proof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \end{proof}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:50: LaTeX Error: Environment thm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \begin{thm}
+                 Let $(X_n)_{n \geq 0}$ be Markov$(\lambda,P)$. Then, given ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:51: LaTeX Error: \begin{document} ended by \end{thm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \end{thm}
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:52: LaTeX Error: Environment proof undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 \begin{proof}
+                   Let the event $A=\{X_m=i_m, \ldots, X_n=i_n\}$ and the ev...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:59: LaTeX Error: \begin{document} ended by \end{proof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \end{proof}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:66: LaTeX Error: Environment defn undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \begin{defn}
+                  A random variable $T$ is called a \emph{stopping time} if ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:67: LaTeX Error: \begin{document} ended by \end{defn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{defn}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:72: LaTeX Error: Environment defn undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \begin{defn}
+                  The \emph{rth passage time} $T_i^{(r)}$ to state $i$ is de...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[6]
+
+./C2/chapter2.tex:76: LaTeX Error: \begin{document} ended by \end{defn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 \end{defn}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:84: LaTeX Error: Environment thm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 \begin{thm}
+                 Let $T$ be a stopping time of $(X_n)_{n \geq 0}$ which is M...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:85: LaTeX Error: \begin{document} ended by \end{thm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 \end{thm}
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:86: LaTeX Error: Environment proof undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \begin{proof}
+                   First, we already have that $(X_l)_{l \geq T}$ is Markov$...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:91: LaTeX Error: \begin{document} ended by \end{proof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \end{proof}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:94: LaTeX Error: Environment defn undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 \begin{defn}
+                  Let $(X_n)_{n \geq 0}$ be Markov with transition matrix $P...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:98: LaTeX Error: \begin{document} ended by \end{defn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 \end{defn}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:101: LaTeX Error: Environment lem undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 \begin{lem}
+                  For $r=2,3,\ldots$, given that $T_i^{(r-1)} < \infty, \:\,...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[7]
+
+./C2/chapter2.tex:103: LaTeX Error: \begin{document} ended by \end{lem}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 \end{lem}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:104: LaTeX Error: Environment proof undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 \begin{proof}
+                    We can directly apply Theorem 2.3 where $T_i^{(r-1)}$ is...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:107: LaTeX Error: \begin{document} ended by \end{proof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 \end{proof}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:109: LaTeX Error: Environment defn undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 \begin{defn}
+                   The idea of the \emph{number of visits to i}, $V_i$, is i...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:111: LaTeX Error: \begin{document} ended by \end{defn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \end{defn}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:114: LaTeX Error: Environment defn undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 \begin{defn}
+                   Another intuitive and useful term is the \emph{return pro...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:116: LaTeX Error: \begin{document} ended by \end{defn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{defn}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:118: LaTeX Error: Environment lem undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 \begin{lem}
+                  $P_i(V_i>r)=(f_i)^r$ for $r=0,1,2,\ldots.$
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:119: LaTeX Error: \begin{document} ended by \end{lem}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 \end{lem}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:120: LaTeX Error: Environment proof undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 \begin{proof}
+                    First, we know that our claim is necessarily true when $...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:126: LaTeX Error: \begin{document} ended by \end{proof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 \end{proof}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:128: LaTeX Error: Environment thm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \begin{thm}
+                  The following two cases hold and show that any state is ei...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:133: LaTeX Error: \begin{document} ended by \end{thm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 \end{thm}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:134: LaTeX Error: Environment proof undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 \begin{proof}
+                    If $P_i(T_i<\infty)=f_i=1$ by Lemma 3.5, then
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[8]
+
+./C2/chapter2.tex:142: LaTeX Error: \begin{document} ended by \end{proof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \end{proof}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:146: LaTeX Error: Environment defn undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 \begin{defn}
+                   State $i$ \emph{can send to} state $j$, and we write $i \...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./C2/chapter2.tex:148: Undefined control sequence.
+l.148 ...mmunicates with} $j$, and we write $i \lr
+                                                   j$ if both $i \to j$ and ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./C2/chapter2.tex:149: LaTeX Error: \begin{document} ended by \end{defn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 \end{defn}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:151: LaTeX Error: Environment thm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 \begin{thm}
+                  For distinct states $i, j \in I$, $i \to j \iff p_{ii_1}p_...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./C2/chapter2.tex:151: Undefined control sequence.
+<recently read> \lr 
+                    
+l.151 ...ates $i_1,i_2,\ldots,i_{n-1}$. Also, $\lr
+                                                  $ is an equivalence relati...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./C2/chapter2.tex:152: LaTeX Error: \begin{document} ended by \end{thm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152 \end{thm}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:153: LaTeX Error: Environment proof undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \begin{proof}
+                    $(\limp)$
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./C2/chapter2.tex:153: Undefined control sequence.
+l.153 \begin{proof} $(\limp
+                           )$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./C2/chapter2.tex:156: Undefined control sequence.
+l.156 $(\pmil
+             )$ Take some $i_1,i_2,\ldots,i_{n-1}$ such that
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./C2/chapter2.tex:158: Undefined control sequence.
+l.158 ...n inequality that $i \to j, j \to k \limp
+                                                   i \to k$. Also, it is tru...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./C2/chapter2.tex:158: Undefined control sequence.
+l.158 ...mp i \to k$. Also, it is true that $i \lr
+                                                   i$ for any state $i$ and ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./C2/chapter2.tex:158: Undefined control sequence.
+l.158 ... \lr i$ for any state $i$ and that $i \lr
+                                                   j \limp j \lr i$. Thus, $...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./C2/chapter2.tex:158: Undefined control sequence.
+l.158 ...for any state $i$ and that $i \lr j \limp
+                                                   j \lr i$. Thus, $\lr$ is ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./C2/chapter2.tex:158: Undefined control sequence.
+l.158 ...y state $i$ and that $i \lr j \limp j \lr
+                                                   i$. Thus, $\lr$ is an equ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./C2/chapter2.tex:158: Undefined control sequence.
+<recently read> \lr 
+                    
+l.158 ... that $i \lr j \limp j \lr i$. Thus, $\lr
+                                                  $ is an equivalence relati...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./C2/chapter2.tex:159: LaTeX Error: \begin{document} ended by \end{proof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 \end{proof}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:160: LaTeX Error: Environment defn undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \begin{defn}
+                   We say that $\lr$ partitions $I$ into \emph{communication...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./C2/chapter2.tex:160: Undefined control sequence.
+<recently read> \lr 
+                    
+l.160 \begin{defn} We say that $\lr
+                                   $ partitions $I$ into \emph{communication...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./C2/chapter2.tex:161: LaTeX Error: \begin{document} ended by \end{defn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \end{defn}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:163: LaTeX Error: Environment thm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 \begin{thm}
+                  Let $C$ be a communication class. Either all states in $C$...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:164: LaTeX Error: \begin{document} ended by \end{thm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \end{thm}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:166: LaTeX Error: Environment proof undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 \begin{proof}
+                    Take any distinct pair of states $i,j \in C$ and suppose...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[9]
+
+./C2/chapter2.tex:171: LaTeX Error: \begin{document} ended by \end{proof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171 \end{proof}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:174: LaTeX Error: Environment thm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \begin{thm}
+                  Suppose $P$ is irreducible and recurrent. Then for all $i ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:175: LaTeX Error: \begin{document} ended by \end{thm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 \end{thm}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:176: LaTeX Error: Environment proof undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \begin{proof}
+                    By Theorem 2.3 we have
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./C2/chapter2.tex:184: LaTeX Error: \begin{document} ended by \end{proof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \end{proof}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [10]
 \openout2 = `C3/chapter3.aux'.
 
  (./C3/chapter3.tex
 Chapter 3.
-<C3/Figs/Feeding_rate_vs_Efficiency_MB.png, id=53, 578.16pt x 433.62pt>
+<C3/Figs/Feeding_rate_vs_Efficiency_MB.png, id=50, 578.16pt x 433.62pt>
 File: C3/Figs/Feeding_rate_vs_Efficiency_MB.png Graphic file (type png)
 <use C3/Figs/Feeding_rate_vs_Efficiency_MB.png>
 Package pdftex.def Info: C3/Figs/Feeding_rate_vs_Efficiency_MB.png  used on inp
 ut line 8.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Feeding_rate_vs_Efficiency_MCU.png, id=54, 578.16pt x 433.62pt>
+<C3/Figs/Feeding_rate_vs_Efficiency_MCU.png, id=52, 578.16pt x 433.62pt>
 File: C3/Figs/Feeding_rate_vs_Efficiency_MCU.png Graphic file (type png)
 <use C3/Figs/Feeding_rate_vs_Efficiency_MCU.png>
 Package pdftex.def Info: C3/Figs/Feeding_rate_vs_Efficiency_MCU.png  used on in
 put line 18.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Feeding_rate_vs_Efficiency_CCU.png, id=55, 578.16pt x 433.62pt>
+<C3/Figs/Feeding_rate_vs_Efficiency_CCU.png, id=53, 578.16pt x 433.62pt>
 File: C3/Figs/Feeding_rate_vs_Efficiency_CCU.png Graphic file (type png)
 <use C3/Figs/Feeding_rate_vs_Efficiency_CCU.png>
 Package pdftex.def Info: C3/Figs/Feeding_rate_vs_Efficiency_CCU.png  used on in
@@ -327,19 +1086,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <./C3/Figs/Feeding_rate_vs_Efficiency_MB.png>] [13 <./C3/Figs/Feeding_rate
 _vs_Efficiency_MCU.png> <./C3/Figs/Feeding_rate_vs_Efficiency_CCU.png>]
-<C3/Figs/Critical_size_vs_Feeding_rate_MB.png, id=69, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Feeding_rate_MB.png, id=67, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Feeding_rate_MB.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Feeding_rate_MB.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Feeding_rate_MB.png  used on 
 input line 32.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Critical_size_vs_Feeding_rate_MCU.png, id=70, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Feeding_rate_MCU.png, id=68, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Feeding_rate_MCU.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Feeding_rate_MCU.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Feeding_rate_MCU.png  used on
  input line 39.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Critical_size_vs_Feeding_rate_CCU.png, id=71, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Feeding_rate_CCU.png, id=69, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Feeding_rate_CCU.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Feeding_rate_CCU.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Feeding_rate_CCU.png  used on
@@ -362,19 +1121,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--48
 
 [14 <./C3/Figs/Critical_size_vs_Feeding_rate_MB.png>] [15 <./C3/Figs/Critical_s
 ize_vs_Feeding_rate_MCU.png> <./C3/Figs/Critical_size_vs_Feeding_rate_CCU.png>]
-<C3/Figs/Critical_size_vs_Efficiency_MB.png, id=81, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Efficiency_MB.png, id=79, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Efficiency_MB.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Efficiency_MB.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Efficiency_MB.png  used on in
 put line 52.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Critical_size_vs_Efficiency_MCU.png, id=82, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Efficiency_MCU.png, id=80, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Efficiency_MCU.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Efficiency_MCU.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Efficiency_MCU.png  used on i
 nput line 58.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Critical_size_vs_Efficiency_CCU.png, id=83, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Efficiency_CCU.png, id=81, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Efficiency_CCU.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Efficiency_CCU.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Efficiency_CCU.png  used on i
@@ -421,12 +1180,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--24
  []
 
 [21]
-<C4/Figs/fr.png, id=106, 578.16pt x 433.62pt>
+<C4/Figs/fr.png, id=104, 578.16pt x 433.62pt>
 File: C4/Figs/fr.png Graphic file (type png)
 <use C4/Figs/fr.png>
 Package pdftex.def Info: C4/Figs/fr.png  used on input line 27.
 (pdftex.def)             Requested size: 435.32422pt x 326.49118pt.
-<C4/Figs/eff.png, id=107, 578.16pt x 433.62pt>
+<C4/Figs/eff.png, id=105, 578.16pt x 433.62pt>
 File: C4/Figs/eff.png Graphic file (type png)
 <use C4/Figs/eff.png>
 Package pdftex.def Info: C4/Figs/eff.png  used on input line 30.
@@ -441,12 +1200,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
  []
 
 [22] [23 <./C4/Figs/fr.png> <./C4/Figs/eff.png>]
-<C4/Figs/mc.png, id=116, 578.16pt x 433.62pt>
+<C4/Figs/mc.png, id=114, 578.16pt x 433.62pt>
 File: C4/Figs/mc.png Graphic file (type png)
 <use C4/Figs/mc.png>
 Package pdftex.def Info: C4/Figs/mc.png  used on input line 40.
 (pdftex.def)             Requested size: 435.32422pt x 326.49118pt.
-<C4/Figs/wtol.png, id=117, 578.16pt x 433.62pt>
+<C4/Figs/wtol.png, id=115, 578.16pt x 433.62pt>
 File: C4/Figs/wtol.png Graphic file (type png)
 <use C4/Figs/wtol.png>
 Package pdftex.def Info: C4/Figs/wtol.png  used on input line 43.
@@ -471,26 +1230,29 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 ] (./Thesis.aux (./C1/intro.aux) (./C2/chapter2.aux) (./C3/chapter3.aux)
 (./C4/chapter4.aux)) ) 
 Here is how much of TeX's memory you used:
- 2117 strings out of 492609
- 31944 string characters out of 6131461
- 103641 words of memory out of 5000000
- 5970 multiletter control sequences out of 15000+600000
+ 1783 strings out of 492162
+ 25946 string characters out of 6129062
+ 97340 words of memory out of 5000000
+ 6117 multiletter control sequences out of 15000+600000
  10108 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,25p,1107b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis.pdf (27 pages, 1964209 bytes).
+ 30i,9n,23p,898b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Thesis.pdf (27 pages, 1514585 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 171 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,70 +1,184 @@
-\chapter{Modelling Larval Stage in a Vial}
- Competition for food during larval stage is determined by not only larval density but also ecological factors inside a food vial such as nitrogenous waste build up (ref), diffusion of waste in the food below (ref), total food amount (ref). Thus, in order to investigate the adaptation to larval crowding, it is crucial to understand the ecology of the vial in which larval stage of Drosophila lab populations is maintained and replicating such environment during larval feeding becomes the first step in modelling the larval growth. Previous experimental studies on Drosophila in laboratory conditions, have shown the pattern of the growth of larvae, excretion of nitrogenous waste, larval feeding behavior in response to the waste excreted, development time (ref). Based on these experimental studies, I have created an individual-based model which considers feeding rate, efficiency to convert food into biomass, critical size and waste tolerance as larval trait parameters to measure other traits which are variables such body size, development time, and survivorship.
-\section{Ecology of a Vial in Drosophila Cultures}
-During larval feeding inside a vial, larvae are able to access only a certain amount of food from the total food available at a given time point. This is due to their inability to dig more to access food (ref), and this accessible food is referred as the feeding band. For simplicity, feeding band is taken as volume of food proportional to the diameter of the vial. In the model, I also assume this feeding band to be a constant volume of food in all types of culture vials till it reaches the bottom of the vial. The growth of larvae in the model is affected by waste build up and food quality in the feeding band. I also consider a diffusion band which is a part of the total food below feeding band where some amount of waste can diffuse from feeding band at each time step. Fig ~\ref{fig:vial} is the visualization of feeding band and diffusion band during larval feeding.
+\chapter{Prelimineries}
+\section{Moran Model}
+We consider one of the most significant work on Markov chain modelling in population genetics. The following model was proposed by P. A. P. Moran in 1958.
+\subsection{Model Dynamics}
+We consider a haploid population with two genotypes $A$ and $a$. This model envisages to follow population through its birth-death events. Precisely, the new generation is formed from the old generation in a certain manner.
+\newline
+From the existing population, one individual is chosen randomly to give birth and the offspring would be of the same genotype. At the same time, one randomly chosen individual from the old population dies. Therefore, the population size remains constant. We denote it by $N$. Also, we denote by $X_{n}$, the number of $A$ genes in the nth generation. By nth generation, we understand that population has undergone $n$ birth-death events. We want to study the Markov chain $(X_{n})_{n\geq0}$, which has state space {0, 1, \ldots, N}.   
+\section{Markov Chains}
+\subsection{Basic Definitions and Properties}
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=0.75\textwidth]{C2/Figs/vial_diagram}
-  \caption{Ecological dynamics in a vial during larval feeding}
-  \label{fig:vial}
-\end{figure}
+Markov chains often describe the movements of a system between various states. In this paper, we will discuss \emph{discrete-time} Markov chains, meaning that at each step our system can either stay in the state it is in or change to another state. We denote the random variable $X_n$ as a sort of marker of what state our system is in at step $n$. $X_n$ can take the value of any $i \in I$, where each $i$ is a \emph{state} in the \emph{state-space}, $I$. States are usually just denoted as numbers and our state-space as a countable set.
 
-\section{Larval Stage Model}
-Each individual egg is assigned larval trait parameters from respective distributions with certain mean and variation (table no.). For a given amount of food and number of eggs keeping the sex ratio 1:1, the model follows certain set of rules as described in fig ~\ref{fig:larval_model} which are simulated in discrete time steps. Critical size and efficiency are taken as sexually dimorphic traits and are assigned depending on the sex of the individual larva. Critical size and efficiency of females are assumed to be higher than that of males.\\ \\
-The inital size of all larvae is same and the growth is determined by larval trait parameters such as initial feeding rate, efficiency, waste tolerance and critical size assigned to each individual from distributions with respective mean trait value and variation. The larval growth is divided into two stages determined by whether critical size is reached or not, These stages are called pre-critical and post-critical stage. \\
-In pre-critical stage of the larva, feeding rate is a linear function of time, given as:
-\[Fr_{i}(t) = fr_{i} + x_{1}\cdot t\]
-Here, \\
-$fr_{i}$: initial feeding rate of $i^{th}$ larva; $x_{1}$: scaling parameter, \\
-$t$: given time step; $Fr_{i}(t)$: Feeding rate at time $t$
+We will call $\lambda$ = ($\lambda_{i_1}$, $\lambda_{i_2}$, $\ldots$) = ($\lambda_{i}$ \, $|$ \, i \in I) the \emph{probability distribution} on $X_{n}$ if:
+\newline
+$\lambda_{i}$ = $P(X_{n} = i)$ and $\sum_{i \in I}$ $\lambda_{i}$ = $1$. Also, a matrix $P = \{ p_{ij} \}$, where $i,j \in I$, is called \emph{stochastic} if $\sum_{j \in I} \lambda_{ij} = 1$, $\forall i \in I$, i.e. every row of the matrix is a distribution. Now we can define a Markov chain explicitly.
+\newline
+\begin{defn} $(X_0, X_1, \ldots) = (X_n)_{n \geq 0}$ is a \emph{Markov chain with initial distribution $\lambda$ and transition matrix $P$}, shortened to \emph{Markov$(\lambda , P)$}, if
+\begin{itemize}
+\item $\lambda$ is the probability distribution on $X_0$;
+\item given that $X_n = i$, $(p_{ij} \, | \, i,j \in I)$ is the probability distribution on $X_{n+1}$ and is independent of $X_k, 0 \leq k < n$, i.e. $P(X_{N+1}=j \, | \, X_n=i) = p_{ij}$.
+\end{itemize}
+\end{defn}
+\newline
+\begin{thm} $(X_n)_{0 \leq n \leq N}$ is Markov$(\lambda, P)$ if and only if
+\begin{equation} P(X_0=i_0, X_1=i_1 \ldots , X_N=i_N) = \lambda_{i_0}p_{i_0i_1}p_{i_1i_2}\cdots p_{i_{N-1}i_N}.
+\end{equation}
+\end{thm}
+\begin{proof} First, suppose $(X_n)_{0 \leq n \leq N}$ is Markov$(\lambda, P)$, thus
+\[ P(X_0=i_0,X_1=i_1, \ldots , X_N=i_N) \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\]
+\[ \qquad \quad = P(X_0=i_0)P(X_1=i_1 \, | \, X_0=i_0) \cdots P(X_N=i_N\, | \, X_0=i_0, \ldots, X_{N-1}=i_{N-1})\]
+\[ \! = P(X_0=i_0)P(X_1=i_1 \, | \, X_0=i_0) \cdots P(X_N=i_N\, | \, X_{N-1}=i_{N-1})\quad\]
+\[\!\!\!\!\!\! = \lambda_{i_0}p_{i_0i_1}p_{i_1i_2}\cdots p_{i_{N-1}i_N} \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\]
+Now assume that (1.3) holds for N, thus
+\[P(X_0=i_0, X_1=i_1 \ldots , X_N=i_N) = \lambda_{i_0}p_{i_0i_1}p_{i_1i_2}\cdots p_{i_{N-1}i_N} \]
+\[\sum_{i_N \in I} P(X_0=i_0, X_1=i_1 \ldots , X_N=i_N) = \sum_{i_N \in I} \lambda_{i_0}p_{i_0i_1}p_{i_1i_2}\cdots p_{i_{N-1}i_N} \]
+\[\!P(X_0=i_0, X_1=i_1 \ldots , X_{N-1}=i_{N-1}) = \lambda_{i_0}p_{i_0i_1}p_{i_1i_2}\cdots p_{i_{N-2}i_{N-1}} \quad\]
+And now by induction, (1.3) holds for all $0 \leq n \leq N$. From the formula for conditional probability, namely that $P(A\,|\,B)=P(A \cap B)/P(B)$, we can show that
+\[P(X_{N+1}=i_{N+1}\, | \, X_0=i_0, \ldots, X_N=i_N) = \frac{P(X_0=i_0, \ldots ,  X_N=i_N, X_{N+1}=i_{N+1})}{P(X_0=i_0, \ldots , X_N=i_N)} \]
+\[\qquad\qquad\qquad\qquad\qquad\qquad\quad\! = \frac{\lambda_{i_0}p_{i_0i_1}\cdots p_{i_{N-1}i_N}p_{i_Ni_{N+1}}}{\lambda_{i_0}p_{i_0i_1}\cdots p_{i_{N-1}i_N}} \]
+\[ \qquad\qquad\quad \! \! \! = p_{i_Ni_{N+1}} \]
+Thus, by definition, $(X_n)_{0 \leq n \leq N}$ is Markov$(\lambda, P)$.
+\end{proof}
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=0.8\textwidth]{C2/Figs/larval_model}
-  \caption{Flowchart of the larval stage in the model}
-  \label{fig:larval_model}
-\end{figure}
+The next theorem emphasizes the memorylessness of Markov chains. In the formulation of this theorem, we use the idea of the \emph{unit mass at} $i$. It is denoted as $\delta_i = (\delta_{ij})$ where
+\[\delta_{ij} = \left\{ \begin{array}{ll}
+1 & \textrm{if $i=j$}\\
+0 & \textrm{otherwise}
+\end{array} \right. \]
 
-Feeding rate stays constant During post-critical stage. During pre-critical growth Volume of food taken in one bite is taken as constant $V_{f}(pre)$ and during post-critical growth it is $V_{f}(post) = 1.5\cdot V_{f}(pre)$. Food consumed by all larvae at time step $t$ is given as:
-\[FoodEaten(t) = \sum_{i}food\_eaten_{i}(t) = \sum_{i}Fr_{i}(t)\cdot V_{f}\]
-The increase in body size at time $t$ is $S_{i}(t+1)$ and give as:
-\[S_{i}(t+1) = S_{i}(t) + food\_eaten_{i}(t)\cdot \epsilon_{i}\cdot FQ_{fb}(t)\]
-Here,\\
-$\epsilon_{i}$: Efficiency to convert food eaten into biomass of $i^{th}$ larvae,\\
-$FQ_{fb}(t)$: Food quality of the feeding band at time $t$ \\
-After feeding and utilizing food consumed at given time step, larva produces nitrogenous waste $waste\_prod_{i}(t)$. This affects the total waste produced by all the larvae after feeding:
-\[WasteProd(t) = \sum_{i}waste\_prod_{i} = \sum_{i}[food\_eaten_{i}(t)\cdot (1-\epsilon_{i}\cdot FQ(t))]\]
-Based on this waste produced, total waste accumulated till time step $t$ in feeding band and diffusion band is calculated considering $k_{d}$ proportion of waste in the feeding band diffuses into diffusion band at each time step.
-\[Waste_{fb}(t+1) = Waste_{fb}(t) + (1-k_{d})\cdot WasteProd(t) + \frac{FoodEaten(t)\cdot Waste_{db}}{dband}\]
-\[Waste_{db}(t+1) = Waste_{db}(t) + k_{d}\cdot WasteProd(t) - \frac{FoodEaten(t)\cdot Waste_{db}}{dband}\]
-Food quality of the feeding band at time step $t$ is:
-\[FQ_{fb}(t) = 1 - \frac{Waste_{fb}(t)}{fband}\]
-If $FQ_{fb}(t) \leq 0 $, it means that there is no food available to eat and feeding band contains only nitrogenous waste and larvae stop eating.\\
-$k_{d}$ is dependent on the food available in the vial and determines whether waste is diffused into the diffusion band. Its values are assigned at each time step as follows:
-\begin{enumerate}[i]
-  \item $k_{d}$ is a constant $> 0$ if $food > fband+dband$
-  \item $k_{d} = 0$ if $food \leq fband+dband$
+\begin{thm} Let $(X_n)_{n \geq 0}$ be Markov$(\lambda,P)$. Then, given that $X_m = i$, $(X_l)_{l \geq m}$ is Markov$(\delta_i,P)$ and is independent of $X_k, \: 0 \leq k < m$.
+\end{thm}
+\begin{proof} Let the event $A=\{X_m=i_m, \ldots, X_n=i_n\}$ and the event $B$ be any event determined by $X_0, \ldots, X_m$. To prove the theorem, we must show that
+\[P(A \cap B \, | \, X_m=i) = \delta_{ii_m}p_{i_mi_{m+1}}\cdots p_{i_{n-1}i_n}P(B\, | \, X_m=i)\]
+ thus the result follows from Theorem 1.2. First, let us consider any elementary event
+\[ B=B_k=\{X_0=i_0, \ldots, X_m=i_m\}\]
+Here we show that
+\[ P(A \cap B_k \: \textrm{and} \: i=i_m \,|\, X_m=i) = \frac{\delta_{ii_m}p_{i_mi_{m+1}}\cdots p_{i_{n-1}i_n}P(B_k)}{P(X_m=i)}\]
+which follows from Theorem 1.2 and the definition of conditional probability. Any event, $B$, determined by $X_0, \ldots, X_m$ can be written as a disjoint union of elementary events, $B=\bigcup_{k=1}^{\infty} B_k$. Thus, we can prove our above identity by summing up all of the different $B_k$ for any given event.
+\end{proof}
+
+An additional idea that is going to be important later is the idea of conditioning on the initial state, $X_0$. We will let $P(A\,|\,X_0=i) = P_i(A)$. Similarly, we will let $E(A\,|\,X_0=i)=E_i(A)$.
+
+\subsection{Stopping Times and the Strong Markov Property}
+
+We start this section with the definition of a stopping time.
+\begin{defn} A random variable $T$ is called a \emph{stopping time} if the event $\{T=n\}$ depends only on $X_0, \ldots, X_n$ for $n=0,1,2,\ldots$.
+\end{defn}
+
+An example of a stopping time would be the \emph{first passage time}
+\[ T_i = \inf \{n \geq 1 \, | \, X_n=i\}.\]
+where we define $\inf \emptyset = \infty$. This is a stopping time since $\{T_i = n\} = \{ X_k \neq i , \\X_n=i \, | \, 0 < k < n\}$. Now we will define an expansion of this idea that we will use later.
+\begin{defn} The \emph{rth passage time} $T_i^{(r)}$ to state $i$ is defined recursively using the first passage time.
+\[T_i^{(0)}=0, \qquad T_i^{(1)}=T_i \]
+and, for $r=1,2,\ldots$,
+\[T_i^{(r+1)}=\inf\{n\geq T_i^{(r)}+1\,|\,X_n=i\}.\]
+\end{defn}
+This leads to the natural definition of the \emph{length of the rth excursion} to $i$ as
+\[ S_i^{(r)}= \left\{ \begin{array}{ll}
+T_i^{(r)}-T_i^{(r-1)} & \textrm{if}\:\:T_i^{(r-1)}<\infty\\
+0 & \textrm{otherwise.}
+\end{array} \right. \]
+The following theorem shows how the Markov property holds at stopping times.
+
+\begin{thm} Let $T$ be a stopping time of $(X_n)_{n \geq 0}$ which is Markov$(\lambda,P)$. Then given $T < \infty$ and $X_T=i$, $(X_l)_{l \geq T}$ is Markov$(\delta_i,P)$ and independent of $X_k, \\0 \leq k < T$.
+\end{thm}
+\begin{proof} First, we already have that $(X_l)_{l \geq T}$ is Markov$(\delta_i,P)$ by Theorem 1.4, so we just need to show the independence condition. Let the event $A=\{X_T=i_0, \ldots, X_{T+n}=i_n\}$ and the event $B$ be any event determined by $X_0, \ldots, X_T$. It is important to notice that the event $B \cap \{T=m\}$ is determined by $X_0, \ldots, X_m$. We get that
+\[P(A \cap B \cap \{T=m\} \cap \{X_T=i\})= P_i(X_0=i_0, \ldots, X_n=i_n)P(B \cap \{T=m\} \cap \{X_T=i\})\]
+If we now sum over $m=0,1,2,\ldots$ and divide each side by $P(T<\infty,X_T=i)$ using the definition of conditional probability, we obtain
+\[P(A\cap B \,|\,T<\infty,X_T=i)=P_i(X_0=i_0, \ldots, X_n=i_n)P(B\,|\,T<\infty,X_T=i)\]
+which gives us the independence we desired.
+\end{proof}
+
+\subsection{Recurrence and Transience}
+\begin{defn} Let $(X_n)_{n \geq 0}$ be Markov with transition matrix $P$. We say that a state $i$ is \emph{recurrent} if
+\[P_i(X_n = i\: \textrm{for infinitely many}\: n)=1,\]
+and we say that a state $i$ is \emph{transient} if
+\[P_i(X_n = i\: \textrm{for infinitely many}\: n)=0.\]
+\end{defn}
+The following results allow us to show that any state is necessarily either recurrent or transient.
+
+\begin{lem} For $r=2,3,\ldots$, given that $T_i^{(r-1)} < \infty, \:\,S_i^{(r)}$ is independent of $X_k, \: 0 \leq k \leq T_i^{(r-1)}$ and
+\[P(S_i^{(r)}=n\,|\,T_i^{(r-1)} < \infty)=P_i(T_i=n).\]
+\end{lem}
+\begin{proof} We can directly apply Theorem 2.3 where $T_i^{(r-1)}$ is the stopping time $T$, since it is assured that $X_T=i$ when $T < \infty$. So, given that $T_i^{(r-1)} <  \infty, \:\,(X_l)_{ l\geq T}$ is Markov$(\delta_i,P)$ and independent of $X_k,\: 0 \leq k < T$, the independence wanted. Yet, we know
+\[S_i^{(r)}=\inf\{l-T \geq 1\,|\,X_l=i\}\]
+so $S_i^{(r)}$ is the first passage time of $(X_l)_{ l\geq T}$ to state $i$, giving us our desired equality.
+\end{proof}
+
+\begin{defn} The idea of the \emph{number of visits to i}, $V_i$, is intuitive and can be easily defined using the indicator function
+\[V_i=\sum_{n=0}^{\infty}1_{\{X_n=i\}}\]
+\end{defn}
+A nice property of $V_i$ is that
+\[E_i(V_i)=E_i \Big( \sum_{n=0}^{\infty}1_{\{X_n=i\}} \Big)=\sum_{n=0}^{\infty}E_i(1_{\{X_n=i\}})=\sum_{n=0}^{\infty}P_i(X_n=i).\]
+\begin{defn} Another intuitive and useful term is the \emph{return probability to i}, defined as
+\[f_i=P_i(T_i<\infty).\]
+\end{defn}
+
+\begin{lem} $P_i(V_i>r)=(f_i)^r$ for $r=0,1,2,\ldots.$
+\end{lem}
+\begin{proof} First, we know that our claim is necessarily true when $r=0$. Thus, we can use induction and the fact that if $X_0=i$ then $\{V_i>r\}=\{T_i^{(r)}<\infty\}$ to conclude that
+\[P_i(V_i>r+1)=P_i(T_i^{(r+1)}<\infty) \qquad\qquad\qquad\qquad\]
+\[\qquad\qquad\;\;\,=P_i(T_i^{(r)}<\infty \; \textrm{and} \; S_i^{(r+1)}<\infty)\]
+\[\qquad\qquad\qquad\qquad\;\;\;\:=P_i(S_i^{(r+1)}<\infty\,|\,T_i^{(r)}<\infty)P_i(T_i^{(r)}<\infty)\]
+\[\!\!\!=f_i\cdot(f_i)^r=(f_i)^{r+1}\]
+using Lemma 3.2, so our claim is true for all $r$.
+\end{proof}
+
+\begin{thm} The following two cases hold and show that any state is either recurrent or transient:
+\begin{enumerate}
+\item if $P_i(T_i<\infty)=1$, then $i$ is recurrent and $\sum_{n=0}^{\infty}P_i(X_n=i)=\infty$;
+\item if $P_i(T_i<\infty)<1$, then $i$ is transient and $\sum_{n=0}^{\infty}P_i(X_n=i)<\infty$.
 \end{enumerate}
-Each larva feeds and increase the body size in each time step based on the conditions for food available ($food$), food quality ($FQ(t)$), critical size ($sc_{i}$) and waste tolerance ($u_{i}$) described in fig ~\ref{fig:larval_model}.\\
-Values for larval trait parameters obtained from distributions as described in table (ref), were varied and calibrated to obtain survivorship, body size and development time results similar to the empirical results in various larval densities (table no.). These larval trait values represent MB-tpye (control population) larval traits.
+\end{thm}
+\begin{proof} If $P_i(T_i<\infty)=f_i=1$ by Lemma 3.5, then
+\[P_i(V_i=\infty)=\lim_{r \to \infty} P_i(V_i>r) = \lim_{r \to \infty} 1^r = 1 \]
+so $i$ is recurrent and
+\[\sum_{n=0}^{\infty}P_i(X_n=i)=E_i(V_i)=\infty.\]
+In the other case, $f_i=P_i(T_i<\infty)<1$ then using our fact about $V_i$
+\[\sum_{n=0}^{\infty}P_i(X_n=i)=E_i(V_i)=\sum_{n=1}^{\infty}nP_i(V_i=n)=\sum_{n=1}^{\infty}\sum_{r=0}^{n-1}P_i(V_i=n)\qquad\qquad\qquad\qquad\]
+\[\qquad\qquad\qquad=\sum_{r=0}^{\infty}\sum_{n=r+1}^{\infty}P_i(V_i=n)=\sum_{r=0}^{\infty}P_i(V_i>r)=\sum_{r=0}^{\infty}(f_i)^r=\frac{1}{1-f_i}<\infty\]
+so $P_i(V_i=\infty)=0$ and $i$ is transient.
+\end{proof}
 
-\newpage
-\section{Feeding Band Dynamics}
-Simulations are performed for MB-type larvae to observe the waste build up dynamics in a food vial with different larval densities during larval feeding. In fig ~\ref{fig:waste}, waste build in the feeding band throughout larval feeding at different larval densities is plotted. At low density i.e. 60 eggs / 6 ml food (MB culture), there is very little nitrogenous waste building up due to diffusion and plenty of food available below the feeding band at all time steps unlike at high densities. \\
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=0.8\textwidth]{C2/Figs/waste_build_up}
-  \caption{Waste build up in the feeding band}
-  \label{fig:waste}
-\end{figure}\\
+\subsection{Communication Classes and Recurrence}
 
-High densities - 600 eggs / 1.5 ml food (MCU culture) and 1200 eggs / 3 ml food (CCU culture) show different patterns of waste build up in the feeding band, even though total larval density is equal. This is due to differences in diffusion pattern in MCU and CCU culture vials. In MCU culture vial, there is very little food available below the feeding band, thus diffusion does not occur and waste build in the feeding band increases gradually. In CCU culture vial, waste build is almost in same qauntity as in MCU culture in earlier stage, even though effective larval density is double (number of larvae per feeding band). This is due to the availablilty of food below feeding band in CCU culture where waste can diffuse. After approx. $40^{th}$ time step, diffusion stops and waste from diffusion band enters feeding band in more quantity, thus giving a sudden increase in the waste build rate. \\ \\
-LCU culture vial (1200 eggs in 6 ml food) also shows pattern waste build in the feeding band similar to CCU culture vial, but shows increase in the rate of waste build up at approx. $60^{th}$ time step as there is more food available below the feeding band compared to CCU culture vial. At approx. $100^{th}$ time step in LCU culture vial shows even more increase in the rate of waste build because diffusion band touches the bottom and starts shrinking.
+\begin{defn} State $i$ \emph{can send to} state $j$, and we write $i \to j$ if
+\[P_i(X_n=j \; \textrm{for some} \; n\geq0)>0.\]
+Also $i$ \emph{communicates with} $j$, and we write $i \lr j$ if both $i \to j$ and $j \to i$.
+\end{defn}
 
-\section{Discussion}
-Time to reach critical size ~ survivorship ~ ccu and mcu differences
-\pagebreak
-\renewcommand\bibname{{References}}
-\bibliography{References}
-\bibliographystyle{plain}
+\begin{thm} For distinct states $i, j \in I$, $i \to j \iff p_{ii_1}p_{i_1i_2}\cdots p_{i_{n-1}j}>0$ for some states $i_1,i_2,\ldots,i_{n-1}$. Also, $\lr$ is an equivalence relation on $I$.
+\end{thm}
+\begin{proof} $(\limp)$
+\[0<P_i(X_n=j \; \textrm{for some} \; n\geq0)\leq \sum_{n=0}^{\infty}P_i(X_n=j)= \sum_{n=0}^{\infty}\sum_{i_1,\ldots,i_{n-1}}p_{ii_1}p_{i_1i_2}\cdots p_{i_{n-1}j}\]
+Thus, for some $p_{ii_1}p_{i_1i_2}\cdots p_{i_{n-1}j}>0$ for some states $i_1,i_2,\ldots,i_{n-1}$.\\
+$(\pmil)$ Take some $i_1,i_2,\ldots,i_{n-1}$ such that
+\[0<p_{ii_1}p_{i_1i_2}\cdots p_{i_{n-1}j}\leq P_i(X_n=j)\leq P_i(X_n=j \; \textrm{for some} \; n\geq0).\]
+Now it is clear from the proven inequality that $i \to j, j \to k \limp i \to k$. Also, it is true that $i \lr i$ for any state $i$ and that $i \lr j \limp j \lr i$. Thus, $\lr$ is an equivalence relation on $I$.
+\end{proof}
+\begin{defn} We say that $\lr$ partitions $I$ into \emph{communication classes}. Also, a Markov chain or transition matrix $P$ where $I$ is a single communication class is called \emph{irreducible}.
+\end{defn}
+
+\begin{thm} Let $C$ be a communication class. Either all states in $C$ are recurrent or all are transient.
+\end{thm}
+
+\begin{proof} Take any distinct pair of states $i,j \in C$ and suppose that $i$ is transient. Then there exist $n,m\geq0$ such that $P_i(X_n=j)>0$ and $P_j(X_m=i)>0$, and for all $r\geq0$
+\[P_i(X_{n+r+m}=i) \geq P_i(X_n=j)P_j(X_r=j)P_j(X_m=i).\]
+This implies that
+\[\sum_{r=0}^{\infty}P_j(X_r=j)\leq \frac{1}{P_i(X_n=j)P_j(X_m=i)}\sum_{r=0}^{\infty}P_i(X_{n+r+m}=i)<\infty \]
+by Theorem 3.6. So any arbitrary $j$ is transient, again by Theorem 3.6, so the whole of $C$ is transient. The only way for this not to be true is if all states in $C$ are recurrent.
+\end{proof}
+This theorem shows us that recurrence and transience is a class property, and we will refer to it in the future as such.
+
+\begin{thm} Suppose $P$ is irreducible and recurrent. Then for all $i \in I$ we have $P(T_i<\infty)=1$.
+\end{thm}
+\begin{proof} By Theorem 2.3 we have
+\[P(T_i<\infty)=\sum_{j\in I}P_j(T_i<\infty)P(X_0=j)\]
+so we only need to show $P_j(T_i<\infty)=1$ for all $j \in I$. By the irreducibility of $P$, we can pick an $m$ such that $P_i(X_m=j)>0$. From Theorem 3.6, we have
+\[\!\!\!\!\!\!\!1=P_i(X_n=i \; \textrm{for infinitely many} \; n)\qquad\qquad\qquad\qquad\qquad\]
+\[\!\!\!\!\!\!=P_i(X_n=i \; \textrm{for some} \; n\geq m+1)\qquad\qquad\qquad\qquad\qquad\]
+\[=\sum_{k \in I} P_i(X_n=i \; \textrm{for some} \; n\geq m+1\,|\, X_m=k)P_i(X_m=k)\]
+\[\!\!\!\!\,=\sum_{k \in I} P_k(T_i<\infty)P_i(X_m=k)\qquad\qquad\qquad\qquad\qquad\qquad\]
+using Theorem 2.3 again. Since $\sum_{k \in I} P_i(X_m=k)=1$ so we have that \\$P_j(T_i<\infty)=1$.
+\end{proof}

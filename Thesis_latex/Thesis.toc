@@ -1,19 +1,22 @@
-\contentsline {chapter}{\numberline {1}Introduction}{2}% 
-\contentsline {chapter}{\numberline {2}Modelling Larval Stage in a Vial}{4}% 
-\contentsline {section}{\numberline {2.1}Ecology of a Vial in Drosophila Cultures}{4}% 
-\contentsline {section}{\numberline {2.2}Larval Stage Model}{5}% 
-\contentsline {section}{\numberline {2.3}Feeding Band Dynamics}{8}% 
-\contentsline {section}{\numberline {2.4}Discussion}{9}% 
-\contentsline {chapter}{\numberline {3}Interplay between Larval Trait Parameters}{11}% 
-\contentsline {section}{\numberline {3.1}Initial Feeding Rate and Efficiency}{11}% 
-\contentsline {section}{\numberline {3.2}Initial Feeding Rate and Critical Size}{14}% 
-\contentsline {section}{\numberline {3.3}Critical Size and Efficiency}{16}% 
-\contentsline {section}{\numberline {3.4}Discussion}{18}% 
-\contentsline {chapter}{\numberline {4}Modelling Evolution of Life-history Traits}{20}% 
-\contentsline {section}{\numberline {4.1}Modelling Adult Stage}{20}% 
-\contentsline {subsection}{\numberline {4.1.1}Fecundity}{20}% 
-\contentsline {subsection}{\numberline {4.1.2}Inheritance}{21}% 
-\contentsline {section}{\numberline {4.2}Effect of Laral Crowding on the Evolution of Life-history Traits}{21}% 
-\contentsline {section}{\numberline {4.3}Effects of Variation on the Evolution of Larval Trait Parameters}{24}% 
-\contentsline {subsection}{\numberline {4.3.1}Variation in the Initial Distribution of Larval Trait Parameters}{24}% 
-\contentsline {subsection}{\numberline {4.3.2}Heritibility in Mid-parent Value}{24}% 
+\contentsline {chapter}{\numberline {1}Introduction}{2}%
+\contentsline {chapter}{\numberline {2}Prelimineries}{4}%
+\contentsline {section}{\numberline {2.1}Moran Model}{4}%
+\contentsline {subsection}{\numberline {2.1.1}Model Dynamics}{4}%
+\contentsline {section}{\numberline {2.2}Markov Chains}{4}%
+\contentsline {subsection}{\numberline {2.2.1}Basic Definitions and Properties}{4}%
+\contentsline {subsection}{\numberline {2.2.2}Stopping Times and the Strong Markov Property}{6}%
+\contentsline {subsection}{\numberline {2.2.3}Recurrence and Transience}{7}%
+\contentsline {subsection}{\numberline {2.2.4}Communication Classes and Recurrence}{9}%
+\contentsline {chapter}{\numberline {3}Interplay between Larval Trait Parameters}{11}%
+\contentsline {section}{\numberline {3.1}Initial Feeding Rate and Efficiency}{11}%
+\contentsline {section}{\numberline {3.2}Initial Feeding Rate and Critical Size}{14}%
+\contentsline {section}{\numberline {3.3}Critical Size and Efficiency}{16}%
+\contentsline {section}{\numberline {3.4}Discussion}{18}%
+\contentsline {chapter}{\numberline {4}Modelling Evolution of Life-history Traits}{20}%
+\contentsline {section}{\numberline {4.1}Modelling Adult Stage}{20}%
+\contentsline {subsection}{\numberline {4.1.1}Fecundity}{20}%
+\contentsline {subsection}{\numberline {4.1.2}Inheritance}{21}%
+\contentsline {section}{\numberline {4.2}Effect of Laral Crowding on the Evolution of Life-history Traits}{21}%
+\contentsline {section}{\numberline {4.3}Effects of Variation on the Evolution of Larval Trait Parameters}{24}%
+\contentsline {subsection}{\numberline {4.3.1}Variation in the Initial Distribution of Larval Trait Parameters}{24}%
+\contentsline {subsection}{\numberline {4.3.2}Heritibility in Mid-parent Value}{24}%
