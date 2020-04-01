@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  1 APR 2020 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  2 APR 2020 01:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -853,32 +853,28 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 )) [27
 
 ] (./Thesis.aux (./C1/intro.aux) (./C2/chapter2.aux) (./C3/chapter3.aux)
-(./C4/chapter4.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./C4/chapter4.aux)) ) 
 Here is how much of TeX's memory you used:
  2256 strings out of 492164
  33918 string characters out of 6129087
- 107651 words of memory out of 5000000
+ 107695 words of memory out of 5000000
  6557 multiletter control sequences out of 15000+600000
  9761 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,9n,32p,898b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
-fb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2019/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis.pdf (29 pages, 1514737 bytes).
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Thesis.pdf (29 pages, 1514580 bytes).
 PDF statistics:
  177 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams
