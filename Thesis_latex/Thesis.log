@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.31)  29 MAR 2020 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  1 APR 2020 19:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -25,18 +25,24 @@ File: size12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 (c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
 (c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 
 (c:/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2019/11/07 v1.0c TeX engine tests
 ))
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
 \Gm@cnth=\count89
 \Gm@cntv=\count90
 \c@Gm@tempcnt=\count91
@@ -73,22 +79,42 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 (c:/texlive/2019/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks16
-) (./Thesis.aux
-(./C1/intro.aux) (./C2/chapter2.aux) (./C3/chapter3.aux) (./C4/chapter4.aux))
+)
+
+./Thesis.tex:9: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \vspace
+           *{6mm}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Thesis.tex:9: Too many }'s.
+l.9 \vspace*{6mm}}
+                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+(./Thesis.aux (./C1/intro.aux) (./C2/chapter2.aux) (./C3/chapter3.aux)
+(./C4/chapter4.aux))
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -137,22 +163,59 @@ LaTeX Font Info:    ... okay on input line 15.
 \MPnumerator=\count96
 \makeMPintoPDFobject=\count97
 \everyMPtoPDFconversion=\toks18
-) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))))
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+41.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 459.
 
 (c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 17.
- [1
+)) [1
 
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Thesis.toc
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+ [1] (./Thesis.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -163,13 +226,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `Thesis.toc'.
 
- [1
+
+[1
 
 ]
 \openout2 = `C1/intro.aux'.
 
-
-(./C1/intro.tex
+ (./C1/intro.tex
 Chapter 1.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1044,19 +1107,19 @@ or  <return>  to continue without it.
 
  (./C3/chapter3.tex
 Chapter 3.
-<C3/Figs/Feeding_rate_vs_Efficiency_MB.png, id=50, 578.16pt x 433.62pt>
+<C3/Figs/Feeding_rate_vs_Efficiency_MB.png, id=53, 578.16pt x 433.62pt>
 File: C3/Figs/Feeding_rate_vs_Efficiency_MB.png Graphic file (type png)
 <use C3/Figs/Feeding_rate_vs_Efficiency_MB.png>
 Package pdftex.def Info: C3/Figs/Feeding_rate_vs_Efficiency_MB.png  used on inp
 ut line 8.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Feeding_rate_vs_Efficiency_MCU.png, id=52, 578.16pt x 433.62pt>
+<C3/Figs/Feeding_rate_vs_Efficiency_MCU.png, id=55, 578.16pt x 433.62pt>
 File: C3/Figs/Feeding_rate_vs_Efficiency_MCU.png Graphic file (type png)
 <use C3/Figs/Feeding_rate_vs_Efficiency_MCU.png>
 Package pdftex.def Info: C3/Figs/Feeding_rate_vs_Efficiency_MCU.png  used on in
 put line 18.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Feeding_rate_vs_Efficiency_CCU.png, id=53, 578.16pt x 433.62pt>
+<C3/Figs/Feeding_rate_vs_Efficiency_CCU.png, id=56, 578.16pt x 433.62pt>
 File: C3/Figs/Feeding_rate_vs_Efficiency_CCU.png Graphic file (type png)
 <use C3/Figs/Feeding_rate_vs_Efficiency_CCU.png>
 Package pdftex.def Info: C3/Figs/Feeding_rate_vs_Efficiency_CCU.png  used on in
@@ -1086,19 +1149,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <./C3/Figs/Feeding_rate_vs_Efficiency_MB.png>] [13 <./C3/Figs/Feeding_rate
 _vs_Efficiency_MCU.png> <./C3/Figs/Feeding_rate_vs_Efficiency_CCU.png>]
-<C3/Figs/Critical_size_vs_Feeding_rate_MB.png, id=67, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Feeding_rate_MB.png, id=70, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Feeding_rate_MB.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Feeding_rate_MB.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Feeding_rate_MB.png  used on 
 input line 32.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Critical_size_vs_Feeding_rate_MCU.png, id=68, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Feeding_rate_MCU.png, id=71, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Feeding_rate_MCU.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Feeding_rate_MCU.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Feeding_rate_MCU.png  used on
  input line 39.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Critical_size_vs_Feeding_rate_CCU.png, id=69, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Feeding_rate_CCU.png, id=72, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Feeding_rate_CCU.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Feeding_rate_CCU.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Feeding_rate_CCU.png  used on
@@ -1121,19 +1184,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--48
 
 [14 <./C3/Figs/Critical_size_vs_Feeding_rate_MB.png>] [15 <./C3/Figs/Critical_s
 ize_vs_Feeding_rate_MCU.png> <./C3/Figs/Critical_size_vs_Feeding_rate_CCU.png>]
-<C3/Figs/Critical_size_vs_Efficiency_MB.png, id=79, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Efficiency_MB.png, id=82, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Efficiency_MB.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Efficiency_MB.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Efficiency_MB.png  used on in
 put line 52.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Critical_size_vs_Efficiency_MCU.png, id=80, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Efficiency_MCU.png, id=83, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Efficiency_MCU.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Efficiency_MCU.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Efficiency_MCU.png  used on i
 nput line 58.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Critical_size_vs_Efficiency_CCU.png, id=81, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Efficiency_CCU.png, id=84, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Efficiency_CCU.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Efficiency_CCU.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Efficiency_CCU.png  used on i
@@ -1180,12 +1243,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--24
  []
 
 [21]
-<C4/Figs/fr.png, id=104, 578.16pt x 433.62pt>
+<C4/Figs/fr.png, id=107, 578.16pt x 433.62pt>
 File: C4/Figs/fr.png Graphic file (type png)
 <use C4/Figs/fr.png>
 Package pdftex.def Info: C4/Figs/fr.png  used on input line 27.
 (pdftex.def)             Requested size: 435.32422pt x 326.49118pt.
-<C4/Figs/eff.png, id=105, 578.16pt x 433.62pt>
+<C4/Figs/eff.png, id=108, 578.16pt x 433.62pt>
 File: C4/Figs/eff.png Graphic file (type png)
 <use C4/Figs/eff.png>
 Package pdftex.def Info: C4/Figs/eff.png  used on input line 30.
@@ -1200,12 +1263,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
  []
 
 [22] [23 <./C4/Figs/fr.png> <./C4/Figs/eff.png>]
-<C4/Figs/mc.png, id=114, 578.16pt x 433.62pt>
+<C4/Figs/mc.png, id=118, 578.16pt x 433.62pt>
 File: C4/Figs/mc.png Graphic file (type png)
 <use C4/Figs/mc.png>
 Package pdftex.def Info: C4/Figs/mc.png  used on input line 40.
 (pdftex.def)             Requested size: 435.32422pt x 326.49118pt.
-<C4/Figs/wtol.png, id=115, 578.16pt x 433.62pt>
+<C4/Figs/wtol.png, id=119, 578.16pt x 433.62pt>
 File: C4/Figs/wtol.png Graphic file (type png)
 <use C4/Figs/wtol.png>
 Package pdftex.def Info: C4/Figs/wtol.png  used on input line 43.
@@ -1230,13 +1293,13 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 ] (./Thesis.aux (./C1/intro.aux) (./C2/chapter2.aux) (./C3/chapter3.aux)
 (./C4/chapter4.aux)) ) 
 Here is how much of TeX's memory you used:
- 1783 strings out of 492162
- 25946 string characters out of 6129062
- 97340 words of memory out of 5000000
- 6117 multiletter control sequences out of 15000+600000
- 10108 words of font info for 35 fonts, out of 8000000 for 9000
+ 2235 strings out of 492164
+ 33806 string characters out of 6129087
+ 107364 words of memory out of 5000000
+ 6536 multiletter control sequences out of 15000+600000
+ 9761 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,9n,23p,898b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,9n,32p,898b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
 pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/t
@@ -1249,10 +1312,10 @@ cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis.pdf (27 pages, 1514585 bytes).
+Output written on Thesis.pdf (28 pages, 1510342 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 174 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
