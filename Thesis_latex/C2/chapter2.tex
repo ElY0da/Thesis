@@ -4,13 +4,26 @@ We consider one of the most significant work on Markov chain modelling in popula
 \subsection{Model Dynamics}
 We consider a haploid population with two genotypes $A$ and $a$. This model envisages to follow population through its birth-death events. Precisely, the new generation is formed from the old generation in a certain manner.
 \newline
-From the existing population, one individual is chosen randomly to give birth and the offspring would be of the same genotype. At the same time, one randomly chosen individual from the old population dies. Therefore, the population size remains constant. We denote it by $N$. Also, we denote by $X_{n}$, the number of $A$ genes in the nth generation. By nth generation, we understand that population has undergone $n$ birth-death events. We want to study the Markov chain $(X_{n})_{n\geq0}$, which has state space {0, 1, \ldots, N}.   
+From the existing population, one individual is chosen randomly to give birth and the offspring would be of the same genotype. At the same time, one randomly chosen individual from the old population dies. Therefore, the population size remains constant. We denote it by $N$. Also, we denote by $X_{n}$, the number of $A$ genes in the nth generation. By nth generation, we understand that population has undergone $n$ birth-death events. We want to study the Markov chain $(X_{n})_{n\geq0}$, which has state space $\{0, 1, \ldots, N\}$.
+\newline
+Let $X_{t}$ = $i$.That is, the present population has $i$ individuals of $A$ genotype and $N-i$ individuals of $a$ genotype. Therefore the population composition is $iA$ + $(N-i)a$. Then the individual who dies is $A$ with probability $\frac{i}{N}$ and is $a$ with probability $\frac{N-i}{N}$. The transition probabilities of the chain is as followed:
+\newline
+\begin{equation*}
+\begin{split}
+P_{i,i+1}  = \left(\frac{i}{N}\right)\left(1-\left(\frac{i}{N}\right)\right) \\
+P_{i,i-1}  = \left(\frac{i}{N}\right)\left(1-\left(\frac{i}{N}\right)\right) \\
+P_{i,i}  = 1 - P_{i,i+1} - P_{i,i-1} = \left(\frac{i}{N}\right)^{2} + \left(1-\left(\frac{i}{N}\right)\right)^{2} \\
+\end{split}
+\end{equation*}
+It is clear that $P_{0,0}$ = $P_{N,N}$ = 1. Note that, $P_{i,j}$ = 0 if $j$ \notin $\{$i-1$, $i$ , $i+1$\}$.
+\newline
+So, here $0$ and $N$ are absorbing states, while all other states are transient. 
 \section{Markov Chains}
 \subsection{Basic Definitions and Properties}
 
 Markov chains often describe the movements of a system between various states. In this paper, we will discuss \emph{discrete-time} Markov chains, meaning that at each step our system can either stay in the state it is in or change to another state. We denote the random variable $X_n$ as a sort of marker of what state our system is in at step $n$. $X_n$ can take the value of any $i \in I$, where each $i$ is a \emph{state} in the \emph{state-space}, $I$. States are usually just denoted as numbers and our state-space as a countable set.
 
-We will call $\lambda$ = ($\lambda_{i_1}$, $\lambda_{i_2}$, $\ldots$) = ($\lambda_{i}$ \, $|$ \, i \in I) the \emph{probability distribution} on $X_{n}$ if:
+We will call $\lambda$ = ($\lambda_{i_{1}}$, $\lambda_{i_{2}}$, $\ldots$) = ($\lambda_{i}$ \, $|$ \, i \in I) the \emph{probability distribution} on $X_{n}$ if:
 \newline
 $\lambda_{i}$ = $P(X_{n} = i)$ and $\sum_{i \in I}$ $\lambda_{i}$ = $1$. Also, a matrix $P = \{ p_{ij} \}$, where $i,j \in I$, is called \emph{stochastic} if $\sum_{j \in I} \lambda_{ij} = 1$, $\forall i \in I$, i.e. every row of the matrix is a distribution. Now we can define a Markov chain explicitly.
 \newline
