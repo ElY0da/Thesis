@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  1 APR 2020 19:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  1 APR 2020 19:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -99,35 +99,10 @@ l.12 \vspace*{6mm}}
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-
-./Thesis.tex:17: LaTeX Error: Command \* already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \newtheorem*{defn}{
-                        Definitions}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./Thesis.tex:17: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \newtheorem*{defn}{D
-                         efinitions}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-\c@thm=\count92
-\c@lem=\count93
-\c@cor=\count94
+\c@defn=\count92
+\c@thm=\count93
+\c@lem=\count94
+\c@cor=\count95
 (./Thesis.aux (./C1/intro.aux) (./C2/chapter2.aux) (./C3/chapter3.aux)
 (./C4/chapter4.aux))
 \openout1 = `Thesis.aux'.
@@ -181,16 +156,16 @@ LaTeX Font Info:    ... okay on input line 21.
 
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count95
+\scratchcounter=\count96
 \scratchdimen=\dimen113
 \scratchbox=\box27
-\nofMPsegments=\count96
-\nofMParguments=\count97
+\nofMPsegments=\count97
+\nofMParguments=\count98
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count98
+\MPscratchCnt=\count99
 \MPscratchDim=\dimen114
-\MPnumerator=\count99
-\makeMPintoPDFobject=\count100
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
 \everyMPtoPDFconversion=\toks18
 ) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -303,38 +278,17 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-./C2/chapter2.tex:17: LaTeX Error: Environment defn undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \begin{defn}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
 0.
 (c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
-
-
-./C2/chapter2.tex:23: LaTeX Error: \begin{document} ended by \end{defn}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \end{defn}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 ./C2/chapter2.tex:24: LaTeX Error: There's no line here to end.
@@ -414,61 +368,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-./C2/chapter2.tex:67: LaTeX Error: Environment defn undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 \begin{defn}
-                  A random variable $T$ is called a \emph{stopping time} if ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./C2/chapter2.tex:68: LaTeX Error: \begin{document} ended by \end{defn}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 \end{defn}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./C2/chapter2.tex:73: LaTeX Error: Environment defn undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 \begin{defn}
-                  The \emph{rth passage time} $T_i^{(r)}$ to state $i$ is de...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 [6]
-
-./C2/chapter2.tex:77: LaTeX Error: \begin{document} ended by \end{defn}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 \end{defn}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 ./C2/chapter2.tex:87: LaTeX Error: Environment proof undefined.
 
@@ -492,33 +392,6 @@ Type  H <return>  for immediate help.
                                                   
 l.92 \end{proof}
                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./C2/chapter2.tex:95: LaTeX Error: Environment defn undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 \begin{defn}
-                  Let $(X_n)_{n \geq 0}$ be Markov with transition matrix $P...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./C2/chapter2.tex:99: LaTeX Error: \begin{document} ended by \end{defn}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.99 \end{defn}
-               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -552,60 +425,6 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./C2/chapter2.tex:110: LaTeX Error: Environment defn undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 \begin{defn}
-                   The idea of the \emph{number of visits to i}, $V_i$, is i...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./C2/chapter2.tex:112: LaTeX Error: \begin{document} ended by \end{defn}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 \end{defn}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./C2/chapter2.tex:115: LaTeX Error: Environment defn undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.115 \begin{defn}
-                   Another intuitive and useful term is the \emph{return pro...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./C2/chapter2.tex:117: LaTeX Error: \begin{document} ended by \end{defn}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117 \end{defn}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 ./C2/chapter2.tex:121: LaTeX Error: Environment proof undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -619,6 +438,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[8]
 
 ./C2/chapter2.tex:127: LaTeX Error: \begin{document} ended by \end{proof}.
 
@@ -632,7 +452,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[8]
 
 ./C2/chapter2.tex:135: LaTeX Error: Environment proof undefined.
 
@@ -659,20 +478,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-./C2/chapter2.tex:147: LaTeX Error: Environment defn undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 \begin{defn}
-                   State $i$ \emph{can send to} state $j$, and we write $i \...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ./C2/chapter2.tex:149: Undefined control sequence.
 l.149 ...mmunicates with} $j$, and we write $i \lr
                                                    j$ if both $i \to j$ and ...
@@ -681,19 +486,6 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-./C2/chapter2.tex:150: LaTeX Error: \begin{document} ended by \end{defn}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.150 \end{defn}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 ./C2/chapter2.tex:152: Undefined control sequence.
 <recently read> \lr 
@@ -728,6 +520,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[9]
 ./C2/chapter2.tex:157: Undefined control sequence.
 l.157 $(\pmil
              )$ Take some $i_1,i_2,\ldots,i_{n-1}$ such that
@@ -806,20 +599,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-./C2/chapter2.tex:161: LaTeX Error: Environment defn undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161 \begin{defn}
-                   We say that $\lr$ partitions $I$ into \emph{communication...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ./C2/chapter2.tex:161: Undefined control sequence.
 <recently read> \lr 
                     
@@ -831,20 +610,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-./C2/chapter2.tex:162: LaTeX Error: \begin{document} ended by \end{defn}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.162 \end{defn}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[9]
 
 ./C2/chapter2.tex:167: LaTeX Error: Environment proof undefined.
 
@@ -885,6 +650,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[10]
 
 ./C2/chapter2.tex:185: LaTeX Error: \begin{document} ended by \end{proof}.
 
@@ -898,24 +664,24 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [10]
+) [11]
 \openout2 = `C3/chapter3.aux'.
 
  (./C3/chapter3.tex
 Chapter 3.
-<C3/Figs/Feeding_rate_vs_Efficiency_MB.png, id=53, 578.16pt x 433.62pt>
+<C3/Figs/Feeding_rate_vs_Efficiency_MB.png, id=57, 578.16pt x 433.62pt>
 File: C3/Figs/Feeding_rate_vs_Efficiency_MB.png Graphic file (type png)
 <use C3/Figs/Feeding_rate_vs_Efficiency_MB.png>
 Package pdftex.def Info: C3/Figs/Feeding_rate_vs_Efficiency_MB.png  used on inp
 ut line 8.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Feeding_rate_vs_Efficiency_MCU.png, id=55, 578.16pt x 433.62pt>
+<C3/Figs/Feeding_rate_vs_Efficiency_MCU.png, id=59, 578.16pt x 433.62pt>
 File: C3/Figs/Feeding_rate_vs_Efficiency_MCU.png Graphic file (type png)
 <use C3/Figs/Feeding_rate_vs_Efficiency_MCU.png>
 Package pdftex.def Info: C3/Figs/Feeding_rate_vs_Efficiency_MCU.png  used on in
 put line 18.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Feeding_rate_vs_Efficiency_CCU.png, id=56, 578.16pt x 433.62pt>
+<C3/Figs/Feeding_rate_vs_Efficiency_CCU.png, id=60, 578.16pt x 433.62pt>
 File: C3/Figs/Feeding_rate_vs_Efficiency_CCU.png Graphic file (type png)
 <use C3/Figs/Feeding_rate_vs_Efficiency_CCU.png>
 Package pdftex.def Info: C3/Figs/Feeding_rate_vs_Efficiency_CCU.png  used on in
@@ -936,28 +702,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--26
 
  []
 
-[11
+[12
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./C3/Figs/Feeding_rate_vs_Efficiency_MB.png>] [13 <./C3/Figs/Feeding_rate
+ [13 <./C3/Figs/Feeding_rate_vs_Efficiency_MB.png>] [14 <./C3/Figs/Feeding_rate
 _vs_Efficiency_MCU.png> <./C3/Figs/Feeding_rate_vs_Efficiency_CCU.png>]
-<C3/Figs/Critical_size_vs_Feeding_rate_MB.png, id=70, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Feeding_rate_MB.png, id=73, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Feeding_rate_MB.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Feeding_rate_MB.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Feeding_rate_MB.png  used on 
 input line 32.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Critical_size_vs_Feeding_rate_MCU.png, id=71, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Feeding_rate_MCU.png, id=74, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Feeding_rate_MCU.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Feeding_rate_MCU.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Feeding_rate_MCU.png  used on
  input line 39.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Critical_size_vs_Feeding_rate_CCU.png, id=72, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Feeding_rate_CCU.png, id=75, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Feeding_rate_CCU.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Feeding_rate_CCU.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Feeding_rate_CCU.png  used on
@@ -978,21 +744,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--48
 
  []
 
-[14 <./C3/Figs/Critical_size_vs_Feeding_rate_MB.png>] [15 <./C3/Figs/Critical_s
+[15 <./C3/Figs/Critical_size_vs_Feeding_rate_MB.png>] [16 <./C3/Figs/Critical_s
 ize_vs_Feeding_rate_MCU.png> <./C3/Figs/Critical_size_vs_Feeding_rate_CCU.png>]
-<C3/Figs/Critical_size_vs_Efficiency_MB.png, id=82, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Efficiency_MB.png, id=85, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Efficiency_MB.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Efficiency_MB.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Efficiency_MB.png  used on in
 put line 52.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Critical_size_vs_Efficiency_MCU.png, id=83, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Efficiency_MCU.png, id=86, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Efficiency_MCU.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Efficiency_MCU.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Efficiency_MCU.png  used on i
 nput line 58.
 (pdftex.def)             Requested size: 362.77264pt x 272.07709pt.
-<C3/Figs/Critical_size_vs_Efficiency_CCU.png, id=84, 578.16pt x 433.62pt>
+<C3/Figs/Critical_size_vs_Efficiency_CCU.png, id=87, 578.16pt x 433.62pt>
 File: C3/Figs/Critical_size_vs_Efficiency_CCU.png Graphic file (type png)
 <use C3/Figs/Critical_size_vs_Efficiency_CCU.png>
 Package pdftex.def Info: C3/Figs/Critical_size_vs_Efficiency_CCU.png  used on i
@@ -1008,23 +774,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--67
 
  []
 
-[16 <./C3/Figs/Critical_size_vs_Efficiency_MB.png>] [17 <./C3/Figs/Critical_siz
+[17 <./C3/Figs/Critical_size_vs_Efficiency_MB.png>] [18 <./C3/Figs/Critical_siz
 e_vs_Efficiency_MCU.png> <./C3/Figs/Critical_size_vs_Efficiency_CCU.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
+ [19]
 (./Thesis.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-)) [19
+)) [20
 
 ]
 \openout2 = `C4/chapter4.aux'.
 
  (./C4/chapter4.tex
 Chapter 4.
-[20
+[21
 
 
 
@@ -1038,13 +804,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
-[21]
-<C4/Figs/fr.png, id=107, 578.16pt x 433.62pt>
+[22]
+<C4/Figs/fr.png, id=110, 578.16pt x 433.62pt>
 File: C4/Figs/fr.png Graphic file (type png)
 <use C4/Figs/fr.png>
 Package pdftex.def Info: C4/Figs/fr.png  used on input line 27.
 (pdftex.def)             Requested size: 435.32422pt x 326.49118pt.
-<C4/Figs/eff.png, id=108, 578.16pt x 433.62pt>
+<C4/Figs/eff.png, id=111, 578.16pt x 433.62pt>
 File: C4/Figs/eff.png Graphic file (type png)
 <use C4/Figs/eff.png>
 Package pdftex.def Info: C4/Figs/eff.png  used on input line 30.
@@ -1058,13 +824,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-[22] [23 <./C4/Figs/fr.png> <./C4/Figs/eff.png>]
-<C4/Figs/mc.png, id=118, 578.16pt x 433.62pt>
+[23] [24 <./C4/Figs/fr.png> <./C4/Figs/eff.png>]
+<C4/Figs/mc.png, id=121, 578.16pt x 433.62pt>
 File: C4/Figs/mc.png Graphic file (type png)
 <use C4/Figs/mc.png>
 Package pdftex.def Info: C4/Figs/mc.png  used on input line 40.
 (pdftex.def)             Requested size: 435.32422pt x 326.49118pt.
-<C4/Figs/wtol.png, id=119, 578.16pt x 433.62pt>
+<C4/Figs/wtol.png, id=122, 578.16pt x 433.62pt>
 File: C4/Figs/wtol.png Graphic file (type png)
 <use C4/Figs/wtol.png>
 Package pdftex.def Info: C4/Figs/wtol.png  used on input line 43.
@@ -1079,39 +845,43 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-(./Thesis.bbl [25 <./C4/Figs/mc.png> <./C4/Figs/wtol.png>]
+ [25]
+(./Thesis.bbl [26 <./C4/Figs/mc.png> <./C4/Figs/wtol.png>]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-)) [26
+)) [27
 
 ] (./Thesis.aux (./C1/intro.aux) (./C2/chapter2.aux) (./C3/chapter3.aux)
-(./C4/chapter4.aux)) ) 
+(./C4/chapter4.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2251 strings out of 492164
- 33887 string characters out of 6129087
- 107501 words of memory out of 5000000
- 6552 multiletter control sequences out of 15000+600000
+ 2256 strings out of 492164
+ 33918 string characters out of 6129087
+ 107651 words of memory out of 5000000
+ 6557 multiletter control sequences out of 15000+600000
  9761 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,9n,32p,898b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
-pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis.pdf (28 pages, 1514025 bytes).
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
+fb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2019/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti12.pfb>
+Output written on Thesis.pdf (29 pages, 1514737 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
+ 177 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
