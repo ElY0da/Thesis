@@ -4,7 +4,7 @@ We consider one of the most significant work on Markov chain modelling in popula
 \subsection{Model Dynamics}
 We consider a haploid population with two genotypes $A$ and $a$. This model envisages to follow population through its birth-death events. Precisely, the new generation is formed from the old generation in a certain manner.
 \newline
-From the existing population, one individual is chosen randomly to give birth and the offspring would be of the same genotype. At the same time, one randomly chosen individual from the old population dies. Therefore, the population size remains constant. We denote it by $N$. Also, we denote by $X_{n}$, the number of $A$ genes in the nth generation. By nth generation, we understand that population has undergone $n$ birth-death events. We want to study the Markov chain $(X_{n})_{n\geq0}$, which has state space {0, 1, \ldots, N}.   
+From the existing population, one individual is chosen randomly to give birth and the offspring would be of the same genotype. At the same time, one randomly chosen individual from the old population dies. Therefore, the population size remains constant. We denote it by $N$. Also, we denote by $X_{n}$, the number of $A$ genes in the nth generation. By nth generation, we understand that population has undergone $n$ birth-death events. We want to study the Markov chain $(X_{n})_{n\geq0}$, which has state space {0, 1, \ldots, N}.
 \section{Markov Chains}
 \subsection{Basic Definitions and Properties}
 
@@ -14,7 +14,8 @@ We will call $\lambda$ = ($\lambda_{i_1}$, $\lambda_{i_2}$, $\ldots$) = ($\lambd
 \newline
 $\lambda_{i}$ = $P(X_{n} = i)$ and $\sum_{i \in I}$ $\lambda_{i}$ = $1$. Also, a matrix $P = \{ p_{ij} \}$, where $i,j \in I$, is called \emph{stochastic} if $\sum_{j \in I} \lambda_{ij} = 1$, $\forall i \in I$, i.e. every row of the matrix is a distribution. Now we can define a Markov chain explicitly.
 \newline
-\begin{defn} $(X_0, X_1, \ldots) = (X_n)_{n \geq 0}$ is a \emph{Markov chain with initial distribution $\lambda$ and transition matrix $P$}, shortened to \emph{Markov$(\lambda , P)$}, if
+\begin{defn}
+$(X_0, X_1, \ldots) = (X_n)_{n \geq 0}$ is a \emph{Markov chain with initial distribution $\lambda$ and transition matrix $P$}, shortened to \emph{Markov$(\lambda , P)$}, if
 \begin{itemize}
 \item $\lambda$ is the probability distribution on $X_0$;
 \item given that $X_n = i$, $(p_{ij} \, | \, i,j \in I)$ is the probability distribution on $X_{n+1}$ and is independent of $X_k, 0 \leq k < n$, i.e. $P(X_{N+1}=j \, | \, X_n=i) = p_{ij}$.
