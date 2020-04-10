@@ -17,20 +17,21 @@ In pre-critical stage of the larva, feeding rate is a linear function of time, g
 \[Fr_{i}(t) = fr_{i} + x_{1}\cdot t\]
 Here, \\
 $fr_{i}$: initial feeding rate of $i^{th}$ larva; $x_{1}$: scaling parameter, \\
-$t$: given time step; $Fr_{i}(t)$: Feeding rate at time $t$
+$t$: given time step; $Fr_{i}(t)$: Feeding rate at time $t$\\
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.8\textwidth]{C2/Figs/larval_model}
   \caption{Flowchart of the larval stage in the model}
   \label{fig:larval_model}
-\end{figure}\\
-Feeding rate stays constant During post-critical stage. During pre-critical growth Volume of food taken in one bite is taken as constant $V_{f}(pre)$ and during post-critical growth it is $V_{f}(post) = 1.5\cdot V_{f}(pre)$. Food consumed by all larvae at time step $t$ is given as:
+\end{figure}
+
+\noindent Feeding rate stays constant During post-critical stage. During pre-critical growth Volume of food taken in one bite is taken as constant $V_{f}(pre)$ and during post-critical growth it is $V_{f}(post) = 1.5\cdot V_{f}(pre)$. Food consumed by all larvae at time step $t$ is given as:
 \[FoodEaten(t) = \sum_{i}food\_eaten_{i}(t) = \sum_{i}Fr_{i}(t)\cdot V_{f}\]
 The increase in body size at time $t$ is $S_{i}(t+1)$ and give as:
 \[S_{i}(t+1) = S_{i}(t) + food\_eaten_{i}(t)\cdot \epsilon_{i}\cdot FQ_{fb}(t)\]
 Here,\\
 $\epsilon_{i}$: Efficiency to convert food eaten into biomass of $i^{th}$ larvae,\\
-$FQ_{fb}(t)$: Food quality of the feeding band at time $t$ \\
+$FQ_{fb}(t)$: Food quality of the feeding band at time $t$\\ \\
 After feeding and utilizing food consumed at given time step, larva produces nitrogenous waste $waste\_prod_{i}(t)$. This affects the total waste produced by all the larvae after feeding:
 \[WasteProd(t) = \sum_{i}waste\_prod_{i} = \sum_{i}[food\_eaten_{i}(t)\cdot (1-\epsilon_{i}\cdot FQ(t))]\]
 Based on this waste produced, total waste accumulated till time step $t$ in feeding band and diffusion band is calculated considering $k_{d}$ proportion of waste in the feeding band diffuses into diffusion band at each time step.
@@ -44,24 +45,29 @@ $k_{d}$ is dependent on the food available in the vial and determines whether wa
   \item $k_{d}$ is a constant $> 0$ ... if $food > (fband+dband)$
   \item $k_{d} = 0$ ... if $food \leq (fband+dband)$
 \end{enumerate}
-Each larva feeds and increase the body size in each time step based on the conditions for food available ($food$), food quality ($FQ(t)$), critical size ($sc_{i}$) and waste tolerance ($u_{i}$) described in fig~\ref{fig:larval_model}.\\ \\
-Values for all parameters used in the larval stage of the model, are given in table~\ref{tab:trait_value}, table~\ref{tab:scale_param} and table~\ref{tab:food_param}. These values were obtianed by calibrating survivorship, body size and development time results similar to the empirical results in various larval densities(ref).
+Each larva feeds and increase the body size in each time step based on the conditions for food available ($food$), food quality ($FQ(t)$), critical size ($sc_{i}$) and waste tolerance ($u_{i}$) described in fig~\ref{fig:larval_model}.\\
+
+\noindent Values for all parameters used in the larval stage of the model, are given in table~\ref{tab:trait_value}, table~\ref{tab:scale_param} and table~\ref{tab:food_param}. These values were obtianed by calibrating survivorship, body size and development time results similar to the empirical results in various larval densities \cite{sarangiPhD}.
 \newpage
 \section{Simulations for Feeding Band Dynamics}
-Simulations are performed for trait values in table~\ref{tab:trait_value} to observe the waste build up dynamics in a food vial with different larval densities during larval feeding. In fig~\ref{fig:waste}, waste build in the feeding band throughout larval feeding at different larval densities is plotted. At low density i.e. 60 eggs / 6 ml food (MB culture), there is very little nitrogenous waste building up due to diffusion and plenty of food available below the feeding band at all time steps.
+Simulations are performed for trait values in table~\ref{tab:trait_value} to observe the waste build up dynamics and food quality decrease in a food vial with different larval densities during larval feeding.
+\subsection{Waste build-up dynamics results}
+In fig~\ref{fig:waste}, waste build in the feeding band throughout larval feeding at different larval densities is plotted. At low density i.e. 60 eggs / 6 ml food (MB culture), there is very little nitrogenous waste building up due to diffusion and plenty of food available below the feeding band at all time steps.
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.8\textwidth]{C2/Figs/waste_build_up}
   \caption{Waste build up in the feeding band}
   \label{fig:waste}
 \end{figure}\\
-High densities of 600 eggs / 1.5 ml food (MCU culture) and 1200 eggs / 3 ml food (CCU culture) show different patterns of waste build up in the feeding band, even though total larval density is equal. In MCU culture vial, there is very little food available below the feeding band, thus diffusion does not occur and waste build in the feeding band increases gradually. In CCU culture vial, waste build-up is almost in same qauntity as in MCU culture in earlier stage, even though effective larval density is double (number of larvae per feeding band). This is due to the availablilty of food below feeding band in CCU culture where waste can diffuse. After approx. $40^{th}$ time step, diffusion stops and waste from diffusion band enters feeding band in more quantity, thus giving a sudden increase in the waste build rate. \\ \\
-LCU culture vial (1200 eggs in 6 ml food) also shows pattern of waste build in the feeding band similar to CCU culture vial, but shows increase in the rate of waste build up approx. after $60^{th}$ time step. This is due to the food is still available below the feeding band. At approx. $100^{th}$ time step in LCU culture vial shows even more increase in the rate of waste build because diffusion band touches the bottom and starts shrinking.
+\noindent High densities of 600 eggs / 1.5 ml food (MCU culture) and 1200 eggs / 3 ml food (CCU culture) show different patterns of waste build up in the feeding band, even though total larval density is equal. In MCU culture vial, there is very little food available below the feeding band, thus diffusion does not occur and waste build in the feeding band increases gradually. In CCU culture vial, waste build-up is almost in same qauntity as in MCU culture in earlier stage, even though effective larval density is double (number of larvae per feeding band). This is due to the availablilty of food below feeding band in CCU culture where waste can diffuse. After approx. $40^{th}$ time step, diffusion stops and waste from diffusion band enters feeding band in more quantity, thus giving a sudden increase in the waste build rate. \\
+
+\noindent LCU culture vial (1200 eggs in 6 ml food) also shows pattern of waste build in the feeding band similar to CCU culture vial, but shows increase in the rate of waste build up approx. after $60^{th}$ time step. This is due to the food is still available below the feeding band. At approx. $100^{th}$ time step in LCU culture vial shows even more increase in the rate of waste build because diffusion band touches the bottom and starts shrinking.\\
+\subsection{Food quality dynamics results}
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.8\textwidth]{C2/Figs/fQ}
   \caption{Change in the food quality of feeding band}
   \label{fig:fQ}
-\end{figure}\\
-Fig~\ref{fig:fQ} shows the decrease in the quality of the food present in the feeding band. Food quality being negatively correlated with the amount of waste build-up in the feeding band, it shows patterns similar to waste build-up during larval growth in all crowding condtions. Since food quality affects body size increment at each time step. it can be interpreted that body size increment between $40^{th}$ and $60^{th}$ time step is completely different for MCU and CCU cultures even though there larval density is equal. In LCU culture, decrease in food quality is simlar to CCU culture till $~60^{th}$ time step, but later follows the same waste build-up dynamics as explained above.
+\end{figure}
+\noindent Fig~\ref{fig:fQ} shows the decrease in the quality of the food present in the feeding band. Food quality being negatively correlated with the amount of waste build-up in the feeding band, it shows patterns similar to waste build-up during larval growth in all crowding condtions. Since food quality affects body size increment at each time step. it can be interpreted that body size increment between $40^{th}$ and $60^{th}$ time step is completely different for MCU and CCU cultures even though there larval density is equal. In LCU culture, decrease in food quality is simlar to CCU culture till ~$60^{th}$ time step but later decreases gradually unlike CCU. This gradual decrease is due to gradual waste diffusion into the available food below the feeding and diffusion band. Once diffusion band hits the bottom at ~$90^{th}$ time step, food quality decreases rapidly.
 \pagebreak

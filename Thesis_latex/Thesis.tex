@@ -1,11 +1,11 @@
 \documentclass[a4paper,12pt,twoside]{report}
 \usepackage[left=1.25in,right=1in,top=2.5in,bottom=1in]{geometry}
 \usepackage{graphicx}
-\usepackage{biblatex}
+\usepackage[style=nature]{biblatex}
+\addbibresource{References.bib}
 \usepackage{enumerate}
 \usepackage[caption=false]{subfig}
 \renewcommand{\baselinestretch}{1.5}
-
 \begin{document}
   \include{C0/titlepage}
   \newgeometry{left=1.25in,right=1in,top=1in,bottom=1in}
@@ -22,10 +22,12 @@
   \pagenumbering{arabic}
   \include{C1/intro}
   \include{C2/chapter2}
-  \include{C3/chapter3}
+  %\include{C3/chapter3}
   %\include{C4/chapter4}
   %\include{C5/chapter5}
 
   \appendix
   \include{CA1/chapterA1}
+  \addcontentsline{toc}{chapter}{References}
+  \printbibliography[title=References]
 \end{document}

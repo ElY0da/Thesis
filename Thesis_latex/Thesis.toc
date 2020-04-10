@@ -10,20 +10,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Simulations for Feeding Band Dynamics}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Interplay between Larval Trait Parameters}{8}%
+\contentsline {subsection}{\numberline {2.3.1}Waste build-up dynamics results}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Initial Feeding Rate and Efficiency}{8}%
+\contentsline {subsection}{\numberline {2.3.2}Food quality dynamics results}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Initial Feeding Rate and Critical Size}{12}%
+\contentsline {chapter}{\numberline {A}Code}{9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Critical Size and Efficiency}{14}%
+\contentsline {chapter}{\numberline {B}Tables}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Code}{16}%
+\contentsline {section}{\numberline {B.1}Larval Trait Parameters}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Tables}{17}%
+\contentsline {section}{\numberline {B.2}Scaling Parameters}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Larval Trait Parameters}{17}%
+\contentsline {section}{\numberline {B.3}Other Larval Parameters}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Scaling Parameters}{17}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Other Larval Parameters}{18}%
+\contentsline {chapter}{References}{12}%

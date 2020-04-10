@@ -55,7 +55,10 @@
       <file>biblatex.def</file>
       <file>standard.bbx</file>
       <file>numeric.bbx</file>
-      <file>numeric.cbx</file>
+      <file>numeric-comp.bbx</file>
+      <file>nature.bbx</file>
+      <file>numeric-comp.cbx</file>
+      <file>nature.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
@@ -77,6 +80,9 @@
     </provides>
     <requires type="dynamic">
       <file>Thesis.bcf</file>
+    </requires>
+    <requires type="editable">
+      <file>References.bib</file>
     </requires>
   </external>
 </requests>
