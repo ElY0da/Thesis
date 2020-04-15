@@ -18,30 +18,44 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global}
-    \entry{sarangiPhD}{book}{}
+  \datalist[entry]{apa/global//global/global}
+    \entry{sarangiEcologicalDetailsMediate2018}{thesis}{}
       \name{author}{1}{}{%
-        {{hash=bce39b97bf3bf08bbe7dc64c01738597}{%
+        {{un=0,uniquepart=base,hash=be25d9e8b036a05867c94c7aeb2b7331}{%
            family={Sarangi},
            familyi={S\bibinitperiod},
-           given={M[anaswini]},
-           giveni={M\bibinitperiod}}}%
+           given={Manaswini},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Jawaharlal Nehru Centre for Advanced Scientific Research JNCASR}%
+      \list{institution}{1}{%
+        {Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR)}%
       }
-      \strng{namehash}{bce39b97bf3bf08bbe7dc64c01738597}
-      \strng{fullhash}{bce39b97bf3bf08bbe7dc64c01738597}
-      \strng{bibnamehash}{bce39b97bf3bf08bbe7dc64c01738597}
-      \strng{authorbibnamehash}{bce39b97bf3bf08bbe7dc64c01738597}
-      \strng{authornamehash}{bce39b97bf3bf08bbe7dc64c01738597}
-      \strng{authorfullhash}{bce39b97bf3bf08bbe7dc64c01738597}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \strng{fullhash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \strng{bibnamehash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \strng{authorbibnamehash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \strng{authornamehash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \strng{authorfullhash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Ecological details mediate different paths to the evolution of larval competitive ability in Drosophila}
+      \field{abstract}{Recently single crystals of layered SnSe has created a paramount importance in thermoelectrics owing to their ultralow lattice thermal conductivity and high thermoelectric figure of merit (zT). However, nanocrystalline or polycrystalline SnSe offers a wide range of thermoelectric applications for the ease of its synthesis and machinability. Here, we demonstrate high zT of 2.1 at 873 K in two dimensional (2D) nanoplates of Ge doped SnSe synthesized by a simple hydrothermal route followed by spark plasma sintering (SPS). Anisotropic measurements also show a high zT of \textasciitilde{}1.8 at 873 K parallel to the SPS pressing direction. 3 mol\% Ge-doping in SnSe nanoplates significantly enhances the p-type carrier concentration which results in high electrical conductivity and power factor of \textasciitilde{}5.10 {$\mu$}W/cmK2 at 873 K. In addition to nanoscale grain boundary and high lattice anharmonicity in SnSe nanoplates, phonon scattering due to Ge precipitates in the SnSe matrix gives rise to the ultralow lattice thermal conductivity of \textasciitilde{}0.18 W/mK at 873 K.}
+      \field{month}{5}
+      \field{note}{Accepted: 2019-07-26T10:33:37Z}
+      \field{title}{Ecological Details Mediate Different Paths to the Evolution of Larval Competitive Ability in {{Drosophila}}}
+      \field{type}{Thesis}
       \field{year}{2018}
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\ECWMNLM6\\Sarangi - 2018 - Ecological details mediate different paths to the .pdf;C\:\\Users\\HP\\Zotero\\storage\\L9KKQIQA\\2722.html
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

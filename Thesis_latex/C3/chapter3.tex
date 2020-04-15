@@ -1,127 +1,210 @@
 \chapter{Interplay between Larval Trait Parameters}
-In the base model of larval stage, trait parameters used are initial feeding rate, efficiency, critical size and waste tolerance. These parameters can not be measured directly via experimental approaches, but their effect on other larval traits such as body size, feeding rate at the third instar, development time can be measured easily. Here, I explore how larval trait parameters interact with each other and affect body size, time to reach critical size, feeding rate at critical size and survivorship. Since feeding rate in the model stays constant after reaching critical size, it can be taken as proxy for feeding rate at the third instar stage.
+In the larval stage model, trait parameters used are initial feeding rate, efficiency, critical size and waste tolerance. These parameters can not be measured directly via experimental approaches, but their effects on other larval traits such as body size, feeding rate at the third instar, development time can be measured easily. Here, I explore how larval trait parameters interact with each other and affect body size, time to reach critical size, feeding rate at critical size and survivorship. Since feeding rate in the model stays constant after reaching critical size, it can be taken as proxy for feeding rate at the third instar stage. Also, time to reach critical size is taken as a proxy for development time since time period between critical size and pupation is taken as a constant in all densities (ref). Larval stage is simulated to obtain body size, development time, final feeding rate (at critical size) and survivorship in MB, MCU and CCU cultures for each combination of initial feeding rate, efficiency and critical size from respective range of mean trait values. Here, effect of waste tolerance is ignored since no significant effect was observed on the body size, development time, final feeding rate and survivorship. Using experimental data and these simualtion results, best combination of trait values are obtained which represents ancestral trait values for each population. Traits measured using these trait values represent MB flies from the experimental data and these trait values are used in further simulations.
 
 \section{Initial Feeding Rate and Efficiency}
-In MB culture (low density), fig ~\ref{fig:fr vs eff mb} shows having higher efficiency as well as higher initial feeding rate gives higher larval body size, but lower time to reach critical size. Feeding rate at critical size is dependent on time taken to reach critical size which is dependent on body size increment at each time step. This body size increment is proportional to the current feeding rate and efficiency. Thus, efficiency and initial feeding rate both affect the feeding rate shown at the critical size. Having lower efficiency and higher initial feeding rate tends to give higher feeding rate at critical size in MB culture. Survivorship does not show any pattern at low density, since most of the larvae are competing very less and are able to survive easily. \\
+All simulation results show that the larval body size, development time, final feeding rate and survivorship are dependent on the larval density. In MCU and CCU culture, overall body size and survivorship are lesser while development time and final feeding rate are always higher for the same range of trait values than in MB culture (see fig~\ref{fig:fr_eff_bs} - fig~\ref{fig:mc_eff_frt}). The larval body size is positively correlated with both initial feeding rate and efficiency at low density (MB culture), while at high densities (MCU and CCU cultures) it is positively correlated only with efficiency (see fig~\ref{fig:fr_eff_bs}). In MCU culture, body size is not affected by the initial feeding rate unlike in CCU culture where initial feeding rate gives lesser body size. Fig~\ref{fig:fr_eff_dt} shows a negative correlation of development time i.e. time to reach critical size with both inital feeding rate and efficiency at all larval densities. survivorship is logistically dependent on efficiency only in MCU and CCU cultures (see fig~\ref{fig:fr_eff_sur}). In MCU culture, survivorship does not show any dependence on inital feeding rate, but in CCU culture it shows a slight negative correlation with initial feeding rate. At all larval densities, final feeding rate is positively correlated with inital feeding rate and negatively with efficiency (see fig~\ref{fig:fr_eff_frt}). In MCU and CCU culture, final feeding rate show exponential dependence with efficiency which increases more with higher initial feeding rate.
 \begin{figure}[h]
 \subfloat[MB culture]{
   \centering
-  \includegraphics[trim = 0 0 150 50, clip, width=.33\columnwidth]{C3/Figs/fr_eff/fr_eff_bs_MB}
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/fr_eff/fr_eff_bs_MB}
 }
 \subfloat[MCU culture]{
   \centering
-  \includegraphics[trim = 0 0 150 50, clip, width=.33\columnwidth]{C3/Figs/fr_eff/fr_eff_bs_MCU}
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/fr_eff/fr_eff_bs_MCU}
 }
 \subfloat[CCU culture]{
   \centering
-  \includegraphics[trim = 0 0 150 50, clip, width=.33\columnwidth]{C3/Figs/fr_eff/fr_eff_bs_CCU}
+  \includegraphics[trim = 0 0 0 50, clip, width=2.3in, height=2.in]{C3/Figs/fr_eff/fr_eff_bs_CCU}
 }
-\caption{Effect of initial feeding rate and efficiency on body size at different larval densities}
+\caption{Effect of initial feeding rate and efficiency on body size}
 \label{fig:fr_eff_bs}
 \end{figure}
-
-\begin{figure}[h]
+\begin{figure}[p]
 \subfloat[MB culture]{
   \centering
-  \includegraphics[trim = 0 0 150 50, clip, width=.33\columnwidth]{C3/Figs/fr_eff/fr_eff_dt_MB}
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/fr_eff/fr_eff_dt_MB}
 }
 \subfloat[MCU culture]{
   \centering
-  \includegraphics[trim = 0 0 150 50, clip, width=.33\columnwidth]{C3/Figs/fr_eff/fr_eff_dt_MCU}
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/fr_eff/fr_eff_dt_MCU}
 }
 \subfloat[CCU culture]{
   \centering
-  \includegraphics[trim = 0 0 150 50, clip, width=.33\columnwidth]{C3/Figs/fr_eff/fr_eff_dt_CCU}
+  \includegraphics[trim = 0 0 0 50, clip, width=2.3in, height=2.in]{C3/Figs/fr_eff/fr_eff_dt_CCU}
 }
-\caption{Effect of initial feeding rate and efficiency on developmental time}
+\caption{Effect of initial feeding rate and efficiency on development time}
 \label{fig:fr_eff_dt}
-\end{figure}\\ \\
-
-\begin{figure}[h]
+\end{figure}
+\begin{figure}[p]
 \subfloat[MB culture]{
   \centering
-  \includegraphics[trim = 0 0 150 50, clip, width=.33\columnwidth]{C3/Figs/fr_eff/fr_eff_sur_MB}
+  \includegraphics[trim = 50 0 100 50, clip, width=2.in, height=2.in]{C3/Figs/fr_eff/fr_eff_sur_MB}
 }
 \subfloat[MCU culture]{
   \centering
-  \includegraphics[trim = 0 0 150 50, clip, width=.33\columnwidth]{C3/Figs/fr_eff/fr_eff_sur_MCU}
+  \includegraphics[trim = 50 0 100 50, clip, width=2.in, height=2.in]{C3/Figs/fr_eff/fr_eff_sur_MCU}
 }
 \subfloat[CCU culture]{
   \centering
-  \includegraphics[trim = 0 0 150 50, clip, width=.33\columnwidth]{C3/Figs/fr_eff/fr_eff_sur_CCU}
+  \includegraphics[trim = 0 0 0 50, clip, width=2.3in, height=2.in]{C3/Figs/fr_eff/fr_eff_sur_CCU}
 }
 \caption{Effect of initial feeding rate and efficiency on survivorship}
 \label{fig:fr_eff_sur}
 \end{figure}
-
-\begin{figure}[h]
+\begin{figure}[p]
 \subfloat[MB culture]{
   \centering
-  \includegraphics[trim = 0 0 150 50, clip, width=.33\columnwidth]{C3/Figs/fr_eff/fr_eff_frt_MB}
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/fr_eff/fr_eff_frt_MB}
 }
 \subfloat[MCU culture]{
   \centering
-  \includegraphics[trim = 0 0 150 50, clip, width=.33\columnwidth]{C3/Figs/fr_eff/fr_eff_frt_MCU}
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/fr_eff/fr_eff_frt_MCU}
 }
 \subfloat[CCU culture]{
   \centering
-  \includegraphics[trim = 0 0 150 50, clip, width=.33\columnwidth]{C3/Figs/fr_eff/fr_eff_frt_CCU}
+  \includegraphics[trim = 0 0 0 50, clip, width=2.3in, height=2.in]{C3/Figs/fr_eff/fr_eff_frt_CCU}
 }
 \caption{Effect of initial feeding rate and efficiency on final feeding rate}
 \label{fig:fr_eff_frt}
 \end{figure}
-In MCU and CCU cultures (high densities), fig ~\ref{fig:fr vs eff mcu} and fig ~\ref{fig:fr vs eff ccu} show that time to reach critical size show similar pattern as seen in MB culture with varying efficiency and initial feeding rate. The maxima possible is higher in high density cultures than maxima possible in low density culture, showing that it takes more time to reach given critical size at high densities than at low density with same efficiency and initial feeding rate values. Feeding rate shown at critical size also shows similar pattern as seen in MB culture but with higher maxima reached with same parameter ranges. This suggests feeding rate shown at critical size is also a density dependent trait.The complete white pixels in all heatmaps (fig ~\ref{fig:fr vs eff mcu} and fig ~\ref{fig:fr vs eff ccu}) are the values where none of the larvae survived, so the trait could not be measured and are to be excluded.
-\\ \\
-At high densities, especially at MCU density, body size and survivorship are not affected by initial feeding rate, unlike at low density. Food acquired while having either higher or lesser initial feeding rate, remains almost the same. This is due to the decrease in food quality is higher for higher initial feeding rate. Thus, overall body size increment which is majorly determined by food quality at high densities, is approximately same in both cases i.e. larval growth with both higher and lower initial feeding rate. Survivorship also shows similar pattern as body size for these two parameters, since it is determined by whether critical size is reached or not.\\ \\
-\begin{figure}[!tbp]
-  \centering
-  \includegraphics[width=0.75\textwidth]{C3/Figs/Feeding_rate_vs_Efficiency_MCU}
-  \caption{Effect of initial feeding rate and efficiency on larval traits in MCU culture}
-  \label{fig:fr vs eff mcu}
-  \vspace{24pt}
-  \includegraphics[width=0.75\textwidth]{C3/Figs/Feeding_rate_vs_Efficiency_CCU}
-  \caption{Effect of initial feeding rate and efficiency on larval traits in CCU culture}
-  \label{fig:fr vs eff ccu}
-\end{figure}
-\newpage
 
+\newpage
 \section{Initial Feeding Rate and Critical Size}
-In MB culture, fig ~\ref{fig:fr vs cs mb} shows having higher critical size and higher initial feeding rate leads to higher larval body size. Lower critical size and higher initial feeding rate is beneficial in having lower time to reach critical size. Feeding rate at critical size is majorly determined by initial feeding rate, while having higher critical size gives slightly higher feeding rate, since time to reach critical size is more. Survivorship is not affected by either initial feeding rate or critical size at low density, since competition for food is minimal. \\ \\
-\begin{figure}
+For simualtions varying parameter range of mean trait values of initial feeding rate and critical size, all traits show similar pattern with varying density as seen with previous simulations. The larval body size shows similar correlations with initial feeding rate and critical size in MB and MCU culture as seen in simualtions varying initial feeding rate and efficiency (see fig~\ref{fig:fr_mc_bs}). In CCU culture, body size is negatively correlated with initial feeding rate only for smaller values of critical size, but it is not affected by inital feeding rate at larger critical size values. Fig~\ref{fig:fr_mc_dt} shows a negative correlation of development time with inital feeding rate, but poitive correlation with critical size in all culture vials. survivorship is logistically dependent on critical size only in MCU and CCU culture. In MCU and CCU cultures, survivorship shows a slight negative correlation with initial feeding rate (see fig~\ref{fig:fr_mc_sur}). At all larval densities, final feeding rate is positively correlated with both inital feeding rate and critical size (see fig~\ref{fig:fr_mc_frt}).
+\begin{figure}[h]
+\subfloat[MB culture]{
   \centering
-  \includegraphics[width=0.75\textwidth]{C3/Figs/Critical_size_vs_Feeding_rate_MB}
-  \caption{Effect of initial feeding rate and critical size on larval traits in MB culture}
-  \label{fig:fr vs cs mb}
-\end{figure}\\
-In MCU culture fig ~\ref{fig:fr vs cs mcu}, body size is not affected by either critical size or initial feeding rate and post-critical growth is very less. Time to reach critical size and feeding rate at critical size show similar pattern as shown in MB culture with higher maxima for same values. Survivorship is only affected by critical size and initial feeding rate has no effect on survivoship at MCU density. Lower critical size shows trend for higher survivoship, since larvae are able to pupate in lesser time before food quality decreases drastically.\\ \\
-\begin{figure}[!tbp]
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/fr_mc/fr_mc_bs_MB}
+}
+\subfloat[MCU culture]{
   \centering
-  \includegraphics[width=0.75\textwidth]{C3/Figs/Critical_size_vs_Feeding_rate_MCU}
-  \caption{Effect of initial feeding rate and critical size on larval traits in MCU culture}
-  \label{fig:fr vs cs mcu}
-  \vspace{24pt}
-  \includegraphics[width=0.75\textwidth]{C3/Figs/Critical_size_vs_Feeding_rate_CCU}
-  \caption{Effect of initial feeding rate and critical size on larval traits in CCU culture}
-  \label{fig:fr vs cs ccu}
-\end{figure}\\\\
-In CCU culture, fig ~\ref{fig:fr vs cs ccu}, patterns of body size, time to reach critical size and feeding rate at critical size similar to the ones in MCU culture. Survivorship shows small effect of initial feeding rate as well along with critical size. Having lesser average initial feeding rate in the population leads to slower urea build up and decrease in food quality of the feeding band, thus larvae with higher critical size are able to survive.
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/fr_mc/fr_mc_bs_MCU}
+}
+\subfloat[CCU culture]{
+  \centering
+  \includegraphics[trim = 0 0 0 50, clip, width=2.3in, height=2.in]{C3/Figs/fr_mc/fr_mc_bs_CCU}
+}
+\caption{Effect of initial feeding rate and critical size on body size}
+\label{fig:fr_mc_bs}
+\end{figure}
+\begin{figure}[p]
+\subfloat[MB culture]{
+  \centering
+  \includegraphics[trim = 50 0 100 50, clip, width=2.in, height=2.in]{C3/Figs/fr_mc/fr_mc_dt_MB}
+}
+\subfloat[MCU culture]{
+  \centering
+  \includegraphics[trim = 50 0 100 50, clip, width=2.in, height=2.in]{C3/Figs/fr_mc/fr_mc_dt_MCU}
+}
+\subfloat[CCU culture]{
+  \centering
+  \includegraphics[trim = 0 0 0 50, clip, width=2.3in, height=2.in]{C3/Figs/fr_mc/fr_mc_dt_CCU}
+}
+\caption{Effect of initial feeding rate and critical size on development time}
+\label{fig:fr_mc_dt}
+\end{figure}
+\begin{figure}[p]
+\subfloat[MB culture]{
+  \centering
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/fr_mc/fr_mc_sur_MB}
+}
+\subfloat[MCU culture]{
+  \centering
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/fr_mc/fr_mc_sur_MCU}
+}
+\subfloat[CCU culture]{
+  \centering
+  \includegraphics[trim = 0 0 0 50, clip, width=2.3in, height=2.in]{C3/Figs/fr_mc/fr_mc_sur_CCU}
+}
+\caption{Effect of initial feeding rate and critical size on survivorship}
+\label{fig:fr_mc_sur}
+\end{figure}
+
+\begin{figure}[p]
+\subfloat[MB culture]{
+  \centering
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/fr_mc/fr_mc_frt_MB}
+}
+\subfloat[MCU culture]{
+  \centering
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/fr_mc/fr_mc_frt_MCU}
+}
+\subfloat[CCU culture]{
+  \centering
+  \includegraphics[trim = 0 0 0 50, clip, width=2.3in, height=2.in]{C3/Figs/fr_mc/fr_mc_frt_CCU}
+}
+\caption{Effect of initial feeding rate and critical size on final feeding rate}
+\label{fig:fr_mc_frt}
+\end{figure}
+
+\newpage
 \section{Critical Size and Efficiency}
-In MB culture, fig ~\ref{fig:cs vs eff mb}, shows increase in body size with increase in critical size and efficiency. Feeding rate at critical size and time to reach critical size both increase with increasing critical size and decreasing efficiency. Higher efficiency leades to decrease in critical size thus feeding rate shown at critical size reaches lesser maxima. Survivorship shiws no effect of these parameters at low density.\\ \\
-\begin{figure}[ht]
+In simualtions varying parameter range of mean trait values of initial feeding rate and critical size, all traits measured show similar pattern with varying density as seen with previous simulations. The larval body size shows similar correlations with critical size and efficiency in MB culture as seen in simualtions varying initial feeding rate and efficiency (see fig~\ref{fig:mc_eff_bs}). In MCU and CCU cultures, body size is positively correlated with critical size only for smaller values of efficiency, but is not affected by critical size at larger efficiency values. Fig~\ref{fig:mc_eff_dt} shows a negative correlation of development time with efficiency, but poitive correlation with critical size at all densities. survivorship is logistically dependent on efficiency only in MCU and CCU culture. In MCU and CCU cultures, survivorship also shows a negative correlation with critical size at lower values of efficiency (see fig~\ref{fig:mc_eff_sur}). At all larval densities, final feeding rate is positively correlated with critical size and negatively with efficiency (see fig~\ref{fig:fr_mc_frt}).
+\begin{figure}[h]
+\subfloat[MB culture]{
   \centering
-  \includegraphics[width=0.75\textwidth]{C3/Figs/Critical_size_vs_Efficiency_MB}
-  \caption{Effect of critical size and efficiency on larval traits in MB culture}
-  \label{fig:cs vs eff mb}
-\end{figure}\\
-\begin{figure}[!tbp]
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/mc_eff/mc_eff_bs_MB}
+}
+\subfloat[MCU culture]{
   \centering
-  \includegraphics[width=0.75\textwidth]{C3/Figs/Critical_size_vs_Efficiency_MCU}
-  \caption{Effect of critical size and efficiency on larval traits in MCU culture}
-  \label{fig:cs vs eff mcu}
-  \vspace{24pt}
-  \includegraphics[width=0.75\textwidth]{C3/Figs/Critical_size_vs_Efficiency_CCU}
-  \caption{Effect of critical size and efficiency on larval traits in CCU culture}
-  \label{fig:cs vs eff ccu}
-\end{figure}\\\\
-In MCU and CCU culture, fig ~\ref{fig:cs vs eff mcu} and fig ~\ref{fig:cs vs eff ccu}, all the larval traits show similar pattern as in MB density with critical size and efficiency. The maxima for feeding rate at critical size and time to reach critical size is higher compared to the ones at MB density. Body size and survivoship maxima are lesser at high density.
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/mc_eff/mc_eff_bs_MCU}
+}
+\subfloat[CCU culture]{
+  \centering
+  \includegraphics[trim = 0 0 0 50, clip, width=2.3in, height=2.in]{C3/Figs/mc_eff/mc_eff_bs_CCU}
+}
+\caption{Effect of critical size and efficiency on body size}
+\label{fig:mc_eff_bs}
+\end{figure}
+
+\begin{figure}[p]
+\subfloat[MB culture]{
+  \centering
+  \includegraphics[trim = 50 0 100 50, clip, width=2.in, height=2.in]{C3/Figs/mc_eff/mc_eff_dt_MB}
+}
+\subfloat[MCU culture]{
+  \centering
+  \includegraphics[trim = 50 0 100 50, clip, width=2.in, height=2.in]{C3/Figs/mc_eff/mc_eff_dt_MCU}
+}
+\subfloat[CCU culture]{
+  \centering
+  \includegraphics[trim = 0 0 0 50, clip, width=2.3in, height=2.in]{C3/Figs/mc_eff/mc_eff_dt_CCU}
+}
+\caption{Effect of critical size and efficiency on development time}
+\label{fig:mc_eff_dt}
+\end{figure}
+
+\begin{figure}[p]
+\subfloat[MB culture]{
+  \centering
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/mc_eff/mc_eff_sur_MB}
+}
+\subfloat[MCU culture]{
+  \centering
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/mc_eff/mc_eff_sur_MCU}
+}
+\subfloat[CCU culture]{
+  \centering
+  \includegraphics[trim = 0 0 0 50, clip, width=2.3in, height=2.in]{C3/Figs/mc_eff/mc_eff_sur_CCU}
+}
+\caption{Effect of critical size and efficiency on survivorship}
+\label{fig:mc_eff_sur}
+\end{figure}
+
+\begin{figure}[p]
+\subfloat[MB culture]{
+  \centering
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/mc_eff/mc_eff_frt_MB}
+}
+\subfloat[MCU culture]{
+  \centering
+  \includegraphics[trim = 0 0 150 50, clip, width=2.in, height=2.in]{C3/Figs/mc_eff/mc_eff_frt_MCU}
+}
+\subfloat[CCU culture]{
+  \centering
+  \includegraphics[trim = 0 0 0 50, clip, width=2.3in, height=2.in]{C3/Figs/mc_eff/mc_eff_frt_CCU}
+}
+\caption{Effect of critical size and efficiency on final feeding rate}
+\label{fig:mc_eff_frt}
+\end{figure}
 \pagebreak
