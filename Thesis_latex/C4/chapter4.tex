@@ -32,7 +32,7 @@ $N(mpv, \delta)$ = Normal distribution with $mpv$ as mean and $\delta$ as standa
 \end{figure}
 
 \newpage
-\section{Effect of Laral Crowding on the Evolution of Life-history Traits}
+\section{Effect of Laral Crowding on the Evolution of Larval Trait Parameters}
 Using values for all parameters given in table~\ref{tab:food_param} and table~\ref{tab:scale_param}, the entire model is simulated for 100 generations with 10 replicates for MB, MCU and CCU cultures. The overall model follows the path shown in fig~\ref{model}. All larval trait parameters are taken from independent distribution and there is no correlation between them (see table~\ref{tab:trait_value}). To see how larval trait parameters evolve over time, timeseries for these traits of surviving adult individuals are plotted with 95$\%$ CI.\\ \\
 In MB culture, being control population, nonw of the parameters evolve over time (see fig~\ref{fr}, fig~\ref{eff}, fig~\ref{mc}, fig~\ref{wtol}). Initial feeding rate in high density cultures increase over generations at similar rate but inital feeding rate is higher always in CCU culture always than in MCU culture. Efficiency show similar trend in high density cultures i.e. it increases over generations at similar rate but is higher always in CCU culture always than in MCU culture. Critical size in high density cultures decreases at the same rate but critical size in CCU culture is always lower than in MCU culture. Waste tolerance does not evolve in all of the culture populations since there is no significant change in waste tolerance value.
 \begin{figure}[h]
@@ -55,137 +55,12 @@ In MB culture, being control population, nonw of the parameters evolve over time
 \end{figure}
 
 \newpage
-\section{Effects of Variation on the Evolution of Larval Trait Parameters}
-The stochasticity in the model comes from the initial variation in the larval trait parameters, given as certain variation in the respective initial distribution as well as from the heritability of the mid-parent value during the inheritance of the larval trait parameters. The simulations show how these sources of variations play an important role in determining the evolutionary routes taken to achieve greater competitive ability by having maximum survivorship.
+\section{Evolution of Other Life-history Traits}
+weee.
 \begin{figure}[t]
   \centering
   \includegraphics[trim = 0 0 50 50, clip, width=0.7\textwidth]{C4/Figs/wtol}
   \caption{Timeseries for waste tolerance}
   \label{wtol}
-\end{figure}
-\subsection{Variation in the Initial Distribution of Larval Trait Parameters}
-In the initial distributions of all trait values, the variotion comes from the standard deviation given for each distribution. After $50^{th}$ generation, the initial variation in these trait distributions determine the maximum mean trait value that can be achieved to increase the fitness. From fig~\ref{fig:ivar_fr_eff} - fig~\ref{fig:ivar_mc_eff}, it is clear that differences in variation of these trait values, mean trait values reached are different for different combinations of intial variation in trait values.
-\begin{figure}[p]
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/ivar/fr_eff_fr50}
-  }
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/ivar/fr_eff_eff50}
-  }\\
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/ivar/fr_eff_mc50}
-  }
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/ivar/fr_eff_wtol50}
-  }
-  \caption{Effect of initial variation in initial feeding rate and efficiency on mean trait values at generation 50.}
-  \label{fig:ivar_fr_eff}
-\end{figure}
-\begin{figure}[p]
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/ivar/fr_mc_fr50}
-  }
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/ivar/fr_mc_eff50}
-  }\\
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/ivar/fr_mc_mc50}
-  }
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/ivar/fr_mc_wtol50}
-  }
-  \caption{Effect of initial variation in initial feeding rate and critical size on mean trait values at generation 50.}
-  \label{fig:ivar_fr_mc}
-\end{figure}
-\begin{figure}[p]
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/ivar/mc_eff_fr50}
-  }
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/ivar/mc_eff_eff50}
-  }\\
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/ivar/mc_eff_mc50}
-  }
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/ivar/mc_eff_wtol50}
-  }
-  \caption{Effect of initial variation in critical size and efficiency on mean trait values at generation 50.}
-  \label{fig:ivar_mc_eff}
-\end{figure}
-
-\newpage
-\subsection{Heritability of Mid-parent Value}
-\begin{figure}[h]
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/hrt/fr_eff_fr50}
-  }
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/hrt/fr_eff_eff50}
-  }\\
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/hrt/fr_eff_mc50}
-  }
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/hrt/fr_eff_wtol50}
-  }
-  \caption{Effect of heritability in initial feeding rate and efficiency on mean trait values at generation 50.}
-  \label{fig:hrt_fr_eff}
-\end{figure}
-\begin{figure}[p]
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/hrt/fr_mc_fr50}
-  }
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/hrt/fr_mc_eff50}
-  }\\
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/hrt/fr_mc_mc50}
-  }
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/hrt/fr_mc_wtol50}
-  }
-  \caption{Effect of heritability in initial feeding rate and critical size on mean trait values at generation 50.}
-  \label{fig:hrt_fr_mc}
-\end{figure}
-\begin{figure}[p]
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/hrt/mc_eff_fr50}
-  }
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/hrt/mc_eff_eff50}
-  }\\
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/hrt/mc_eff_mc50}
-  }
-  \subfloat{
-  \centering
-  \includegraphics[width=0.5\textwidth]{C4/Figs/hrt/mc_eff_wtol50}
-  }
-  \caption{Effect of heritability in critical size and efficiency on mean trait values at generation 50.}
-  \label{fig:hrt_mc_eff}
 \end{figure}
 \pagebreak
