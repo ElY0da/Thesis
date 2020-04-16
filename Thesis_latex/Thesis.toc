@@ -1,11 +1,13 @@
 \contentsline {chapter}{\numberline {1}Introduction}{2}%
-\contentsline {chapter}{\numberline {2}Prelimineries}{4}%
-\contentsline {section}{\numberline {2.1}Moran Model}{4}%
-\contentsline {subsection}{\numberline {2.1.1}Model Dynamics}{4}%
-\contentsline {section}{\numberline {2.2}Markov Chains}{5}%
-\contentsline {subsection}{\numberline {2.2.1}Basic Definitions and Properties}{5}%
-\contentsline {subsection}{\numberline {2.2.2}Stopping Times and the Strong Markov Property}{7}%
-\contentsline {subsection}{\numberline {2.2.3}Recurrence and Transience}{8}%
-\contentsline {subsection}{\numberline {2.2.4}Communication Classes and Recurrence}{9}%
-\contentsline {chapter}{\numberline {3}Proposed Model}{11}%
-\contentsline {chapter}{\numberline {4}Extensions}{13}%
+\contentsline {chapter}{\numberline {2}Prerequisites}{4}%
+\contentsline {section}{\numberline {2.1}Markov Chains}{4}%
+\contentsline {subsection}{\numberline {2.1.1}Basic Definitions and Properties}{4}%
+\contentsline {subsection}{\numberline {2.1.2}Stopping Times and the Strong Markov Property}{6}%
+\contentsline {subsection}{\numberline {2.1.3}Recurrence and Transience}{7}%
+\contentsline {subsection}{\numberline {2.1.4}Communication Classes and Recurrence}{9}%
+\contentsline {subsection}{\numberline {2.1.5}Important Properties of Finite Markov Chains}{11}%
+\contentsline {section}{\numberline {2.2}Martingales}{11}%
+\contentsline {section}{\numberline {2.3}Moran Model}{11}%
+\contentsline {subsection}{\numberline {2.3.1}Model Dynamics}{11}%
+\contentsline {chapter}{\numberline {3}Proposed Model}{13}%
+\contentsline {chapter}{\numberline {4}Extensions}{15}%

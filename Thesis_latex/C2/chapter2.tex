@@ -1,33 +1,16 @@
-\chapter{Prelimineries}
-\section{Moran Model}
-We consider one of the most significant work on Markov chain modelling in population genetics. The following model was proposed by P. A. P. Moran in 1958.
-\subsection{Model Dynamics}
-We consider a haploid population with two genotypes $A$ and $a$. This model envisages to follow population through its birth-death events. Precisely, the new generation is formed from the old generation in a certain manner.
-\newline
-From the existing population, one individual is chosen randomly to give birth and the offspring would be of the same genotype. At the same time, one randomly chosen individual from the old population dies. Therefore, the population size remains constant. We denote it by $N$. Also, we denote by $X_{n}$, the number of $A$ genes in the nth generation. By nth generation, we understand that population has undergone $n$ birth-death events. We want to study the Markov chain $(X_{n})_{n\geq0}$, which has state space $\{0, 1, \ldots, N\}$.
-\newline
-Let $X_{t}$ = $i$.That is, the present population has $i$ individuals of $A$ genotype and $N-i$ individuals of $a$ genotype. Therefore the population composition is $iA$ + $(N-i)a$. Then the individual who dies is $A$ with probability $\frac{i}{N}$ and is $a$ with probability $\frac{N-i}{N}$. The transition probabilities of the chain is as followed:
-\newline
-\begin{equation*}
-\begin{split}
-P_{i,i+1}  = \left(\frac{i}{N}\right)\left(1-\left(\frac{i}{N}\right)\right) \\
-P_{i,i-1}  = \left(\frac{i}{N}\right)\left(1-\left(\frac{i}{N}\right)\right) \\
-P_{i,i}  = 1 - P_{i,i+1} - P_{i,i-1} = \left(\frac{i}{N}\right)^{2} + \left(1-\left(\frac{i}{N}\right)\right)^{2} \\
-\end{split}
-\end{equation*}
-It is clear that $P_{0,0}$ = $P_{N,N}$ = 1. Note that, $P_{i,j}$ = 0 if $j$ \notin $\{$i-1$, $i$ , $i+1$\}$.
-\newline
-So, here $0$ and $N$ are absorbing states, while all other states are transient. 
+\chapter{Prerequisites}
 \section{Markov Chains}
+Markov chains are the simplest mathematical models for random phenomena evolving in time. Their simple structure makes it possible to say a great deal about their behavious. At the same time, the class of Markov chains is rich enough to serve in many applications. This makes Markov chains one of the most important examples of random processes. The characteristic property of this sort of  process is that it retains \emph{no memory} of where it has been in the past. This means that only the curent state of the process can influence where it goes next. Such a process is called \emph{Markov process}.
 \subsection{Basic Definitions and Properties}
 
-Markov chains often describe the movements of a system between various states. In this paper, we will discuss \emph{discrete-time} Markov chains, meaning that at each step our system can either stay in the state it is in or change to another state. We denote the random variable $X_n$ as a sort of marker of what state our system is in at step $n$. $X_n$ can take the value of any $i \in I$, where each $i$ is a \emph{state} in the \emph{state-space}, $I$. States are usually just denoted as numbers and our state-space as a countable set.
+Markov chains often describe the movements of a system between various states. We will discuss \emph{discrete-time} Markov chains, meaning that at each step our system can either stay in the state it is in or change to another state. We denote the random variable $X_n$ as a sort of marker of what state our system is in at step $n$. $X_n$ can take the value of any $i \in I$, where each $i$ is a \emph{state} in the \emph{state-space}, $I$. States are usually just denoted as numbers and our state-space as a countable set.
 
 We will call $\lambda$ = ($\lambda_{i_{1}}$, $\lambda_{i_{2}}$, $\ldots$) = ($\lambda_{i}$ \, $|$ \, i \in I) the \emph{probability distribution} on $X_{n}$ if:
 \newline
 $\lambda_{i}$ = $P(X_{n} = i)$ and $\sum_{i \in I}$ $\lambda_{i}$ = $1$. Also, a matrix $P = \{ p_{ij} \}$, where $i,j \in I$, is called \emph{stochastic} if $\sum_{j \in I} \lambda_{ij} = 1$, $\forall i \in I$, i.e. every row of the matrix is a distribution. Now we can define a Markov chain explicitly.
 \newline
-\begin{defn} $(X_0, X_1, \ldots) = (X_n)_{n \geq 0}$ is a \emph{Markov chain with initial distribution $\lambda$ and transition matrix $P$}, shortened to \emph{Markov$(\lambda , P)$}, if
+\begin{defn}
+$(X_0, X_1, \ldots) = (X_n)_{n \geq 0}$ is a \emph{Markov chain with initial distribution} $\lambda$ and \emph{transition matrix} $P$, shortened to \emph{Markov($\lambda$ , $P$)}, if
 \begin{itemize}
 \item $\lambda$ is the probability distribution on $X_0$;
 \item given that $X_n = i$, $(p_{ij} \, | \, i,j \in I)$ is the probability distribution on $X_{n+1}$ and is independent of $X_k, 0 \leq k < n$, i.e. $P(X_{N+1}=j \, | \, X_n=i) = p_{ij}$.
@@ -43,11 +26,11 @@ $\lambda_{i}$ = $P(X_{n} = i)$ and $\sum_{i \in I}$ $\lambda_{i}$ = $1$. Also, a
 \[ \qquad \quad = P(X_0=i_0)P(X_1=i_1 \, | \, X_0=i_0) \cdots P(X_N=i_N\, | \, X_0=i_0, \ldots, X_{N-1}=i_{N-1})\]
 \[ \! = P(X_0=i_0)P(X_1=i_1 \, | \, X_0=i_0) \cdots P(X_N=i_N\, | \, X_{N-1}=i_{N-1})\quad\]
 \[\!\!\!\!\!\! = \lambda_{i_0}p_{i_0i_1}p_{i_1i_2}\cdots p_{i_{N-1}i_N} \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\]
-Now assume that (1.3) holds for N, thus
+Now assume that (2.1) holds for N, thus
 \[P(X_0=i_0, X_1=i_1 \ldots , X_N=i_N) = \lambda_{i_0}p_{i_0i_1}p_{i_1i_2}\cdots p_{i_{N-1}i_N} \]
 \[\sum_{i_N \in I} P(X_0=i_0, X_1=i_1 \ldots , X_N=i_N) = \sum_{i_N \in I} \lambda_{i_0}p_{i_0i_1}p_{i_1i_2}\cdots p_{i_{N-1}i_N} \]
 \[\!P(X_0=i_0, X_1=i_1 \ldots , X_{N-1}=i_{N-1}) = \lambda_{i_0}p_{i_0i_1}p_{i_1i_2}\cdots p_{i_{N-2}i_{N-1}} \quad\]
-And now by induction, (1.3) holds for all $0 \leq n \leq N$. From the formula for conditional probability, namely that $P(A\,|\,B)=P(A \cap B)/P(B)$, we can show that
+And now by induction, (2.1) holds for all $0 \leq n \leq N$. From the formula for conditional probability, namely that $P(A\,|\,B)=P(A \cap B)/P(B)$, we can show that
 \[P(X_{N+1}=i_{N+1}\, | \, X_0=i_0, \ldots, X_N=i_N) = \frac{P(X_0=i_0, \ldots ,  X_N=i_N, X_{N+1}=i_{N+1})}{P(X_0=i_0, \ldots , X_N=i_N)} \]
 \[\qquad\qquad\qquad\qquad\qquad\qquad\quad\! = \frac{\lambda_{i_0}p_{i_0i_1}\cdots p_{i_{N-1}i_N}p_{i_Ni_{N+1}}}{\lambda_{i_0}p_{i_0i_1}\cdots p_{i_{N-1}i_N}} \]
 \[ \qquad\qquad\quad \! \! \! = p_{i_Ni_{N+1}} \]
@@ -64,11 +47,11 @@ The next theorem emphasizes the memorylessness of Markov chains. In the formulat
 \end{thm}
 \begin{proof} Let the event $A=\{X_m=i_m, \ldots, X_n=i_n\}$ and the event $B$ be any event determined by $X_0, \ldots, X_m$. To prove the theorem, we must show that
 \[P(A \cap B \, | \, X_m=i) = \delta_{ii_m}p_{i_mi_{m+1}}\cdots p_{i_{n-1}i_n}P(B\, | \, X_m=i)\]
- thus the result follows from Theorem 1.2. First, let us consider any elementary event
+ thus the result follows from Theorem 2.1.1. First, let us consider any elementary event
 \[ B=B_k=\{X_0=i_0, \ldots, X_m=i_m\}\]
 Here we show that
 \[ P(A \cap B_k \: \textrm{and} \: i=i_m \,|\, X_m=i) = \frac{\delta_{ii_m}p_{i_mi_{m+1}}\cdots p_{i_{n-1}i_n}P(B_k)}{P(X_m=i)}\]
-which follows from Theorem 1.2 and the definition of conditional probability. Any event, $B$, determined by $X_0, \ldots, X_m$ can be written as a disjoint union of elementary events, $B=\bigcup_{k=1}^{\infty} B_k$. Thus, we can prove our above identity by summing up all of the different $B_k$ for any given event.
+which follows from Theorem 2.1.1 and the definition of conditional probability. Any event, $B$, determined by $X_0, \ldots, X_m$ can be written as a disjoint union of elementary events, $B=\bigcup_{k=1}^{\infty} B_k$. Thus, we can prove our above identity by summing up all of the different $B_k$ for any given event.
 \end{proof}
 
 An additional idea that is going to be important later is the idea of conditioning on the initial state, $X_0$. We will let $P(A\,|\,X_0=i) = P_i(A)$. Similarly, we will let $E(A\,|\,X_0=i)=E_i(A)$.
@@ -114,7 +97,7 @@ The following results allow us to show that any state is necessarily either recu
 \begin{lem} For $r=2,3,\ldots$, given that $T_i^{(r-1)} < \infty, \:\,S_i^{(r)}$ is independent of $X_k, \: 0 \leq k \leq T_i^{(r-1)}$ and
 \[P(S_i^{(r)}=n\,|\,T_i^{(r-1)} < \infty)=P_i(T_i=n).\]
 \end{lem}
-\begin{proof} We can directly apply Theorem 2.3 where $T_i^{(r-1)}$ is the stopping time $T$, since it is assured that $X_T=i$ when $T < \infty$. So, given that $T_i^{(r-1)} <  \infty, \:\,(X_l)_{ l\geq T}$ is Markov$(\delta_i,P)$ and independent of $X_k,\: 0 \leq k < T$, the independence wanted. Yet, we know
+\begin{proof} We can directly apply Theorem 2.1.3 where $T_i^{(r-1)}$ is the stopping time $T$, since it is assured that $X_T=i$ when $T < \infty$. So, given that $T_i^{(r-1)} <  \infty, \:\,(X_l)_{ l\geq T}$ is Markov$(\delta_i,P)$ and independent of $X_k,\: 0 \leq k < T$, the independence wanted. Yet, we know
 \[S_i^{(r)}=\inf\{l-T \geq 1\,|\,X_l=i\}\]
 so $S_i^{(r)}$ is the first passage time of $(X_l)_{ l\geq T}$ to state $i$, giving us our desired equality.
 \end{proof}
@@ -135,7 +118,7 @@ A nice property of $V_i$ is that
 \[\qquad\qquad\;\;\,=P_i(T_i^{(r)}<\infty \; \textrm{and} \; S_i^{(r+1)}<\infty)\]
 \[\qquad\qquad\qquad\qquad\;\;\;\:=P_i(S_i^{(r+1)}<\infty\,|\,T_i^{(r)}<\infty)P_i(T_i^{(r)}<\infty)\]
 \[\!\!\!=f_i\cdot(f_i)^r=(f_i)^{r+1}\]
-using Lemma 3.2, so our claim is true for all $r$.
+using Lemma 2.1.1, so our claim is true for all $r$.
 \end{proof}
 
 \begin{thm} The following two cases hold and show that any state is either recurrent or transient:
@@ -180,18 +163,50 @@ Now it is clear from the proven inequality that $i \to j, j \to k \limp i \to k$
 \[P_i(X_{n+r+m}=i) \geq P_i(X_n=j)P_j(X_r=j)P_j(X_m=i).\]
 This implies that
 \[\sum_{r=0}^{\infty}P_j(X_r=j)\leq \frac{1}{P_i(X_n=j)P_j(X_m=i)}\sum_{r=0}^{\infty}P_i(X_{n+r+m}=i)<\infty \]
-by Theorem 3.6. So any arbitrary $j$ is transient, again by Theorem 3.6, so the whole of $C$ is transient. The only way for this not to be true is if all states in $C$ are recurrent.
+by Theorem 2.1.4. So any arbitrary $j$ is transient, again by Theorem 2.1.4, so the whole of $C$ is transient. The only way for this not to be true is if all states in $C$ are recurrent.
 \end{proof}
 This theorem shows us that recurrence and transience is a class property, and we will refer to it in the future as such.
 
 \begin{thm} Suppose $P$ is irreducible and recurrent. Then for all $i \in I$ we have $P(T_i<\infty)=1$.
 \end{thm}
-\begin{proof} By Theorem 2.3 we have
+\begin{proof} By Theorem 2.1.3 we have
 \[P(T_i<\infty)=\sum_{j\in I}P_j(T_i<\infty)P(X_0=j)\]
-so we only need to show $P_j(T_i<\infty)=1$ for all $j \in I$. By the irreducibility of $P$, we can pick an $m$ such that $P_i(X_m=j)>0$. From Theorem 3.6, we have
+so we only need to show $P_j(T_i<\infty)=1$ for all $j \in I$. By the irreducibility of $P$, we can pick an $m$ such that $P_i(X_m=j)>0$. From Theorem 2.1.4 we have
 \[\!\!\!\!\!\!\!1=P_i(X_n=i \; \textrm{for infinitely many} \; n)\qquad\qquad\qquad\qquad\qquad\]
 \[\!\!\!\!\!\!=P_i(X_n=i \; \textrm{for some} \; n\geq m+1)\qquad\qquad\qquad\qquad\qquad\]
 \[=\sum_{k \in I} P_i(X_n=i \; \textrm{for some} \; n\geq m+1\,|\, X_m=k)P_i(X_m=k)\]
 \[\!\!\!\!\,=\sum_{k \in I} P_k(T_i<\infty)P_i(X_m=k)\qquad\qquad\qquad\qquad\qquad\qquad\]
-using Theorem 2.3 again. Since $\sum_{k \in I} P_i(X_m=k)=1$ so we have that \\$P_j(T_i<\infty)=1$.
+using Theorem 2.1.3 again. Since $\sum_{k \in I} P_i(X_m=k)=1$ so we have that \\$P_j(T_i<\infty)=1$.
 \end{proof}
+
+\subsection{Important Properties of Finite Markov Chains}
+
+\section{Martingales}
+In this section, we briefly discuss a special class of sequences of random variables known as \emph{Martingaes}. Martingales are a very important and widely useful class of processes. We won't be discussing the theories in detail as we do not need that further. Nevertheless, theories and proofs are discussed in details in \ref{klenke2013probability}.
+\newline
+We are only considering random variables defined on the same \emph{state-space}. They are assumed to be discrete and to have finite expectation. These conditions are not necessary, but they allow us to reduce techinical difficulties.
+\begin{defn}
+  A sequence $(X_{n})_{n \geq 0}$ of random variables is said to be a \emph{martingale} if, for every n,
+  \[E(X_{n}\,|\,X_{0},X_{1},\ldots,X_{n-1}) = X_{n-1}\]
+  In particular, $E(X_{n})$ is same for all $n$.
+\end{defn}
+
+\section{Moran Model}
+We consider one of the most significant work on Markov chain modelling in population genetics. The following model was proposed by P. A. P. Moran in 1958.
+\subsection{Model Dynamics}
+We consider a haploid population with two genotypes $A$ and $a$. This model envisages to follow population through its birth-death events. Precisely, the new generation is formed from the old generation in a certain manner.
+\newline
+From the existing population, one individual is chosen randomly to give birth and the offspring would be of the same genotype. At the same time, one randomly chosen individual from the old population dies. Therefore, the population size remains constant. We denote it by $N$. Also, we denote by $X_{n}$, the number of $A$ genes in the nth generation. By nth generation, we understand that population has undergone $n$ birth-death events. We want to study the Markov chain $(X_{n})_{n\geq0}$, which has state space $\{0, 1, \ldots, N\}$.
+\newline
+Let $X_{t}$ = $i$.That is, the present population has $i$ individuals of $A$ genotype and $N-i$ individuals of $a$ genotype. Therefore the population composition is $iA$ + $(N-i)a$. Then the individual who dies is $A$ with probability $\frac{i}{N}$ and is $a$ with probability $\frac{N-i}{N}$. The transition probabilities of the chain is as followed:
+\newline
+\begin{equation*}
+\begin{split}
+P_{i,i+1}  = \left(\frac{i}{N}\right)\left(1-\left(\frac{i}{N}\right)\right) \\
+P_{i,i-1}  = \left(\frac{i}{N}\right)\left(1-\left(\frac{i}{N}\right)\right) \\
+P_{i,i}  = 1 - P_{i,i+1} - P_{i,i-1} = \left(\frac{i}{N}\right)^{2} + \left(1-\left(\frac{i}{N}\right)\right)^{2} \\
+\end{split}
+\end{equation*}
+It is clear that $P_{0,0}$ = $P_{N,N}$ = 1. Note that, $P_{i,j}$ = 0 if $j$ \notin $\{$i-1$, $i$ , $i+1$\}$.
+\newline
+So, here $0$ and $N$ are absorbing states, while all other states are transient.
