@@ -2,25 +2,19 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Ecological dynamics in a vial during larval feeding}}{2}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Flowchart of the larval stage in the model}}{3}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ecological dynamics in a vial during larval feeding}}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Waste build-up in the feeding band}}{5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Flowchart of the larval stage in the model}}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Change in the food quality of feeding band}}{6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Waste build-up in the feeding band}}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Change in the food quality of feeding band}}{7}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Effect of initial feeding rate and efficiency on body size}}{9}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{9}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{9}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{9}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Effect of initial feeding rate and efficiency on development time}}{10}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Effect of initial feeding rate and efficiency on body size}}{10}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{10}%
 \defcounter {refsection}{0}\relax 
@@ -28,23 +22,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Effect of initial feeding rate and efficiency on survivorship}}{10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Effect of initial feeding rate and efficiency on final feeding rate}}{10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Effect of initial feeding rate and critical size on body size}}{11}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Effect of initial feeding rate and efficiency on development time}}{11}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{11}%
 \defcounter {refsection}{0}\relax 
@@ -52,7 +30,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Effect of initial feeding rate and critical size on development time}}{12}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Effect of initial feeding rate and efficiency on survivorship}}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Effect of initial feeding rate and efficiency on final feeding rate}}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Effect of initial feeding rate and critical size on body size}}{12}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{12}%
 \defcounter {refsection}{0}\relax 
@@ -60,23 +54,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Effect of initial feeding rate and critical size on survivorship}}{12}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{12}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{12}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{12}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Effect of initial feeding rate and critical size on final feeding rate}}{12}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{12}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{12}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{12}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Effect of critical size and efficiency on body size}}{13}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Effect of initial feeding rate and critical size on development time}}{13}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{13}%
 \defcounter {refsection}{0}\relax 
@@ -84,7 +62,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Effect of critical size and efficiency on development time}}{14}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Effect of initial feeding rate and critical size on survivorship}}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Effect of initial feeding rate and critical size on final feeding rate}}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Effect of critical size and efficiency on body size}}{14}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{14}%
 \defcounter {refsection}{0}\relax 
@@ -92,46 +86,160 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Effect of critical size and efficiency on survivorship}}{14}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Effect of critical size and efficiency on development time}}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{14}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{14}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{14}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Effect of critical size and efficiency on final feeding rate}}{14}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Effect of critical size and efficiency on survivorship}}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{14}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{14}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{14}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Effect of critical size and efficiency on final feeding rate}}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MB culture}}}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MCU culture}}}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CCU culture}}}{15}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Model flowchart}}{17}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Model flowchart}}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Timeseries for initial feeding rate}}{18}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Timeseries for initial feeding rate}}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Timeseries for efficiency}}{19}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Timeseries for efficiency}}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Timeseries for critical size}}{19}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Timeseries for critical size}}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Timeseries for waste tolerance}}{20}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Timeseries for waste tolerance}}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Mean body size of MB, MCU and CCU populations at $50^{th}$ generation in three different larval densities}}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Mean survivorship of MB, MCU and CCU populations at $50^{th}$ generation in three different larval densities}}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Mean time to reach critical size of MB, MCU and CCU populations at $50^{th}$ generation in three different larval densities}}{23}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Effect of initial variation in initial feeding rate and efficiency.}}{23}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Effect of initial variation in initial feeding rate and efficiency.}}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Effect of initial variation in initial feeding rate and critical size.}}{23}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Effect of initial variation in initial feeding rate and critical size.}}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Effect of initial variation in critical size and efficiency.}}{24}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Effect of initial variation in critical size and efficiency.}}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Effect of heritability in initial feeding rate and efficiency on mean trait values at generation 50.}}{25}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Effect of heritability in initial feeding rate and efficiency on mean trait values at generation 50.}}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Effect of heritability in initial feeding rate and critical size on mean trait values at generation 50.}}{27}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Effect of heritability in initial feeding rate and critical size on mean trait values at generation 50.}}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Effect of heritability in critical size and efficiency on mean trait values at generation 50.}}{28}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Effect of heritability in critical size and efficiency on mean trait values at generation 50.}}{31}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Mean trait value distribution of MB, MCU, CCU and LCU populations in 60 eggs / 6 ml density at $50^{th}$ generation}}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Mean body size distribution}}}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mean final feeding rate distribution}}}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Mean efficiency distribution}}}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Mean initial feeding rate distribution}}}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Mean critical size distribution}}}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Mean waste tolerance distribution}}}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Mean trait value distribution of MB, MCU, CCU and LCU populations in 600 eggs / 1.5 ml density at $50^{th}$ generation (errorbars represent 95\% CI)}}{35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Mean body size distribution}}}{35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mean final feeding rate distribution}}}{35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Mean efficiency distribution}}}{35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Mean initial feeding rate distribution}}}{35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Mean critical size distribution}}}{35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Mean waste tolerance distribution}}}{35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Mean trait value distribution of MB, MCU, CCU and LCU populations in 1200 eggs / 3 ml density at $50^{th}$ generation (errorbars represent 95\% CI)}}{36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Mean body size distribution}}}{36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mean final feeding rate distribution}}}{36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Mean efficiency distribution}}}{36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Mean initial feeding rate distribution}}}{36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Mean critical size distribution}}}{36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Mean waste tolerance distribution}}}{36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Mean trait value distribution of MB, MCU, CCU and LCU populations in 1200 eggs / 6 ml density at $50^{th}$ generation (errorbars represent 95\% CI) }}{37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Mean body size distribution}}}{37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mean final feeding rate distribution}}}{37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Mean efficiency distribution}}}{37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Mean initial feeding rate distribution}}}{37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Mean critical size distribution}}}{37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Mean waste tolerance distribution}}}{37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Mean initial feeding rate distribution of MB, MCU, CCU and LCU populations in (a) 60 eggs / 6 ml, (b) 600 eggs / 1.5 ml, (c) 1200 eggs / 3 ml and (d) 1200 eggs / 6 ml densities (errorbars represent 95\% CI)}}{39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {60 eggs / 6 ml}}}{39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {600 eggs / 1.5 ml}}}{39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {1200 eggs / 3 ml}}}{39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {1200 eggs / 6 ml}}}{39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Mean efficiency distribution of MB, MCU, CCU and LCU populations in (a) 60 eggs / 6 ml, (b) 600 eggs / 1.5 ml, (c) 1200 eggs / 3 ml and (d) 1200 eggs / 6 ml densities (errorbars represent 95\% CI)}}{40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {60 eggs / 6 ml}}}{40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {600 eggs / 1.5 ml}}}{40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {1200 eggs / 3 ml}}}{40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {1200 eggs / 6 ml}}}{40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Mean feeding rate at critical size of MB, MCU, CCU and LCU populations in (a) 60 eggs / 6 ml, (b) 600 eggs / 1.5 ml, (c) 1200 eggs / 3 ml and (d) 1200 eggs / 6 ml densities (errorbars represent 95\% CI)}}{41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {60 eggs / 6 ml}}}{41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {600 eggs / 1.5 ml}}}{41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {1200 eggs / 3 ml}}}{41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {1200 eggs / 6 ml}}}{41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Mean efficiency distribution of MB, MCU, CCU and LCU populations in (a) 60 eggs / 6 ml, (b) 600 eggs / 1.5 ml, (c) 1200 eggs / 3 ml and (d) 1200 eggs / 6 ml densities (errorbars represent 95\% CI)}}{42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {60 eggs / 6 ml}}}{42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {600 eggs / 1.5 ml}}}{42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {1200 eggs / 3 ml}}}{42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {1200 eggs / 6 ml}}}{42}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

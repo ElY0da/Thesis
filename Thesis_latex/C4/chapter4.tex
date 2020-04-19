@@ -6,24 +6,24 @@ After modelling larval stage and calibrating, I developed the model for the pupa
 After collecting all the surviving individuals from the larval stage, a probability of death during pupal stage is assigned to each survived larva. This probability is dependent on the amount of waste accumulated in the body while econsuming food during the larval stage. This probability is given as:
 \[P_{M}(i) = 1 - exp(-(W_{acum}(i) \cdot x_{3})^{2})\]
 Here, \\
-$P_{M}$ = Probability of dying during pupal stage \\
-$W_{acum}(i)$ = Waste accumulated by $i^{th}$ larva during larval stage \\
-$x_{3}$ = Scaling parameter
+$P_{M}$: Probability of dying during pupal stage; \\
+$W_{acum}(i)$: Waste accumulated by $i^{th}$ larva during larval stage; \\
+$x_{3}$: Scaling parameter.
 \subsection{Fecundity}
 After each mating, the number of eggs produced for a female are derived from the fecundity equation based on the model of (ref) Tung S. (year). Fecundity is taken as a function of body size of the female and adult nutrition parameter (the amount of yeast provided). Fecundity of an $i^{th}$ female is given as:
-\[Egg_{i} = Nut \cdot x_{3} \cdot \log{(x_{4} \cdot s_{i})}\]
-Here, $s_{i}$ = body size of the $i^{th}$ female \\
-$Egg_{i}$ = Number of eggs laid by the female in a mating \\
-$Nut$ = Adult nutrition i.e. the amount of yeast provided \\
-$x_{3}, x_{4}$ = scaling parameters
+\[Egg_{i} = Nut \cdot x_{4} \cdot \log{(x_{5} \cdot s_{i})}\]
+Here, $s_{i}$: body size of the $i^{th}$ female; \\
+$Egg_{i}$: Number of eggs laid by the female in a mating; \\
+$Nut$: Adult nutrition i.e. the amount of yeast provided; \\
+$x_{4}, x_{5}$: scaling parameters.
 \subsection{Inheritance}
 Larval trait parameters (initial feeding rate, effieciency, waste tolerance and critical size) are inherited from parents to offspring produced by each female using mid-parent value. The mid-parent value i.e. average of mother and father for each larval parameter of all offspring is calculated. This mid-parent value is taken as a mean of a normal distribution with fixed standard deviation for respetive trait parameters. The standard deviation in this normal distribution determines the heritibility of the mid-parent value and it is considered to be different for each trait parameter. Trait parameters of the offspring are assigned as:
 \[T_{i} \in N(mpv_{T}, \delta_{T})\]
 Here, \\
-$T_{i}$ = Trait parameter assigned to $i^{th}$ offspring from a mating \\
-$mpv_{T}$ = Mid-parent value of of the trait $T$ for a given mating \\
-$\delta_{T}$ = heritability of mid-parent value of the trait $T$ \\
-$N(mpv, \delta)$ = Normal distribution with $mpv$ as mean and $\delta$ as standard deviation
+$T_{i}$: Trait parameter assigned to $i^{th}$ offspring from a mating; \\
+$mpv_{T}$: Mid-parent value of of the trait $T$ for a given mating; \\
+$\delta_{T}$: heritability of mid-parent value of the trait $T$; \\
+$N(mpv, \delta)$: Normal distribution with $mpv$ as mean and $\delta$ as standard deviation.
 \begin{figure}[p]
   \centering
   \includegraphics[trim= 0 0 0 0, clip, width= \textwidth]{C4/Figs/model}
@@ -37,30 +37,49 @@ Using values for all parameters given in table~\ref{tab:food_param} and table~\r
 In MB culture, being control population, nonw of the parameters evolve over time (see fig~\ref{fr}, fig~\ref{eff}, fig~\ref{mc}, fig~\ref{wtol}). Initial feeding rate in high density cultures increase over generations at similar rate but inital feeding rate is higher always in CCU culture always than in MCU culture. Efficiency show similar trend in high density cultures i.e. it increases over generations at similar rate but is higher always in CCU culture always than in MCU culture. Critical size in high density cultures decreases at the same rate but critical size in CCU culture is always lower than in MCU culture. Waste tolerance does not evolve in all of the culture populations since there is no significant change in waste tolerance value.
 \begin{figure}[h]
   \centering
-  \includegraphics[trim = 0 0 50 50, clip, width=0.7\textwidth]{C4/Figs/fr}
+  \includegraphics[trim = 0 0 50 50, clip, width=0.75\textwidth]{C4/Figs/fr}
   \caption{Timeseries for initial feeding rate}
   \label{fr}
 \end{figure}
 \begin{figure}[p]
   \centering
-  \includegraphics[trim = 0 0 50 50, clip, width=0.7\textwidth]{C4/Figs/eff}
+  \includegraphics[trim = 0 0 50 50, clip, width=0.75\textwidth]{C4/Figs/eff}
   \caption{Timeseries for efficiency}
   \label{eff}
 \end{figure}
 \begin{figure}[p]
   \centering
-  \includegraphics[trim = 0 0 50 50, clip, width=0.7\textwidth]{C4/Figs/mc}
+  \includegraphics[trim = 0 0 50 50, clip, width=0.75\textwidth]{C4/Figs/mc}
   \caption{Timeseries for critical size}
   \label{mc}
 \end{figure}
 
 \newpage
-\section{Evolution of Other Life-history Traits}
-weee.
+
 \begin{figure}[t]
   \centering
-  \includegraphics[trim = 0 0 50 50, clip, width=0.7\textwidth]{C4/Figs/wtol}
+  \includegraphics[trim = 0 0 50 50, clip, width=0.75\textwidth]{C4/Figs/wtol}
   \caption{Timeseries for waste tolerance}
   \label{wtol}
+\end{figure}
+\section{Evolution of Other Life-history Traits}
+wee.
+\begin{figure}[p]
+  \centering
+  \includegraphics[width=.75\textwidth]{C4/Figs/larval_alive_sizec4}
+  \caption{Mean body size of MB, MCU and CCU populations at $50^{th}$ generation in three different larval densities}
+  \label{fig:lh-bs}
+\end{figure}
+\begin{figure}[p]
+  \centering
+  \includegraphics[width=.75\textwidth]{C4/Figs/larval_survc4}
+  \caption{Mean survivorship of MB, MCU and CCU populations at $50^{th}$ generation in three different larval densities}
+  \label{fig:lh-sur}
+\end{figure}
+\begin{figure}[p]
+  \centering
+  \includegraphics[width=.75\textwidth]{C4/Figs/larval_alive_devtc4}
+  \caption{Mean time to reach critical size of MB, MCU and CCU populations at $50^{th}$ generation in three different larval densities}
+  \label{fig:lh-dt}
 \end{figure}
 \pagebreak
