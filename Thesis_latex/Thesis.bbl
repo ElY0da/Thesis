@@ -19,6 +19,231 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{caseIllustratedGuideTheoretical2000a}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2f09c6c0f0b32ef9300759279c1e2bc3}{%
+           family={Case},
+           familyi={C\bibinitperiod},
+           given={Ted\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{2f09c6c0f0b32ef9300759279c1e2bc3}
+      \strng{fullhash}{2f09c6c0f0b32ef9300759279c1e2bc3}
+      \strng{bibnamehash}{2f09c6c0f0b32ef9300759279c1e2bc3}
+      \strng{authorbibnamehash}{2f09c6c0f0b32ef9300759279c1e2bc3}
+      \strng{authornamehash}{2f09c6c0f0b32ef9300759279c1e2bc3}
+      \strng{authorfullhash}{2f09c6c0f0b32ef9300759279c1e2bc3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An Illustrated Guide to Theoretical Ecology uses a combination of visual presentations and the symbolic logic of algebra and calculus to provide the most accessible introduction to ecological theory available. It gives students the basic tools they need to understand the complexities of ecological systems and to analyze simple quantitative ecological problems. The author walks students through the most common models in ecology, beginning with first principles and then gently making each formulation accessible through a step-by-step development of equations paired with lavish illustrations. He also applies theoretical developments to practical issues in conservation and resource management, offering a more visceral understanding of the purpose and utility of the theory and demonstrating how it may need modification in its application to real-world problems and future directions. The text also includes some basic ecological genetics and an exploration of metapopulation dynamics. An Illustrated Guide to Theoretical Ecology is enhanced by over 500 two-color diagrams, many end-of-chapter problems, and a website that includes simulation models that parallel each chapters development (http: //www.nceas.ucsb.edu/BookCase). Ideal as a main text for advanced undergraduate courses in theoretical and mathematical ecology or conservation biology, this unique book can also serve as a supplement or a self-guided tutorial in general ecology, population ecology, and community ecology courses.}
+      \field{isbn}{978-0-19-508512-9}
+      \field{title}{An {{Illustrated Guide}} to {{Theoretical Ecology}}}
+      \field{year}{2000}
+      \keyw{Nature / Ecology,Science / Life Sciences / Ecology,Science / Life Sciences / Zoology / General}
+    \endentry
+    \entry{deyAdaptationLarvalCrowding2012}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cb701a47a564c56f1e3aa367ad08765e}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Snigdhadip},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9490c6ea84cdb2013a8d1cc72f6b51f7}{%
+           family={Bose},
+           familyi={B\bibinitperiod},
+           given={Joy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{912cb8207698fc2eca13df92d944fb7e}
+      \strng{fullhash}{b362303522ebddc3aa3cb57eafc56565}
+      \strng{bibnamehash}{b362303522ebddc3aa3cb57eafc56565}
+      \strng{authorbibnamehash}{b362303522ebddc3aa3cb57eafc56565}
+      \strng{authornamehash}{912cb8207698fc2eca13df92d944fb7e}
+      \strng{authorfullhash}{b362303522ebddc3aa3cb57eafc56565}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Density-dependent selection is expected to lead to population stability, especially if r and K tradeoff. Yet, there is no empirical evidence of adaptation to crowding leading to the evolution of stability. We show that populations of Drosophila ananassae selected for adaptation to larval crowding have higher K and lower r, and evolve greater stability than controls. We also show that increased population growth rates at high density can enhance stability, even in the absence of a decrease in r, by ensuring that the crowding adapted populations do not fall to very low sizes. We discuss our results in the context of traits known to have diverged between the selected and control populations, and compare our results with previous work on the evolution of stability in D. melanogaster. Overall, our results suggest that density-dependent selection may be an important factor promoting the evolution of relatively stable dynamics in natural populations.}
+      \field{issn}{2045-7758}
+      \field{journaltitle}{Ecology and Evolution}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ece3.227}
+      \field{number}{5}
+      \field{title}{Adaptation to Larval Crowding in {{Drosophila}} Ananassae Leads to the Evolution of Population Stability}
+      \field{volume}{2}
+      \field{year}{2012}
+      \field{pages}{941\bibrangedash 951}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1002/ece3.227
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\M3TZKTJU\\Dey et al. - 2012 - Adaptation to larval crowding in Drosophila ananas.pdf;C\:\\Users\\HP\\Zotero\\storage\\YZC529PE\\ece3.html
+      \endverb
+      \keyw{competitive ability,constancy,density-dependent selection,K-selection,life-history evolution,persistence,population dynamics,α-Selection}
+    \endentry
+    \entry{joshiKselectionAselectionEffectiveness2001}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f99a830d06d90f61e46874b0e53a1538}{%
+           family={Prasad},
+           familyi={P\bibinitperiod},
+           given={N.\bibnamedelimi G.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8685df656b61eb5a5d7379a3ba68cff8}{%
+           family={Shakarad},
+           familyi={S\bibinitperiod},
+           given={Mallikarjun},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{021e5ae4044f3e0b7056846eb82358b3}
+      \strng{fullhash}{86430c77c23ec52ade67711d8360183a}
+      \strng{bibnamehash}{86430c77c23ec52ade67711d8360183a}
+      \strng{authorbibnamehash}{86430c77c23ec52ade67711d8360183a}
+      \strng{authornamehash}{021e5ae4044f3e0b7056846eb82358b3}
+      \strng{authorfullhash}{86430c77c23ec52ade67711d8360183a}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In theDrosophila literature, selection for faster development and selection for adapting to high density are often confounded, leading, for example, to the expectation that selection for faster development should also lead to higher competitive ability. At the same time, results from experimental studies on evolution at high density do not agree with many of the predictions from classical density-dependent selection theory. We put together a number of theoretical and empirical results from the literature, and some new experimental results onDrosophila populations successfully subjected to selection for faster development, to argue for a broader interpretation of density-dependent selection. We show that incorporating notions of {$\alpha$}-selection, and the division of competitive ability into effectiveness and tolerance components, into the concept of density-dependent selection yields a formulation that allows for a better understanding of the empirical results. We also use this broader formulation to predict that selection for faster development inDrosophila should, in fact, lead to the correlated evolution of decreased competitive ability, even though it does lead to the evolution of greater efficiency and higher population growth rates at high density when in monotypic culture.}
+      \field{issn}{0973-7731}
+      \field{journaltitle}{Journal of Genetics}
+      \field{month}{8}
+      \field{number}{2}
+      \field{shorttitle}{K-Selection, {$\alpha$}-Selection, Effectiveness, and Tolerance in Competition}
+      \field{title}{K-Selection, {$\alpha$}-Selection, Effectiveness, and Tolerance in Competition: {{Density}}-Dependent Selection Revisited}
+      \field{volume}{80}
+      \field{year}{2001}
+      \field{pages}{63\bibrangedash 75}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/BF02728332
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\7ILAWRI9\\Joshi et al. - 2001 - K-selection, α-selection, effectiveness, and toler.pdf
+      \endverb
+    \endentry
+    \entry{macarthurTheoryIslandBiogeography1967}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=aef052a7d210740d58ed8c270f8f76bf}{%
+           family={MacArthur},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f82f8b7369928c5d458f85e2337ab04c}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Edward\bibnamedelima O.},
+           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{dd4d7bfd59778ddde43b0e43a79da6da}
+      \strng{fullhash}{dd4d7bfd59778ddde43b0e43a79da6da}
+      \strng{bibnamehash}{dd4d7bfd59778ddde43b0e43a79da6da}
+      \strng{authorbibnamehash}{dd4d7bfd59778ddde43b0e43a79da6da}
+      \strng{authornamehash}{dd4d7bfd59778ddde43b0e43a79da6da}
+      \strng{authorfullhash}{dd4d7bfd59778ddde43b0e43a79da6da}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Biogeography was stuck in a "natural history phase" dominated by the collection of data, the young Princeton biologists Robert H. MacArthur and Edward O. Wilson argued in 1967. In this book, the authors developed a general theory to explain the facts of island biogeography. The theory builds on the first principles of population ecology and genetics to explain how distance and area combine to regulate the balance between immigration and extinction in island populations. The authors then test the theory against data. The Theory of Island Biogeography was never intended as the last word on the subject. Instead, MacArthur and Wilson sought to stimulate new forms of theoretical and empirical studies, which will lead in turn to a stronger general theory. Even a third of a century since its publication, the book continues to serve that purpose well. From popular books like David Quammen's Song of the Dodo to arguments in the professional literature, The Theory of Island Biogeography remains at the center of discussions about the geographic distribution of species. In a new preface, Edward O. Wilson reviews the origins and consequences of this classic book.}
+      \field{isbn}{978-0-691-08836-5}
+      \field{title}{The {{Theory}} of {{Island Biogeography}}}
+      \field{year}{1967}
+      \keyw{Science / Earth Sciences / Geography,Science / Life Sciences / Biology,Science / Life Sciences / Ecology}
+    \endentry
+    \entry{muellerTheoreticalEmpiricalExamination1997}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=834e1220db6d5cb74bd36fc451f17b90}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Laurence\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{834e1220db6d5cb74bd36fc451f17b90}
+      \strng{fullhash}{834e1220db6d5cb74bd36fc451f17b90}
+      \strng{bibnamehash}{834e1220db6d5cb74bd36fc451f17b90}
+      \strng{authorbibnamehash}{834e1220db6d5cb74bd36fc451f17b90}
+      \strng{authornamehash}{834e1220db6d5cb74bd36fc451f17b90}
+      \strng{authorfullhash}{834e1220db6d5cb74bd36fc451f17b90}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The development of theory on density-dependent natural selection has seen a transition from very general, logistic growth-based models to theories that incorporate details of specific life histories. This transition has been justified by the need to make predictions that can then be tested experimentally with specific model systems like bacteria or Drosophila. The most general models predict that natural selection should increase density-dependent rates of population growth. When trade-offs exist, those genotypes favored in low-density environments will show reduced per capita growth rates under crowded conditions and vice versa for evolution in crowded environments. This central prediction has been verified twice in carefully controlled experiments with Drosophila. Empirical research in this field has also witnessed a major transition from field-based observations and conjecture to carefully controlled laboratory selection experiments. This change in approach has permitted crucial tests of theories of density-dependent natural selection and a deeper understanding of the mechanisms of adaptation to different levels of population crowding. Experimental research with Drosophila has identified several phenotypes important to adaptation, especially at high larval densities. This same research revealed that an important trade-off occurs between competitive ability and energetic efficiency.}
+      \field{journaltitle}{Annual Review of Ecology and Systematics}
+      \field{note}{\_eprint: https://doi.org/10.1146/annurev.ecolsys.28.1.269}
+      \field{number}{1}
+      \field{title}{Theoretical and {{Empirical Examination}} of {{Density}}-{{Dependent Selection}}}
+      \field{volume}{28}
+      \field{year}{1997}
+      \field{pages}{269\bibrangedash 288}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1146/annurev.ecolsys.28.1.269
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\9UD69JUU\\Mueller - 1997 - Theoretical and Empirical Examination of Density-D.pdf;C\:\\Users\\HP\\Zotero\\storage\\LZLDI7VZ\\Mueller - 1997 - Theoretical and Empirical Examination of Density-D.pdf
+      \endverb
+    \endentry
     \entry{sarangiEcologicalDetailsMediate2018}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=be25d9e8b036a05867c94c7aeb2b7331}{%
