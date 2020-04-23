@@ -1,0 +1,61 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Modelling Larval Stage in a Vial}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Ecology of a Vial in Drosophila Cultures}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Larval Stage Model}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Simulations for Feeding Band Dynamics}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Waste build-up dynamics results}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Food quality dynamics results}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Interplay between Larval Trait Parameters}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Initial Feeding Rate and Efficiency}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Initial Feeding Rate and Critical Size}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Critical Size and Efficiency}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Modelling Evolution of Life-history Traits}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Modelling Adult Stage}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Pupal stage}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Fecundity}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Inheritance}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Effect of Laral Crowding on the Evolution of Larval Trait Parameters}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Evolution of Other Life-history Traits}{23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Effects of Variation on the Evolution of Larval Trait Parameters}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Variation in the Initial Distribution of Larval Trait Parameters}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Heritability of Trait Parameters}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Introducing Correlations in Larval Trait Parameters}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Distribution of Laral Traits with Development Time}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Effects of Negative Correlation between Feeding Rate and Efficiency}{40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Discussion}{45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Tables}{49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Larval Trait Parameters}{49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Scaling Parameters}{49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Other Larval Parameters}{50}%

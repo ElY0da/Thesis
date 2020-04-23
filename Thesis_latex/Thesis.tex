@@ -1,9 +1,7 @@
 \documentclass[a4paper,12pt,twoside]{report}
 \usepackage[left=1.25in,right=1in,top=2.5in,bottom=1in]{geometry}
 \usepackage{graphicx}
-\usepackage[american]{babel}
-\usepackage{csquotes}
-\usepackage[style=apa]{biblatex}
+\usepackage[backend=biber,style=apa,maxcitenames=1,natbib=true]{biblatex}
 \addbibresource{References.bib}
 \usepackage{enumerate}
 \usepackage[caption=false]{subfig}
@@ -19,7 +17,7 @@
   \listoftables
   \setcounter{tocdepth}{1}
   \tableofcontents
-  %\include{abstract}
+  %\include{C0/Abstract}
   \clearpage
   \pagenumbering{arabic}
   \include{C1/intro}

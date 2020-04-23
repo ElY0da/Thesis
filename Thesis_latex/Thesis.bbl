@@ -19,6 +19,307 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{andersonDensityRegulatedSelectionGenotypic1983}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e76c1cdaa04a2588c034f8d97e0de752}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Wyatt\bibnamedelima W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8be34509f2166b2081058cb45208c4f1}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{cb90037d67982c465e20bdd836d1b3fc}
+      \strng{fullhash}{e7426c8057567c7f3d4a8ae66bc54b2f}
+      \strng{bibnamehash}{e7426c8057567c7f3d4a8ae66bc54b2f}
+      \strng{authorbibnamehash}{e7426c8057567c7f3d4a8ae66bc54b2f}
+      \strng{authornamehash}{cb90037d67982c465e20bdd836d1b3fc}
+      \strng{authorfullhash}{e7426c8057567c7f3d4a8ae66bc54b2f}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A deterministic model of density-regulated selection with genotypic interactions is developed for a diploid population with discrete, nonoverlapping generations. The population is polymorphic for two alleles at an autosomal locus. Before selection in each generation, the three genotypes are in Hardy-Weinberg frequencies, but genotypes differ in their selective values because of genotypic differences in their intrinsic rates of increase, carrying capacities, and genotypic interactions. The genotypic interactions specify the effect of an individual of one genotype on the fitness of another genotype. By analogy to the Lotka-Volterra model for interspecific competition, our model for intraspecific competition assumes that the selective value of a genotype strictly decreases with numbers of each genotype; therefore, selective values depend on both density and gene frequency. Sufficient conditions for a protected polymorphism are surprisingly simple: the heterozygote must have a carrying capacity greater than that of either homozygote multiplied by the interaction coefficient which expresses the effect of that homozygote on the heterozygote; or, alternatively each homozygous individual must inhibit the fitness of its own genotype, and hence its contribution to population growth, more than it inhibits the fitness of the heterozygote.}
+      \field{issn}{0003-0147}
+      \field{journaltitle}{The American Naturalist}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Density-{{Regulated Selection}} with {{Genotypic Interactions}}}
+      \field{volume}{121}
+      \field{year}{1983}
+      \field{pages}{649\bibrangedash 655}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1086/284092
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\4EZ8EYXT\\284092.html
+      \endverb
+    \endentry
+    \entry{asmussenDensityDependentSelectionIncorporating1983}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=59719cc6a67a5dd6bbb9ba4bf2f0fa76}{%
+           family={Asmussen},
+           familyi={A\bibinitperiod},
+           given={Marjorie\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Genetics}%
+      }
+      \strng{namehash}{59719cc6a67a5dd6bbb9ba4bf2f0fa76}
+      \strng{fullhash}{59719cc6a67a5dd6bbb9ba4bf2f0fa76}
+      \strng{bibnamehash}{59719cc6a67a5dd6bbb9ba4bf2f0fa76}
+      \strng{authorbibnamehash}{59719cc6a67a5dd6bbb9ba4bf2f0fa76}
+      \strng{authornamehash}{59719cc6a67a5dd6bbb9ba4bf2f0fa76}
+      \strng{authorfullhash}{59719cc6a67a5dd6bbb9ba4bf2f0fa76}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A diploid model is introduced and analyzed in which intraspecific competition is incorporated within the context of density-regulated selection. It is assumed that each genotype has a unique carrying capacity corresponding to the equilibrium population size when only that type is present. Each genotypic fitness at a single diallelic autosomal locus is a decreasing function of a distinctive effective population size perceived as a result of intraspecific competition. The resulting fitnesses are both density and frequency dependent with selective advantage determined by a balance between genotypic carrying capacity and sensitivity to intraspecific competition. A major finding is that intergenotypic interactions may allow genetic variation to be more easily maintained than in the corresponding model of purely density-dependent selection. In addition, numerical study confirms the possible existence of multiple interior equilibria and that neither overdominance in fitness nor carrying capacity is necessary for stability. The magnitude of the equilibrium population size and optimization principles are also discussed.}
+      \field{issn}{0016-6731, 1943-2631}
+      \field{journaltitle}{Genetics}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Density-{{Dependent Selection Incorporating Intraspecific Competition}}. {{Ii}}. a {{Diploid Model}}}
+      \field{volume}{103}
+      \field{year}{1983}
+      \field{pages}{335\bibrangedash 350}
+      \range{pages}{16}
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\H8NWH4WQ\\Asmussen - 1983 - Density-Dependent Selection Incorporating Intraspe.pdf;C\:\\Users\\HP\\Zotero\\storage\\7NJQ9WMW\\335.html
+      \endverb
+    \endentry
+    \entry{bakkerAnalysisFactorsWhich1962}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=68543b8ecf057588467eb78b4142d8a9}{%
+           family={Bakker},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {nl}%
+      }
+      \list{publisher}{1}{%
+        {Brill}%
+      }
+      \strng{namehash}{68543b8ecf057588467eb78b4142d8a9}
+      \strng{fullhash}{68543b8ecf057588467eb78b4142d8a9}
+      \strng{bibnamehash}{68543b8ecf057588467eb78b4142d8a9}
+      \strng{authorbibnamehash}{68543b8ecf057588467eb78b4142d8a9}
+      \strng{authornamehash}{68543b8ecf057588467eb78b4142d8a9}
+      \strng{authorfullhash}{68543b8ecf057588467eb78b4142d8a9}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{"An Analysis of Factors Which Determine Success in Competition for Food Among Larvae of Drosophila Melanogaster" published on 01 Jan 1962 by Brill.}
+      \field{issn}{0365-5164, 1875-3019}
+      \field{journaltitle}{Archives N{é}erlandaises de Zoologie}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{{An Analysis of Factors Which Determine Success in Competition for Food Among Larvae of Drosophila Melanogaster}}
+      \field{volume}{14}
+      \field{year}{1962}
+      \field{pages}{200\bibrangedash 281}
+      \range{pages}{82}
+      \verb{doi}
+      \verb 10.1163/036551661X00061
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\QFS9J9MU\\article-p200_2.html
+      \endverb
+    \endentry
+    \entry{borashPatternsSelectionStress2001}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=5555780ceeff9124afeecdaa1de9e8b3}{%
+           family={Borash},
+           familyi={B\bibinitperiod},
+           given={D.\bibnamedelimi J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=bc469c0289a23da8e41fbfd1aa8ad28e}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi T},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e180f357788d655a55cfe5f7cc0c2f27}
+      \strng{fullhash}{12ced99f54ce7856b396b6fe1b59de18}
+      \strng{bibnamehash}{12ced99f54ce7856b396b6fe1b59de18}
+      \strng{authorbibnamehash}{12ced99f54ce7856b396b6fe1b59de18}
+      \strng{authornamehash}{e180f357788d655a55cfe5f7cc0c2f27}
+      \strng{authorfullhash}{12ced99f54ce7856b396b6fe1b59de18}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Populations of Drosophila melanogaster subjected to extreme larval (CU) or adult (UC) densities for multiple generations were assayed for a variety of life history characters. When reared under either crowded or uncrowded larval conditions, populations which had been selected to tolerate the limitation of resources imposed by extreme larval (CU) crowding, exhibited greater starvation resistance and lipid content than did populations which do not routinely undergo larval density-dependent regulation. Previous studies have shown that the CU populations do not show a correlated increase in longevity; as has been generally observed for these characteristics in age-structured populations of D. melanogaster. This suggests that density-dependent natural selection may not always shape life histories of the same characteristic in the same direction that age-specific selection does.}
+      \field{issn}{0022-1910}
+      \field{journaltitle}{Journal of Insect Physiology}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shorttitle}{Patterns of Selection}
+      \field{title}{Patterns of Selection: Stress Resistance and Energy Storage in Density-Dependent Populations of {{Drosophila}} Melanogaster}
+      \field{volume}{47}
+      \field{year}{2001}
+      \field{pages}{1349\bibrangedash 1356}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/S0022-1910(01)00108-1
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\G3V5KZGY\\Borash and Ho - 2001 - Patterns of selection stress resistance and energ.pdf;C\:\\Users\\HP\\Zotero\\storage\\IK9XKXI7\\S0022191001001081.html;C\:\\Users\\HP\\Zotero\\storage\\MEP6ICYC\\S0022191001001081.html
+      \endverb
+      \keyw{Density-dependent natural selection,Development,Lipid content,Stress resistance}
+    \endentry
+    \entry{borashGeneticPolymorphismMaintained1998}{article}{}
+      \name{author}{4}{}{%
+        {{un=2,uniquepart=given,hash=c714bd35a18c619f80bff19c968bfe48}{%
+           family={Borash},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=f863f0432791a0629e26e0c4703fede3}{%
+           family={Gibbs},
+           familyi={G\bibinitperiod},
+           given={Allen\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=834e1220db6d5cb74bd36fc451f17b90}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Laurence\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{41b137afc835b45d13963eefdfc2d87a}
+      \strng{fullhash}{f572c66353acb3290c89baa4098d07cb}
+      \strng{bibnamehash}{f572c66353acb3290c89baa4098d07cb}
+      \strng{authorbibnamehash}{f572c66353acb3290c89baa4098d07cb}
+      \strng{authornamehash}{41b137afc835b45d13963eefdfc2d87a}
+      \strng{authorfullhash}{f572c66353acb3290c89baa4098d07cb}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Environments that are crowded with larvae of the fruit fly, Drosophila melanogaster, exhibit a temporal deterioration in quality as waste products accumulate and food is depleted. We show that natural selection in these environments can maintain a genetic polymorphism with one group of genotypes specializing on the early part of the environment and a second group specializing on the late part. These specializations involve trade-offs in fitness components. The early types emerge first from crowded cultures and have high larval feeding rates, which are positively correlated with competitive ability but exhibit lower absolute viability than the late phenotype, especially in food contaminated with the nitrogenous waste product, ammonia. The late emerging types have reduced feeding rates but higher absolute survival under conditions of severe crowding and high levels of ammonia. Organisms that experience temporal variation within a single generation are not uncommon, and this model system provides some of the first insights into the evolutionary forces at work in these environments.}
+      \field{issn}{0003-0147}
+      \field{journaltitle}{The American Naturalist}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{A {{Genetic Polymorphism Maintained}} by {{Natural Selection}} in a {{Temporally Varying Environment}}}
+      \field{volume}{151}
+      \field{year}{1998}
+      \field{pages}{148\bibrangedash 156}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1086/286108
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\SZYAL32A\\Borash et al. - 1998 - A Genetic Polymorphism Maintained by Natural Selec.pdf;C\:\\Users\\HP\\Zotero\\storage\\62XIIH5S\\286108.html
+      \endverb
+    \endentry
+    \entry{burnetGeneticAnalysisLarval1977}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ab0429f6f7eaceec47580c05766bccd5}{%
+           family={Burnet},
+           familyi={B\bibinitperiod},
+           given={Barrie},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=171014b5d37737503aaab7a965e3bc2d}{%
+           family={Sewell},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=741bc44b4c0654350b1b6dbf2eae41a7}{%
+           family={Bos},
+           familyi={B\bibinitperiod},
+           given={Marten},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{993bb6dadc39d440e9f86f31313a00bd}
+      \strng{fullhash}{645db89ca5cfcd0d54ef8d9ee8f720ab}
+      \strng{bibnamehash}{645db89ca5cfcd0d54ef8d9ee8f720ab}
+      \strng{authorbibnamehash}{645db89ca5cfcd0d54ef8d9ee8f720ab}
+      \strng{authornamehash}{993bb6dadc39d440e9f86f31313a00bd}
+      \strng{authorfullhash}{645db89ca5cfcd0d54ef8d9ee8f720ab}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Growth relations of lines selected for fast or slow larval feeding rate have been compared with those in the genetically heterogeneous control base population from which they were derived. Larvae of the slow strain have reduced growth rate and reach their critical weight for pupation later than unselected larvae. Larvae of the fast strain attain their critical weight at the same time as the unselected control larvae, suggesting that growth rate in the precritical period of development is already maximized in the base population and cannot be improved by increasing food intake. This constraint does not apply to the fixed period of post-critical growth however, since fast feeding larvae give rise to larger adult flies than the controls.Larval feeding rate is affected by genes located on all three major chromosomes. The small fourth chromosome has negligible effect. Selection for slow feeding rate has led to an increase in the frequency of recessive genes affecting the character. High scores of larvae selected for fast feeding rate depend upon interactions between non-homologous selected chromosomes which individually have little effect. Larval feeding rate in the control unselected population appears to be buffered, firstly by epistatic interactions against the effects of chromosomes tending to promote `supra-optimal' feeding rate and, secondly, by dominance against chromosomes promoting a lowering of feeding rate.Under conditions of scramble type competition between the selected lines for limited resources, fast feeding larvae have a higher survival rate, and complete their period of larval development earlier to give larger adult flies than their slow feeding competitors. The contribution of larval feeding rate to competitive ability at different levels is discussed, and it is suggested that the effects of change in this behavioural character may be far reaching.}
+      \field{issn}{1469-5073, 0016-6723}
+      \field{journaltitle}{Genetics Research}
+      \field{month}{10}
+      \field{number}{2}
+      \field{shorttitle}{Genetic Analysis of Larval Feeding Behaviour in {{Drosophila}} Melanogaster}
+      \field{title}{Genetic Analysis of Larval Feeding Behaviour in {{Drosophila}} Melanogaster: {{II}}. {{Growth}} Relations and Competition between Selected Lines}
+      \field{volume}{30}
+      \field{year}{1977}
+      \field{pages}{149\bibrangedash 161}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1017/S0016672300017559
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\YHP99Z6R\\Burnet et al. - 1977 - Genetic analysis of larval feeding behaviour in Dr.pdf;C\:\\Users\\HP\\Zotero\\storage\\9WZHI89W\\3C7993B520374357EAF988EF075EBE9C.html
+      \endverb
+    \endentry
     \entry{caseIllustratedGuideTheoretical2000a}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2f09c6c0f0b32ef9300759279c1e2bc3}{%
@@ -52,6 +353,47 @@
       \field{title}{An {{Illustrated Guide}} to {{Theoretical Ecology}}}
       \field{year}{2000}
       \keyw{Nature / Ecology,Science / Life Sciences / Ecology,Science / Life Sciences / Zoology / General}
+    \endentry
+    \entry{clarkeDensityDependentSelection1972}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a946dc727be9f23f305446ad048cb676}{%
+           family={Clarke},
+           familyi={C\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{a946dc727be9f23f305446ad048cb676}
+      \strng{fullhash}{a946dc727be9f23f305446ad048cb676}
+      \strng{bibnamehash}{a946dc727be9f23f305446ad048cb676}
+      \strng{authorbibnamehash}{a946dc727be9f23f305446ad048cb676}
+      \strng{authornamehash}{a946dc727be9f23f305446ad048cb676}
+      \strng{authorfullhash}{a946dc727be9f23f305446ad048cb676}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0003-0147}
+      \field{journaltitle}{The American Naturalist}
+      \field{month}{1}
+      \field{number}{947}
+      \field{title}{Density-{{Dependent Selection}}}
+      \field{volume}{106}
+      \field{year}{1972}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1086/282747
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\7B5NSMIY\\282747.html
+      \endverb
     \endentry
     \entry{deyAdaptationLarvalCrowding2012}{article}{}
       \name{author}{3}{}{%
@@ -108,6 +450,147 @@
       \endverb
       \keyw{competitive ability,constancy,density-dependent selection,K-selection,life-history evolution,persistence,population dynamics,α-Selection}
     \endentry
+    \entry{joshiEvolutionHigherFeeding1988}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=834e1220db6d5cb74bd36fc451f17b90}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Laurence\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Society for the Study of Evolution, Wiley]}%
+      }
+      \strng{namehash}{021e5ae4044f3e0b7056846eb82358b3}
+      \strng{fullhash}{045701de21bd2bebdb6b917ff32fa9cf}
+      \strng{bibnamehash}{045701de21bd2bebdb6b917ff32fa9cf}
+      \strng{authorbibnamehash}{045701de21bd2bebdb6b917ff32fa9cf}
+      \strng{authornamehash}{021e5ae4044f3e0b7056846eb82358b3}
+      \strng{authorfullhash}{045701de21bd2bebdb6b917ff32fa9cf}
+      \field{extraname}{1}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0014-3820}
+      \field{journaltitle}{Evolution}
+      \field{number}{5}
+      \field{title}{Evolution of {{Higher Feeding Rate}} in {{Drosophila Due}} to {{Density}}-{{Dependent Natural Selection}}}
+      \field{volume}{42}
+      \field{year}{1988}
+      \field{pages}{1090\bibrangedash 1093}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.2307/2408924
+      \endverb
+    \endentry
+    \entry{joshiDirectionalStabilizingDensityDependent1993}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=834e1220db6d5cb74bd36fc451f17b90}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Laurence\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{021e5ae4044f3e0b7056846eb82358b3}
+      \strng{fullhash}{045701de21bd2bebdb6b917ff32fa9cf}
+      \strng{bibnamehash}{045701de21bd2bebdb6b917ff32fa9cf}
+      \strng{authorbibnamehash}{045701de21bd2bebdb6b917ff32fa9cf}
+      \strng{authornamehash}{021e5ae4044f3e0b7056846eb82358b3}
+      \strng{authorfullhash}{045701de21bd2bebdb6b917ff32fa9cf}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Six populations of Drosophila melanogaster have been kept at extreme population densities, three high and three low, for 175 generations. Larvae from the high density populations pupate 50\%-100\% higher than larvae from the low density populations. At high larval test densities there is both a directional and a stabilizing component to selection, with viabilities ranging from 0.14 to 0.992, depending on the choice of pupation site. The directional component is stronger on the populations which have evolved at low densities, while the stabilizing component is stronger on the populations which have evolved at high densities. There is no indication that the evolution of this trait, in response to density, has altered its phenotypic plasticity.}
+      \field{issn}{1558-5646}
+      \field{journaltitle}{Evolution}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1558-5646.1993.tb01208.x}
+      \field{number}{1}
+      \field{title}{Directional and {{Stabilizing Density}}-{{Dependent Natural Selection}} for {{Pupation Height}} in {{Drosophila Melanogaster}}}
+      \field{volume}{47}
+      \field{year}{1993}
+      \field{pages}{176\bibrangedash 184}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1111/j.1558-5646.1993.tb01208.x
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\NAM4I6HT\\Joshi and Mueller - 1993 - Directional and Stabilizing Density-Dependent Natu.pdf;C\:\\Users\\HP\\Zotero\\storage\\P8FJJR4V\\j.1558-5646.1993.tb01208.html
+      \endverb
+      \keyw{Behavior,density-dependent natural selection,Drosophila melanogaster,K-selection,pupation height,r-selection,stabilizing selection}
+    \endentry
+    \entry{joshiDensitydependentNaturalSelection1996}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=834e1220db6d5cb74bd36fc451f17b90}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Laurence\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{021e5ae4044f3e0b7056846eb82358b3}
+      \strng{fullhash}{045701de21bd2bebdb6b917ff32fa9cf}
+      \strng{bibnamehash}{045701de21bd2bebdb6b917ff32fa9cf}
+      \strng{authorbibnamehash}{045701de21bd2bebdb6b917ff32fa9cf}
+      \strng{authornamehash}{021e5ae4044f3e0b7056846eb82358b3}
+      \strng{authorfullhash}{045701de21bd2bebdb6b917ff32fa9cf}
+      \field{extraname}{3}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Natural selection at high densities has often been postulated to favour the evolution of greater efficiency of food use. Contrary to this expectation, a previous study suggested the existence of a trade-off between larval feeding rate and efficiency at using food to complete larval development in populations ofDrosophila melanogaster subjected to crowding for many generations. In this paper, we confirm the generality of such a density-dependent trade-off between food acquisition and utilization by demonstrating its occurrence in a new set ofDrosophila populations subjected to extreme larval crowding. We suggest that such trade-offs between food acquisition and food use may represent a general phenomenon in organisms exhibiting scramble competition. We test and reject the possible mechanistic explanation that decreased efficiency of food use in faster-feeding larvae may merely be a consequence of a faster passage of food through the gut, leading to incomplete assimilation of nutrients and energy.}
+      \field{issn}{1573-8477}
+      \field{journaltitle}{Evolutionary Ecology}
+      \field{month}{9}
+      \field{number}{5}
+      \field{shorttitle}{Density-Dependent Natural Selection {{inDrosophila}}}
+      \field{title}{Density-Dependent Natural Selection {{inDrosophila}}: {{Trade}}-Offs between Larval Food Acquisition and Utilization}
+      \field{volume}{10}
+      \field{year}{1996}
+      \field{pages}{463\bibrangedash 474}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/BF01237879
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\P4CIGE8M\\Joshi and Mueller - 1996 - Density-dependent natural selection inDrosophila .pdf
+      \endverb
+    \endentry
     \entry{joshiKselectionAselectionEffectiveness2001}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
@@ -138,11 +621,11 @@
       \strng{authorbibnamehash}{86430c77c23ec52ade67711d8360183a}
       \strng{authornamehash}{021e5ae4044f3e0b7056846eb82358b3}
       \strng{authorfullhash}{86430c77c23ec52ade67711d8360183a}
+      \field{extraname}{4}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{In theDrosophila literature, selection for faster development and selection for adapting to high density are often confounded, leading, for example, to the expectation that selection for faster development should also lead to higher competitive ability. At the same time, results from experimental studies on evolution at high density do not agree with many of the predictions from classical density-dependent selection theory. We put together a number of theoretical and empirical results from the literature, and some new experimental results onDrosophila populations successfully subjected to selection for faster development, to argue for a broader interpretation of density-dependent selection. We show that incorporating notions of {$\alpha$}-selection, and the division of competitive ability into effectiveness and tolerance components, into the concept of density-dependent selection yields a formulation that allows for a better understanding of the empirical results. We also use this broader formulation to predict that selection for faster development inDrosophila should, in fact, lead to the correlated evolution of decreased competitive ability, even though it does lead to the evolution of greater efficiency and higher population growth rates at high density when in monotypic culture.}
@@ -161,6 +644,40 @@
       \endverb
       \verb{file}
       \verb C\:\\Users\\HP\\Zotero\\storage\\7ILAWRI9\\Joshi et al. - 2001 - K-selection, α-selection, effectiveness, and toler.pdf
+      \endverb
+    \endentry
+    \entry{macarthurGENERALIZEDTHEOREMSNATURAL1962}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aef052a7d210740d58ed8c270f8f76bf}{%
+           family={MacArthur},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aef052a7d210740d58ed8c270f8f76bf}
+      \strng{fullhash}{aef052a7d210740d58ed8c270f8f76bf}
+      \strng{bibnamehash}{aef052a7d210740d58ed8c270f8f76bf}
+      \strng{authorbibnamehash}{aef052a7d210740d58ed8c270f8f76bf}
+      \strng{authornamehash}{aef052a7d210740d58ed8c270f8f76bf}
+      \strng{authorfullhash}{aef052a7d210740d58ed8c270f8f76bf}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0027-8424}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{{{SOME GENERALIZED THEOREMS OF NATURAL SELECTION}}}
+      \field{volume}{48}
+      \field{year}{1962}
+      \field{pages}{1893\bibrangedash 1897}
+      \range{pages}{5}
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\ZUHK9CA6\\MacArthur - 1962 - SOME GENERALIZED THEOREMS OF NATURAL SELECTION.pdf
       \endverb
     \endentry
     \entry{macarthurTheoryIslandBiogeography1967}{book}{}
@@ -184,17 +701,16 @@
       \list{publisher}{1}{%
         {Princeton University Press}%
       }
-      \strng{namehash}{dd4d7bfd59778ddde43b0e43a79da6da}
+      \strng{namehash}{ea3f9514f3ed1954074c64e75b4a2a35}
       \strng{fullhash}{dd4d7bfd59778ddde43b0e43a79da6da}
       \strng{bibnamehash}{dd4d7bfd59778ddde43b0e43a79da6da}
       \strng{authorbibnamehash}{dd4d7bfd59778ddde43b0e43a79da6da}
-      \strng{authornamehash}{dd4d7bfd59778ddde43b0e43a79da6da}
+      \strng{authornamehash}{ea3f9514f3ed1954074c64e75b4a2a35}
       \strng{authorfullhash}{dd4d7bfd59778ddde43b0e43a79da6da}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Biogeography was stuck in a "natural history phase" dominated by the collection of data, the young Princeton biologists Robert H. MacArthur and Edward O. Wilson argued in 1967. In this book, the authors developed a general theory to explain the facts of island biogeography. The theory builds on the first principles of population ecology and genetics to explain how distance and area combine to regulate the balance between immigration and extinction in island populations. The authors then test the theory against data. The Theory of Island Biogeography was never intended as the last word on the subject. Instead, MacArthur and Wilson sought to stimulate new forms of theoretical and empirical studies, which will lead in turn to a stronger general theory. Even a third of a century since its publication, the book continues to serve that purpose well. From popular books like David Quammen's Song of the Dodo to arguments in the professional literature, The Theory of Island Biogeography remains at the center of discussions about the geographic distribution of species. In a new preface, Edward O. Wilson reviews the origins and consequences of this classic book.}
@@ -202,6 +718,48 @@
       \field{title}{The {{Theory}} of {{Island Biogeography}}}
       \field{year}{1967}
       \keyw{Science / Earth Sciences / Geography,Science / Life Sciences / Biology,Science / Life Sciences / Ecology}
+    \endentry
+    \entry{muellerDensitydependentNaturalSelection1990}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=834e1220db6d5cb74bd36fc451f17b90}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Laurence\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{834e1220db6d5cb74bd36fc451f17b90}
+      \strng{fullhash}{834e1220db6d5cb74bd36fc451f17b90}
+      \strng{bibnamehash}{834e1220db6d5cb74bd36fc451f17b90}
+      \strng{authorbibnamehash}{834e1220db6d5cb74bd36fc451f17b90}
+      \strng{authornamehash}{834e1220db6d5cb74bd36fc451f17b90}
+      \strng{authorfullhash}{834e1220db6d5cb74bd36fc451f17b90}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Populations ofDrosophila melanogaster kept at high population density (K-selected) for 125 generations have higher larval viability than populations kept at low densities (r-selected) when both are raised under crowded conditions. In additionK-selected adults that emerge from crowded cultures are larger than theirr-selected counterparts. These differences cannot be explained by differences in efficiency of food use. The minimum food required for successful pupation is actually greater in theK-selected populations. I conjecture that there may be a trade-off between minimum food requirements and competitive ability, which has changed substantially in theK-selected populations. The possibility thatK-selected larvae can dig more more deeply and gain access to unused food is examined and rejected as a possible explanation of the viability differences. Evidence is provided supporting the hypothesis that the differences in viability may be due to an increased tendency of theK-selected larvae to pupate off the surface of the medium.}
+      \field{issn}{1573-8477}
+      \field{journaltitle}{Evolutionary Ecology}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Density-Dependent Natural Selection Does Not Increase Efficiency}
+      \field{volume}{4}
+      \field{year}{1990}
+      \field{pages}{290\bibrangedash 297}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/BF02270928
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\HSGRCQZL\\Mueller - 1990 - Density-dependent natural selection does not incre.pdf
+      \endverb
     \endentry
     \entry{muellerTheoreticalEmpiricalExamination1997}{article}{}
       \name{author}{1}{}{%
@@ -221,11 +779,11 @@
       \strng{authorbibnamehash}{834e1220db6d5cb74bd36fc451f17b90}
       \strng{authornamehash}{834e1220db6d5cb74bd36fc451f17b90}
       \strng{authorfullhash}{834e1220db6d5cb74bd36fc451f17b90}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The development of theory on density-dependent natural selection has seen a transition from very general, logistic growth-based models to theories that incorporate details of specific life histories. This transition has been justified by the need to make predictions that can then be tested experimentally with specific model systems like bacteria or Drosophila. The most general models predict that natural selection should increase density-dependent rates of population growth. When trade-offs exist, those genotypes favored in low-density environments will show reduced per capita growth rates under crowded conditions and vice versa for evolution in crowded environments. This central prediction has been verified twice in carefully controlled experiments with Drosophila. Empirical research in this field has also witnessed a major transition from field-based observations and conjecture to carefully controlled laboratory selection experiments. This change in approach has permitted crucial tests of theories of density-dependent natural selection and a deeper understanding of the mechanisms of adaptation to different levels of population crowding. Experimental research with Drosophila has identified several phenotypes important to adaptation, especially at high larval densities. This same research revealed that an important trade-off occurs between competitive ability and energetic efficiency.}
@@ -243,6 +801,300 @@
       \verb{file}
       \verb C\:\\Users\\HP\\Zotero\\storage\\9UD69JUU\\Mueller - 1997 - Theoretical and Empirical Examination of Density-D.pdf;C\:\\Users\\HP\\Zotero\\storage\\LZLDI7VZ\\Mueller - 1997 - Theoretical and Empirical Examination of Density-D.pdf
       \endverb
+    \endentry
+    \entry{muellerTradeoffRselectionKselection1981}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=834e1220db6d5cb74bd36fc451f17b90}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Laurence\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0418988f4eb86621672d2aca4486a16c}{%
+           family={Ayala},
+           familyi={A\bibinitperiod},
+           given={Francisco\bibnamedelima J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {National Academy of Sciences}%
+      }
+      \strng{namehash}{6c7aa0a6e8ecb22c31b2313c83dce2c5}
+      \strng{fullhash}{d1e73f8458754c4af902233482aa56aa}
+      \strng{bibnamehash}{d1e73f8458754c4af902233482aa56aa}
+      \strng{authorbibnamehash}{d1e73f8458754c4af902233482aa56aa}
+      \strng{authornamehash}{6c7aa0a6e8ecb22c31b2313c83dce2c5}
+      \strng{authorfullhash}{d1e73f8458754c4af902233482aa56aa}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Density-dependent genetic evolution was tested in experimental populations of Drosophila melanogaster subject for eight generations to natural selection under high (K-selection) or low (r-selection) population density regimes. The test consisted of determining at high and at low densities the per capita rate of population growth of the selected populations. At high densities, the K-selected populations showed a higher per capita rate of population growth than did r-selected populations, but the reverse was true at low densities. These results corroborate the predictions derived from formal models of density-dependent selection. However, no evidence of a trade-off in per capita rate of growth was observed in 25 populations of D. melanogaster, each homozygous for a different second chromosome sampled from a natural population.}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Trade-off between r-Selection and {{K}}-Selection in {{Drosophila}} Populations}
+      \field{volume}{78}
+      \field{year}{1981}
+      \field{pages}{1303\bibrangedash 1305}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1073/pnas.78.2.1303
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\VWG3ZAXC\\Mueller and Ayala - 1981 - Trade-off between r-selection and K-selection in D.pdf;C\:\\Users\\HP\\Zotero\\storage\\L3RL3746\\1303.html
+      \endverb
+      \keyw{density-dependent selection,Drosophila melanogaster,evolution,population dynamics}
+    \endentry
+    \entry{nagarajanAdaptationLarvalCrowding2016}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=2fe30b3cf2dca71f2594313c6ce50d61}{%
+           family={Nagarajan},
+           familyi={N\bibinitperiod},
+           given={ARCHANA},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=745386053b29e4ed7324fdc046511891}{%
+           family={NATARAJAN},
+           familyi={N\bibinitperiod},
+           given={SHARMILA\bibnamedelima BHARATHI},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6890256632b06e0bcddfcd6e315eb18}{%
+           family={JAYARAM},
+           familyi={J\bibinitperiod},
+           given={MOHAN},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdede1fed78c78cf67a94a88f52e5c7e}{%
+           family={THAMMANNA},
+           familyi={T\bibinitperiod},
+           given={ANANDA},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d64a94f91c04aa8e1dc938dbf80e778d}{%
+           family={CHARI},
+           familyi={C\bibinitperiod},
+           given={SUDARSHAN},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c8ed29e0245461fefba8d6b43b15cb6}{%
+           family={BOSE},
+           familyi={B\bibinitperiod},
+           given={JOY},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a860f2d1e063e320310c69eecc04c4d}{%
+           family={JOIS},
+           familyi={J\bibinitperiod},
+           given={SHREYAS\bibnamedelima V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=beab0efb9b36b4560ccd35423849250d}{%
+           family={JOSHI},
+           familyi={J\bibinitperiod},
+           given={AMITABH},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2fd7ad1f023a116cbd67dfdc701ecf42}
+      \strng{fullhash}{c10bcd0acf05ea870e5bff1da567627e}
+      \strng{bibnamehash}{dd6c7efe5243b3b30831b26071fa2b35}
+      \strng{authorbibnamehash}{dd6c7efe5243b3b30831b26071fa2b35}
+      \strng{authornamehash}{2fd7ad1f023a116cbd67dfdc701ecf42}
+      \strng{authorfullhash}{c10bcd0acf05ea870e5bff1da567627e}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The standard view of adaptation to larval crowding in fruitflies, built on results from 25 years of multiple experimental evolution studies on Drosophila melanogaster, was that enhanced competitive ability evolves primarily through increased larval feeding and foraging rate, and increased larval tolerance to nitrogenous wastes, at the cost of efficiency of food conversion to biomass. These results were at odds from the predictions of classical K-selection theory, notably the expectation that selection at high density should result in the increase of efficiency of conversion of food to biomass, and were better interpreted through the lens of {$\alpha$}-selection. We show here that populations of D. ananassae and D. n. nasuta subjected to extreme larval crowding evolve greater competitive ability and pre-adult survivorship at high density, primarily through a combination of reduced larval duration, faster attainment of minimum critical size for pupation, greater time efficiency of food conversion to biomass and increased pupation height, with a relatively small role of increased urea/ammonia tolerance, if at all. This is a very different suite of traits than that seen to evolve under similar selection in D. melanogaster, and seems to be closer to the expectations from the canonical theory of K-selection. We also discuss possible reasons for these differences in results across the three species. Overall, the results reinforce the view that our understanding of the evolution of competitive ability in fruitflies needs to be more nuanced than before, with an appreciation that there may be multiple evolutionary routes through which higher competitive ability can be attained.}
+      \field{issn}{0973-7731}
+      \field{journaltitle}{Journal of Genetics}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shorttitle}{Adaptation to Larval Crowding in {{Drosophila}} Ananassae and {{Drosophila}} Nasuta Nasuta}
+      \field{title}{Adaptation to Larval Crowding in {{Drosophila}} Ananassae and {{Drosophila}} Nasuta Nasuta: Increased Larval Competitive Ability without Increased Larval Feeding Rate}
+      \field{volume}{95}
+      \field{year}{2016}
+      \field{pages}{411\bibrangedash 425}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s12041-016-0655-9
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\LFI267X2\\NAGARAJAN et al. - 2016 - Adaptation to larval crowding in Drosophila ananas.pdf
+      \endverb
+    \endentry
+    \entry{prasadWhatHaveTwo2003}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f99a830d06d90f61e46874b0e53a1538}{%
+           family={Prasad},
+           familyi={P\bibinitperiod},
+           given={N.\bibnamedelimi G.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6ecab0c380628ddcd3863cef00bfae50}
+      \strng{fullhash}{089ea192fb4d797d65387e72e58bb96f}
+      \strng{bibnamehash}{089ea192fb4d797d65387e72e58bb96f}
+      \strng{authorbibnamehash}{089ea192fb4d797d65387e72e58bb96f}
+      \strng{authornamehash}{6ecab0c380628ddcd3863cef00bfae50}
+      \strng{authorfullhash}{089ea192fb4d797d65387e72e58bb96f}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A series of laboratory selection experiments onDrosophila melanogaster over the past two decades has provided insights into the specifics of life-history tradeoffs in the species and greatly refined our understanding of how ecology and genetics interact in life-history evolution. Much of what has been learnt from these studies about the subtlety of the microevolutionary process also has significant implications for experimental design and inference in organismal biology beyond life-history evolution, as well as for studies of evolution in the wild. Here we review work on the ecology and evolution of life-histories in laboratory populations ofD. melanogaster, emphasizing how environmental effects on life-history-related traits can influence evolutionary change. We discuss life-history tradeoffs—{}many unexpected—{}revealed by selection experiments, and also highlight recent work that underscores the importance to life-history evolution of cross-generation and cross-life-stage effects and interactions, sexual antagonism and sexual dimorphism, population dynamics, and the possible role of biological clocks in timing life-history events. Finally, we discuss some of the limitations of typical selection experiments, and how these limitations might be transcended in the future by a combination of more elaborate and realistic selection experiments, developmental evolutionary biology, and the emerging discipline of phenomics.}
+      \field{issn}{0973-7731}
+      \field{journaltitle}{Journal of Genetics}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{What Have Two Decades of Laboratory Life-History Evolution Studies {{onDrosophila}} Melanogaster Taught Us?}
+      \field{volume}{82}
+      \field{year}{2003}
+      \field{pages}{45\bibrangedash 76}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1007/BF02715881
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\QM4J78IH\\Prasad and Joshi - 2003 - What have two decades of laboratory life-history e.pdf
+      \endverb
+    \endentry
+    \entry{roughgardenDensityDependentNaturalSelection1971}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=23f08dbdd3ed34d92dbbbf8155f7df86}{%
+           family={Roughgarden},
+           familyi={R\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{23f08dbdd3ed34d92dbbbf8155f7df86}
+      \strng{fullhash}{23f08dbdd3ed34d92dbbbf8155f7df86}
+      \strng{bibnamehash}{23f08dbdd3ed34d92dbbbf8155f7df86}
+      \strng{authorbibnamehash}{23f08dbdd3ed34d92dbbbf8155f7df86}
+      \strng{authornamehash}{23f08dbdd3ed34d92dbbbf8155f7df86}
+      \strng{authorfullhash}{23f08dbdd3ed34d92dbbbf8155f7df86}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Density—{}dependent selective values illustrate the evolutionary effect of population—{}regulating processes that diminish an individual's probability of survival with increased crowding. The selective values, assumed to decrease as a linear function of density, lead in a mild environment to the evolution of phenotypes having a high carrying capacity, K, at the expense of a low intrinsic rate of increase, r. A graphical technique shows that selection causes evolution of phenotypes having a high r at the expense of a low K in harsh seasonal environments. A mathematical technique developed for analyzing evolution in coarse—{}grained seasonal environments reveals genetic mechanisms, including ones with full dominance, with which a moderately harsh seasonal environment causes stable polymorphism between high—{}r and high—{}K genes. The energy balance equation demonstrates the role of high—{}r and high—{}K phenotypes in the population's energy flow. A high—{}r phenotype makes a large expected contribution to the population's productivity under conditions of negligible crowding, and a high—{}K phenotype has, for a given contribution to the population's productivity under uncrowded conditions, a low sensitivity to having that contribution diminished by crowding.}
+      \field{issn}{1939-9170}
+      \field{journaltitle}{Ecology}
+      \field{note}{\_eprint: https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.2307/1937628}
+      \field{number}{3}
+      \field{title}{Density-{{Dependent Natural Selection}}}
+      \field{volume}{52}
+      \field{year}{1971}
+      \field{pages}{453\bibrangedash 468}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.2307/1937628
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\D6SNZ7R8\\1937628.html
+      \endverb
+    \endentry
+    \entry{santosDensityDependentNaturalSelection1997}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=dc7637f3f3183365e4b17d06573d24c8}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Mauro},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c714bd35a18c619f80bff19c968bfe48}{%
+           family={Borash},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e88bce67d5676aa2b83c2a621b7c6c5}{%
+           family={Bounlutay},
+           familyi={B\bibinitperiod},
+           given={Nira},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=834e1220db6d5cb74bd36fc451f17b90}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Laurence\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{749151689b4263919613ed1b6b0dcc72}
+      \strng{fullhash}{95d19932b79447876adb510b390fb25a}
+      \strng{bibnamehash}{95d19932b79447876adb510b390fb25a}
+      \strng{authorbibnamehash}{95d19932b79447876adb510b390fb25a}
+      \strng{authornamehash}{749151689b4263919613ed1b6b0dcc72}
+      \strng{authorfullhash}{95d19932b79447876adb510b390fb25a}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Drosophila melanogaster populations subjected to extreme larval crowding (CU lines) in our laboratory have evolved higher larval feeding rates than their corresponding controls (UU lines). It has been suggested that this genetically based behavior may involve an energetic cost, which precludes natural selection in a density-regulated population to simultaneously maximize food acquisition and food conversion into biomass. If true, this stands against some basic predictions of the general theory of density-dependent natural selection. Here we investigate the evolutionary consequences of density-dependent natural selection on growth rate and body size in D. melanogaster. The CU populations showed a higher growth rate during the postcritical period of larval life than UU populations, but the sustained differences in weight did not translate into the adult stage. The simplest explanation for these findings (that natural selection in a crowded larval environment favors a faster food acquisition for the individual to attain the same final body size in a shorter period of time) was tested and rejected by looking at the larva-to-adult development times. Larvae of CU populations starved for different periods of time develop into comparatively smaller adults, suggesting that food seeking behavior in a food depleted environment carries a higher cost to these larvae than to their UU counterparts. The results have important implications for understanding the evolution of body size in natural populations of Drosophila, and stand against some widespread beliefs that body size may represent a compromise between the conflicting effects of genetic variation in larval and adult performance.}
+      \field{issn}{1558-5646}
+      \field{journaltitle}{Evolution}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1558-5646.1997.tb02429.x}
+      \field{number}{2}
+      \field{shorttitle}{Density-{{Dependent Natural Selection}} in {{Drosophila}}}
+      \field{title}{Density-{{Dependent Natural Selection}} in {{Drosophila}}: {{Evolution}} of {{Growth Rate}} and {{Body Size}}}
+      \field{volume}{51}
+      \field{year}{1997}
+      \field{pages}{420\bibrangedash 432}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1111/j.1558-5646.1997.tb02429.x
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\WH5HW5IG\\Santos et al. - 1997 - Density-Dependent Natural Selection in Drosophila.pdf;C\:\\Users\\HP\\Zotero\\storage\\SNWR9IDI\\j.1558-5646.1997.tb02429.html
+      \endverb
+      \keyw{Body size,critical size,density-dependent selection,development time,Drosophila melanogaster,efficiency,feeding rate,growth rate,trade-offs}
     \endentry
     \entry{sarangiEcologicalDetailsMediate2018}{thesis}{}
       \name{author}{1}{}{%
@@ -281,6 +1133,74 @@
       \verb{file}
       \verb C\:\\Users\\HP\\Zotero\\storage\\ECWMNLM6\\Sarangi - 2018 - Ecological details mediate different paths to the .pdf;C\:\\Users\\HP\\Zotero\\storage\\L9KKQIQA\\2722.html
       \endverb
+    \endentry
+    \entry{shiotsuguSymmetryCorrelatedSelection1997}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3026a9770a126462e75d0e169519cd34}{%
+           family={Shiotsugu},
+           familyi={S\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=008fe4c6ccc32aa2b63069ec3208b658}{%
+           family={Leroi},
+           familyi={L\bibinitperiod},
+           given={Armand\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b952484c920aaf55985f59c04a9628b2}{%
+           family={Yashiro},
+           familyi={Y\bibinitperiod},
+           given={Hideko},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f14619dcd8338224dfb35002fb88d32}{%
+           family={Rose},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=834e1220db6d5cb74bd36fc451f17b90}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Laurence\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{da90dc3a68aa76051b4b7f38da639f33}
+      \strng{fullhash}{c52a40d86d6b3d4b140ad8df17a7a9ed}
+      \strng{bibnamehash}{c52a40d86d6b3d4b140ad8df17a7a9ed}
+      \strng{authorbibnamehash}{c52a40d86d6b3d4b140ad8df17a7a9ed}
+      \strng{authornamehash}{da90dc3a68aa76051b4b7f38da639f33}
+      \strng{authorfullhash}{c52a40d86d6b3d4b140ad8df17a7a9ed}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The relationship between the processes of density-dependent and age-specific selection has been investigated by examining a common phenotype, urea resistance, which has apparently evolved in response to each of these selection mechanisms. Twenty populations that have experienced differing levels of age-specific selection show differences in egg-to-adult viability in environments with high levels of urea. Among this group of populations, it appears that resistance to urea is correlated with longevity, but not development time. Ten populations kept at extreme larval densities for many generations also show responses to urea: those kept at high larval densities appear to be most resistant to urea. However, these populations show no differences in adult longevity. An additional five populations were selected directly for urea resistance by adding this compound to the larval food environment. Again, there was a strong response to this artificial selection, with urea resistance increasing dramatically, but these populations showed no response in adult longevity or resistance to crowding when compared to five control populations. There is clearly no simple relationship between longevity and larval urea resistance. It may be that age-specific and density-dependent selection induce similar changes in this phenotype, but do so through different genetic and physiological pathways. We suggest that these data are not consistent with the view of constant and symmetric genetic variance-covariance matrices. These data support a more prominent role for observations of evolutionary trajectories rather than static measurements of genetic components of variance.}
+      \field{issn}{1558-5646}
+      \field{journaltitle}{Evolution}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1558-5646.1997.tb02397.x}
+      \field{number}{1}
+      \field{shorttitle}{The {{Symmetry}} of {{Correlated Selection Responses}} in {{Adaptive Evolution}}}
+      \field{title}{The {{Symmetry}} of {{Correlated Selection Responses}} in {{Adaptive Evolution}}: {{An Experimental Study Using Drosophila}}}
+      \field{volume}{51}
+      \field{year}{1997}
+      \field{pages}{163\bibrangedash 172}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/j.1558-5646.1997.tb02397.x
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\FHCHZ3UP\\Shiotsugu et al. - 1997 - The Symmetry of Correlated Selection Responses in .pdf;C\:\\Users\\HP\\Zotero\\storage\\4R854M2B\\j.1558-5646.1997.tb02397.html
+      \endverb
+      \keyw{Correlated responses,development,Drosophila,evolution,life history,senescence,stress resistance,urea}
     \endentry
   \enddatalist
 \endrefsection
