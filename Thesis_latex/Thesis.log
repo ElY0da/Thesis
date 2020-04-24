@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  23 APR 2020 17:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  24 APR 2020 20:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -389,6 +389,30 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \sf@top=\skip68
 \sf@bottom=\skip69
 )
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+
+(c:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen121
+\ar@mcellbox=\box27
+\extrarowheight=\dimen122
+\NC@list=\toks17
+\extratabsurround=\skip70
+\backup@length=\skip71
+\ar@cellbox=\box28
+)
+\everycr=\toks18
+\minrowclearance=\skip72
+)
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 
@@ -419,23 +443,24 @@ File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 \@quotelevel=\count300
 \@quotereset=\count301
 
-(./Thesis.aux (./C0/Titlepage.aux) (./C1/intro.aux) (./C2/chapter2.aux)
-(./C3/chapter3.aux) (./C4/chapter4.aux) (./C5/chapter5.aux) (./C6/chapter6.aux)
+(./Thesis.aux (./C0/Titlepage.aux) (./C0/Certificate.aux)
+(./C0/Declarations.aux) (./C1/intro.aux) (./C2/chapter2.aux) (./C3/chapter3.aux
+) (./C4/chapter4.aux) (./C5/chapter5.aux) (./C6/chapter6.aux)
 (./C7/discussion.aux) (./CA2/chapterA2.aux))
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -474,16 +499,16 @@ LaTeX Font Info:    ... okay on input line 9.
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count302
-\scratchdimen=\dimen121
-\scratchbox=\box27
+\scratchdimen=\dimen123
+\scratchbox=\box29
 \nofMPsegments=\count303
 \nofMParguments=\count304
-\everyMPshowfont=\toks17
+\everyMPshowfont=\toks19
 \MPscratchCnt=\count305
-\MPscratchDim=\dimen122
+\MPscratchDim=\dimen124
 \MPnumerator=\count306
 \makeMPintoPDFobject=\count307
-\everyMPtoPDFconversion=\toks18
+\everyMPtoPDFconversion=\toks20
 ) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -513,8 +538,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Thesis.bbl' found.
 
 (./Thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 9.
-Package biblatex Info: Reference segment=0 on input line 9.
+Package biblatex Info: Reference section=0 on input line 11.
+Package biblatex Info: Reference segment=0 on input line 11.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -531,6 +556,20 @@ Package pdftex.def Info: C0/Figs/IISER_Mohali_logo.png  used on input line 17.
 
 {c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./C0/Figs/IISER
 _Mohali_logo.png>])
+\openout2 = `C0/Certificate.aux'.
+
+ (./C0/Certificate.tex) [1
+
+
+
+]
+\openout2 = `C0/Declarations.aux'.
+
+ (./C0/Declarations.tex [2
+
+
+
+]) [3]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -563,60 +602,91 @@ _Mohali_logo.png>])
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./Thesis.lof
+ [4
+
+
+
+] (./Thesis.lof
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 7.
- [1
-
-
+ [5
 
 ]
 Underfull \vbox (badness 1412) has occurred while \output is active []
 
- [2])
+ [6])
 \tf@lof=\write4
 \openout4 = `Thesis.lof'.
 
 
-[3] (./Thesis.lot)
+[7] [8
+
+] (./Thesis.lot)
 \tf@lot=\write5
 \openout5 = `Thesis.lot'.
 
- [4
+ [9
 
-] (./Thesis.toc [5
+] [10
+
+] (./Thesis.toc [11
 
 ])
 \tf@toc=\write6
 \openout6 = `Thesis.toc'.
 
- [6]
+ [12]
 \openout2 = `C1/intro.aux'.
 
  (./C1/intro.tex
 Chapter 1.
 )
-Overfull \hbox (12.10886pt too wide) in paragraph at lines 2--23
+Overfull \hbox (12.10886pt too wide) in paragraph at lines 2--32
 \OT1/cmr/m/n/12 The the-ory of density-dependent nat-u-ral se-lec-tion was ver-
 bally in-tro-duced by [][]MacArthur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--23
+Underfull \hbox (badness 10000) in paragraph at lines 2--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--23
+Underfull \hbox (badness 10000) in paragraph at lines 2--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--23
+Underfull \hbox (badness 10000) in paragraph at lines 2--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--32
 
  []
 
@@ -634,17 +704,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
+[4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 \openout2 = `C2/chapter2.aux'.
 
 
 (./C2/chapter2.tex
 Chapter 2.
-[4
+[7
+
 
 
 
 ]
-<C2/Figs/vial_diagram.png, id=45, 1072.005pt x 421.3341pt>
+<C2/Figs/vial_diagram.png, id=75, 1072.005pt x 421.3341pt>
 File: C2/Figs/vial_diagram.png Graphic file (type png)
 <use C2/Figs/vial_diagram.png>
 Package pdftex.def Info: C2/Figs/vial_diagram.png  used on input line 8.
@@ -654,23 +732,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-<C2/Figs/larval_model.png, id=46, 836.4048pt x 716.4366pt>
+[8 <./C2/Figs/vial_diagram.png>]
+<C2/Figs/larval_model.png, id=80, 836.4048pt x 716.4366pt>
 File: C2/Figs/larval_model.png Graphic file (type png)
 <use C2/Figs/larval_model.png>
 Package pdftex.def Info: C2/Figs/larval_model.png  used on input line 23.
 (pdftex.def)             Requested size: 347.92163pt x 298.02623pt.
-[5 <./C2/Figs/vial_diagram.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
  []
 
-[6 <./C2/Figs/larval_model.png>]
+[9 <./C2/Figs/larval_model.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[7]
-<C2/Figs/waste_build_up.png, id=63, 462.528pt x 345.4506pt>
+[10]
+<C2/Figs/waste_build_up.png, id=91, 462.528pt x 345.4506pt>
 File: C2/Figs/waste_build_up.png Graphic file (type png)
 <use C2/Figs/waste_build_up.png>
 Package pdftex.def Info: C2/Figs/waste_build_up.png  used on input line 58.
@@ -680,38 +759,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--63
 
  []
 
-[8 <./C2/Figs/waste_build_up.png>]
+[11 <./C2/Figs/waste_build_up.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<C2/Figs/fQ.png, id=68, 462.528pt x 346.896pt>
+<C2/Figs/fQ.png, id=96, 462.528pt x 346.896pt>
 File: C2/Figs/fQ.png Graphic file (type png)
 <use C2/Figs/fQ.png>
 Package pdftex.def Info: C2/Figs/fQ.png  used on input line 68.
 (pdftex.def)             Requested size: 347.92163pt x 260.95474pt.
-) [9 <./C2/Figs/fQ.png>]
+) [12 <./C2/Figs/fQ.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
+ [13]
+[14
+
+
+]
 \openout2 = `C3/chapter3.aux'.
 
-
-(./C3/chapter3.tex
+ (./C3/chapter3.tex
 Chapter 3.
-<C3/Figs/fr_eff/fr_eff_bs_MB.png, id=76, 505.89pt x 433.62pt>
+<C3/Figs/fr_eff/fr_eff_bs_MB.png, id=108, 505.89pt x 433.62pt>
 File: C3/Figs/fr_eff/fr_eff_bs_MB.png Graphic file (type png)
 <use C3/Figs/fr_eff/fr_eff_bs_MB.png>
 Package pdftex.def Info: C3/Figs/fr_eff/fr_eff_bs_MB.png  used on input line 10
 .
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_eff/fr_eff_bs_MCU.png, id=78, 505.89pt x 433.62pt>
+<C3/Figs/fr_eff/fr_eff_bs_MCU.png, id=110, 505.89pt x 433.62pt>
 File: C3/Figs/fr_eff/fr_eff_bs_MCU.png Graphic file (type png)
 <use C3/Figs/fr_eff/fr_eff_bs_MCU.png>
 Package pdftex.def Info: C3/Figs/fr_eff/fr_eff_bs_MCU.png  used on input line 1
 4.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_eff/fr_eff_bs_CCU.png, id=80, 505.89pt x 433.62pt>
+<C3/Figs/fr_eff/fr_eff_bs_CCU.png, id=112, 505.89pt x 433.62pt>
 File: C3/Figs/fr_eff/fr_eff_bs_CCU.png Graphic file (type png)
 <use C3/Figs/fr_eff/fr_eff_bs_CCU.png>
 Package pdftex.def Info: C3/Figs/fr_eff/fr_eff_bs_CCU.png  used on input line 1
@@ -722,19 +804,19 @@ Overfull \hbox (43.90005pt too wide) in paragraph at lines 10--19
 [][][][] 
  []
 
-<C3/Figs/fr_eff/fr_eff_dt_MB.png, id=82, 505.89pt x 433.62pt>
+<C3/Figs/fr_eff/fr_eff_dt_MB.png, id=114, 505.89pt x 433.62pt>
 File: C3/Figs/fr_eff/fr_eff_dt_MB.png Graphic file (type png)
 <use C3/Figs/fr_eff/fr_eff_dt_MB.png>
 Package pdftex.def Info: C3/Figs/fr_eff/fr_eff_dt_MB.png  used on input line 26
 .
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_eff/fr_eff_dt_MCU.png, id=84, 505.89pt x 433.62pt>
+<C3/Figs/fr_eff/fr_eff_dt_MCU.png, id=116, 505.89pt x 433.62pt>
 File: C3/Figs/fr_eff/fr_eff_dt_MCU.png Graphic file (type png)
 <use C3/Figs/fr_eff/fr_eff_dt_MCU.png>
 Package pdftex.def Info: C3/Figs/fr_eff/fr_eff_dt_MCU.png  used on input line 3
 0.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_eff/fr_eff_dt_CCU.png, id=86, 505.89pt x 433.62pt>
+<C3/Figs/fr_eff/fr_eff_dt_CCU.png, id=118, 505.89pt x 433.62pt>
 File: C3/Figs/fr_eff/fr_eff_dt_CCU.png Graphic file (type png)
 <use C3/Figs/fr_eff/fr_eff_dt_CCU.png>
 Package pdftex.def Info: C3/Figs/fr_eff/fr_eff_dt_CCU.png  used on input line 3
@@ -745,19 +827,19 @@ Overfull \hbox (43.90366pt too wide) in paragraph at lines 26--35
 [][][][] 
  []
 
-<C3/Figs/fr_eff/fr_eff_sur_MB.png, id=88, 505.89pt x 433.62pt>
+<C3/Figs/fr_eff/fr_eff_sur_MB.png, id=120, 505.89pt x 433.62pt>
 File: C3/Figs/fr_eff/fr_eff_sur_MB.png Graphic file (type png)
 <use C3/Figs/fr_eff/fr_eff_sur_MB.png>
 Package pdftex.def Info: C3/Figs/fr_eff/fr_eff_sur_MB.png  used on input line 4
 2.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_eff/fr_eff_sur_MCU.png, id=90, 505.89pt x 433.62pt>
+<C3/Figs/fr_eff/fr_eff_sur_MCU.png, id=122, 505.89pt x 433.62pt>
 File: C3/Figs/fr_eff/fr_eff_sur_MCU.png Graphic file (type png)
 <use C3/Figs/fr_eff/fr_eff_sur_MCU.png>
 Package pdftex.def Info: C3/Figs/fr_eff/fr_eff_sur_MCU.png  used on input line 
 46.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_eff/fr_eff_sur_CCU.png, id=92, 505.89pt x 433.62pt>
+<C3/Figs/fr_eff/fr_eff_sur_CCU.png, id=124, 505.89pt x 433.62pt>
 File: C3/Figs/fr_eff/fr_eff_sur_CCU.png Graphic file (type png)
 <use C3/Figs/fr_eff/fr_eff_sur_CCU.png>
 Package pdftex.def Info: C3/Figs/fr_eff/fr_eff_sur_CCU.png  used on input line 
@@ -768,19 +850,19 @@ Overfull \hbox (43.90005pt too wide) in paragraph at lines 42--51
 [][][][] 
  []
 
-<C3/Figs/fr_eff/fr_eff_frt_MB.png, id=94, 505.89pt x 433.62pt>
+<C3/Figs/fr_eff/fr_eff_frt_MB.png, id=126, 505.89pt x 433.62pt>
 File: C3/Figs/fr_eff/fr_eff_frt_MB.png Graphic file (type png)
 <use C3/Figs/fr_eff/fr_eff_frt_MB.png>
 Package pdftex.def Info: C3/Figs/fr_eff/fr_eff_frt_MB.png  used on input line 5
 8.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_eff/fr_eff_frt_MCU.png, id=96, 505.89pt x 433.62pt>
+<C3/Figs/fr_eff/fr_eff_frt_MCU.png, id=128, 505.89pt x 433.62pt>
 File: C3/Figs/fr_eff/fr_eff_frt_MCU.png Graphic file (type png)
 <use C3/Figs/fr_eff/fr_eff_frt_MCU.png>
 Package pdftex.def Info: C3/Figs/fr_eff/fr_eff_frt_MCU.png  used on input line 
 62.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_eff/fr_eff_frt_CCU.png, id=98, 505.89pt x 433.62pt>
+<C3/Figs/fr_eff/fr_eff_frt_CCU.png, id=130, 505.89pt x 433.62pt>
 File: C3/Figs/fr_eff/fr_eff_frt_CCU.png Graphic file (type png)
 <use C3/Figs/fr_eff/fr_eff_frt_CCU.png>
 Package pdftex.def Info: C3/Figs/fr_eff/fr_eff_frt_CCU.png  used on input line 
@@ -794,29 +876,28 @@ Overfull \hbox (43.90005pt too wide) in paragraph at lines 58--67
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11
-
+ [15
 
 
 ]
-[12 <./C3/Figs/fr_eff/fr_eff_bs_MB.png> <./C3/Figs/fr_eff/fr_eff_bs_MCU.png> <.
-/C3/Figs/fr_eff/fr_eff_bs_CCU.png>] [13 <./C3/Figs/fr_eff/fr_eff_dt_MB.png> <./
+[16 <./C3/Figs/fr_eff/fr_eff_bs_MB.png> <./C3/Figs/fr_eff/fr_eff_bs_MCU.png> <.
+/C3/Figs/fr_eff/fr_eff_bs_CCU.png>] [17 <./C3/Figs/fr_eff/fr_eff_dt_MB.png> <./
 C3/Figs/fr_eff/fr_eff_dt_MCU.png> <./C3/Figs/fr_eff/fr_eff_dt_CCU.png> <./C3/Fi
 gs/fr_eff/fr_eff_sur_MB.png> <./C3/Figs/fr_eff/fr_eff_sur_MCU.png> <./C3/Figs/f
 r_eff/fr_eff_sur_CCU.png> <./C3/Figs/fr_eff/fr_eff_frt_MB.png> <./C3/Figs/fr_ef
 f/fr_eff_frt_MCU.png> <./C3/Figs/fr_eff/fr_eff_frt_CCU.png>]
-<C3/Figs/fr_mc/fr_mc_bs_MB.png, id=135, 505.89pt x 433.62pt>
+<C3/Figs/fr_mc/fr_mc_bs_MB.png, id=166, 505.89pt x 433.62pt>
 File: C3/Figs/fr_mc/fr_mc_bs_MB.png Graphic file (type png)
 <use C3/Figs/fr_mc/fr_mc_bs_MB.png>
 Package pdftex.def Info: C3/Figs/fr_mc/fr_mc_bs_MB.png  used on input line 78.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_mc/fr_mc_bs_MCU.png, id=137, 505.89pt x 433.62pt>
+<C3/Figs/fr_mc/fr_mc_bs_MCU.png, id=168, 505.89pt x 433.62pt>
 File: C3/Figs/fr_mc/fr_mc_bs_MCU.png Graphic file (type png)
 <use C3/Figs/fr_mc/fr_mc_bs_MCU.png>
 Package pdftex.def Info: C3/Figs/fr_mc/fr_mc_bs_MCU.png  used on input line 82.
 
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_mc/fr_mc_bs_CCU.png, id=139, 505.89pt x 433.62pt>
+<C3/Figs/fr_mc/fr_mc_bs_CCU.png, id=170, 505.89pt x 433.62pt>
 File: C3/Figs/fr_mc/fr_mc_bs_CCU.png Graphic file (type png)
 <use C3/Figs/fr_mc/fr_mc_bs_CCU.png>
 Package pdftex.def Info: C3/Figs/fr_mc/fr_mc_bs_CCU.png  used on input line 86.
@@ -827,18 +908,18 @@ Overfull \hbox (43.90005pt too wide) in paragraph at lines 78--87
 [][][][] 
  []
 
-<C3/Figs/fr_mc/fr_mc_dt_MB.png, id=141, 505.89pt x 433.62pt>
+<C3/Figs/fr_mc/fr_mc_dt_MB.png, id=172, 505.89pt x 433.62pt>
 File: C3/Figs/fr_mc/fr_mc_dt_MB.png Graphic file (type png)
 <use C3/Figs/fr_mc/fr_mc_dt_MB.png>
 Package pdftex.def Info: C3/Figs/fr_mc/fr_mc_dt_MB.png  used on input line 94.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_mc/fr_mc_dt_MCU.png, id=143, 505.89pt x 433.62pt>
+<C3/Figs/fr_mc/fr_mc_dt_MCU.png, id=174, 505.89pt x 433.62pt>
 File: C3/Figs/fr_mc/fr_mc_dt_MCU.png Graphic file (type png)
 <use C3/Figs/fr_mc/fr_mc_dt_MCU.png>
 Package pdftex.def Info: C3/Figs/fr_mc/fr_mc_dt_MCU.png  used on input line 98.
 
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_mc/fr_mc_dt_CCU.png, id=145, 505.89pt x 433.62pt>
+<C3/Figs/fr_mc/fr_mc_dt_CCU.png, id=176, 505.89pt x 433.62pt>
 File: C3/Figs/fr_mc/fr_mc_dt_CCU.png Graphic file (type png)
 <use C3/Figs/fr_mc/fr_mc_dt_CCU.png>
 Package pdftex.def Info: C3/Figs/fr_mc/fr_mc_dt_CCU.png  used on input line 102
@@ -849,19 +930,19 @@ Overfull \hbox (43.90005pt too wide) in paragraph at lines 94--103
 [][][][] 
  []
 
-<C3/Figs/fr_mc/fr_mc_sur_MB.png, id=147, 505.89pt x 433.62pt>
+<C3/Figs/fr_mc/fr_mc_sur_MB.png, id=178, 505.89pt x 433.62pt>
 File: C3/Figs/fr_mc/fr_mc_sur_MB.png Graphic file (type png)
 <use C3/Figs/fr_mc/fr_mc_sur_MB.png>
 Package pdftex.def Info: C3/Figs/fr_mc/fr_mc_sur_MB.png  used on input line 110
 .
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_mc/fr_mc_sur_MCU.png, id=149, 505.89pt x 433.62pt>
+<C3/Figs/fr_mc/fr_mc_sur_MCU.png, id=180, 505.89pt x 433.62pt>
 File: C3/Figs/fr_mc/fr_mc_sur_MCU.png Graphic file (type png)
 <use C3/Figs/fr_mc/fr_mc_sur_MCU.png>
 Package pdftex.def Info: C3/Figs/fr_mc/fr_mc_sur_MCU.png  used on input line 11
 4.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_mc/fr_mc_sur_CCU.png, id=151, 505.89pt x 433.62pt>
+<C3/Figs/fr_mc/fr_mc_sur_CCU.png, id=182, 505.89pt x 433.62pt>
 File: C3/Figs/fr_mc/fr_mc_sur_CCU.png Graphic file (type png)
 <use C3/Figs/fr_mc/fr_mc_sur_CCU.png>
 Package pdftex.def Info: C3/Figs/fr_mc/fr_mc_sur_CCU.png  used on input line 11
@@ -872,19 +953,19 @@ Overfull \hbox (43.90005pt too wide) in paragraph at lines 110--119
 [][][][] 
  []
 
-<C3/Figs/fr_mc/fr_mc_frt_MB.png, id=153, 505.89pt x 433.62pt>
+<C3/Figs/fr_mc/fr_mc_frt_MB.png, id=184, 505.89pt x 433.62pt>
 File: C3/Figs/fr_mc/fr_mc_frt_MB.png Graphic file (type png)
 <use C3/Figs/fr_mc/fr_mc_frt_MB.png>
 Package pdftex.def Info: C3/Figs/fr_mc/fr_mc_frt_MB.png  used on input line 127
 .
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_mc/fr_mc_frt_MCU.png, id=155, 505.89pt x 433.62pt>
+<C3/Figs/fr_mc/fr_mc_frt_MCU.png, id=186, 505.89pt x 433.62pt>
 File: C3/Figs/fr_mc/fr_mc_frt_MCU.png Graphic file (type png)
 <use C3/Figs/fr_mc/fr_mc_frt_MCU.png>
 Package pdftex.def Info: C3/Figs/fr_mc/fr_mc_frt_MCU.png  used on input line 13
 1.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/fr_mc/fr_mc_frt_CCU.png, id=157, 505.89pt x 433.62pt>
+<C3/Figs/fr_mc/fr_mc_frt_CCU.png, id=188, 505.89pt x 433.62pt>
 File: C3/Figs/fr_mc/fr_mc_frt_CCU.png Graphic file (type png)
 <use C3/Figs/fr_mc/fr_mc_frt_CCU.png>
 Package pdftex.def Info: C3/Figs/fr_mc/fr_mc_frt_CCU.png  used on input line 13
@@ -895,25 +976,25 @@ Overfull \hbox (43.90005pt too wide) in paragraph at lines 127--136
 [][][][] 
  []
 
-[14 <./C3/Figs/fr_mc/fr_mc_bs_MB.png> <./C3/Figs/fr_mc/fr_mc_bs_MCU.png> <./C3/
-Figs/fr_mc/fr_mc_bs_CCU.png>] [15 <./C3/Figs/fr_mc/fr_mc_dt_MB.png> <./C3/Figs/
+[18 <./C3/Figs/fr_mc/fr_mc_bs_MB.png> <./C3/Figs/fr_mc/fr_mc_bs_MCU.png> <./C3/
+Figs/fr_mc/fr_mc_bs_CCU.png>] [19 <./C3/Figs/fr_mc/fr_mc_dt_MB.png> <./C3/Figs/
 fr_mc/fr_mc_dt_MCU.png> <./C3/Figs/fr_mc/fr_mc_dt_CCU.png> <./C3/Figs/fr_mc/fr_
 mc_sur_MB.png> <./C3/Figs/fr_mc/fr_mc_sur_MCU.png> <./C3/Figs/fr_mc/fr_mc_sur_C
 CU.png> <./C3/Figs/fr_mc/fr_mc_frt_MB.png> <./C3/Figs/fr_mc/fr_mc_frt_MCU.png> 
 <./C3/Figs/fr_mc/fr_mc_frt_CCU.png>]
-<C3/Figs/mc_eff/mc_eff_bs_MB.png, id=189, 505.89pt x 433.62pt>
+<C3/Figs/mc_eff/mc_eff_bs_MB.png, id=221, 505.89pt x 433.62pt>
 File: C3/Figs/mc_eff/mc_eff_bs_MB.png Graphic file (type png)
 <use C3/Figs/mc_eff/mc_eff_bs_MB.png>
 Package pdftex.def Info: C3/Figs/mc_eff/mc_eff_bs_MB.png  used on input line 14
 7.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/mc_eff/mc_eff_bs_MCU.png, id=191, 505.89pt x 433.62pt>
+<C3/Figs/mc_eff/mc_eff_bs_MCU.png, id=223, 505.89pt x 433.62pt>
 File: C3/Figs/mc_eff/mc_eff_bs_MCU.png Graphic file (type png)
 <use C3/Figs/mc_eff/mc_eff_bs_MCU.png>
 Package pdftex.def Info: C3/Figs/mc_eff/mc_eff_bs_MCU.png  used on input line 1
 51.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/mc_eff/mc_eff_bs_CCU.png, id=193, 505.89pt x 433.62pt>
+<C3/Figs/mc_eff/mc_eff_bs_CCU.png, id=225, 505.89pt x 433.62pt>
 File: C3/Figs/mc_eff/mc_eff_bs_CCU.png Graphic file (type png)
 <use C3/Figs/mc_eff/mc_eff_bs_CCU.png>
 Package pdftex.def Info: C3/Figs/mc_eff/mc_eff_bs_CCU.png  used on input line 1
@@ -924,19 +1005,19 @@ Overfull \hbox (43.90005pt too wide) in paragraph at lines 147--156
 [][][][] 
  []
 
-<C3/Figs/mc_eff/mc_eff_dt_MB.png, id=195, 505.89pt x 433.62pt>
+<C3/Figs/mc_eff/mc_eff_dt_MB.png, id=227, 505.89pt x 433.62pt>
 File: C3/Figs/mc_eff/mc_eff_dt_MB.png Graphic file (type png)
 <use C3/Figs/mc_eff/mc_eff_dt_MB.png>
 Package pdftex.def Info: C3/Figs/mc_eff/mc_eff_dt_MB.png  used on input line 16
 4.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/mc_eff/mc_eff_dt_MCU.png, id=197, 505.89pt x 433.62pt>
+<C3/Figs/mc_eff/mc_eff_dt_MCU.png, id=229, 505.89pt x 433.62pt>
 File: C3/Figs/mc_eff/mc_eff_dt_MCU.png Graphic file (type png)
 <use C3/Figs/mc_eff/mc_eff_dt_MCU.png>
 Package pdftex.def Info: C3/Figs/mc_eff/mc_eff_dt_MCU.png  used on input line 1
 68.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/mc_eff/mc_eff_dt_CCU.png, id=199, 505.89pt x 433.62pt>
+<C3/Figs/mc_eff/mc_eff_dt_CCU.png, id=231, 505.89pt x 433.62pt>
 File: C3/Figs/mc_eff/mc_eff_dt_CCU.png Graphic file (type png)
 <use C3/Figs/mc_eff/mc_eff_dt_CCU.png>
 Package pdftex.def Info: C3/Figs/mc_eff/mc_eff_dt_CCU.png  used on input line 1
@@ -947,19 +1028,19 @@ Overfull \hbox (43.90005pt too wide) in paragraph at lines 164--173
 [][][][] 
  []
 
-<C3/Figs/mc_eff/mc_eff_sur_MB.png, id=201, 505.89pt x 433.62pt>
+<C3/Figs/mc_eff/mc_eff_sur_MB.png, id=233, 505.89pt x 433.62pt>
 File: C3/Figs/mc_eff/mc_eff_sur_MB.png Graphic file (type png)
 <use C3/Figs/mc_eff/mc_eff_sur_MB.png>
 Package pdftex.def Info: C3/Figs/mc_eff/mc_eff_sur_MB.png  used on input line 1
 81.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/mc_eff/mc_eff_sur_MCU.png, id=203, 505.89pt x 433.62pt>
+<C3/Figs/mc_eff/mc_eff_sur_MCU.png, id=235, 505.89pt x 433.62pt>
 File: C3/Figs/mc_eff/mc_eff_sur_MCU.png Graphic file (type png)
 <use C3/Figs/mc_eff/mc_eff_sur_MCU.png>
 Package pdftex.def Info: C3/Figs/mc_eff/mc_eff_sur_MCU.png  used on input line 
 185.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/mc_eff/mc_eff_sur_CCU.png, id=205, 505.89pt x 433.62pt>
+<C3/Figs/mc_eff/mc_eff_sur_CCU.png, id=237, 505.89pt x 433.62pt>
 File: C3/Figs/mc_eff/mc_eff_sur_CCU.png Graphic file (type png)
 <use C3/Figs/mc_eff/mc_eff_sur_CCU.png>
 Package pdftex.def Info: C3/Figs/mc_eff/mc_eff_sur_CCU.png  used on input line 
@@ -970,19 +1051,19 @@ Overfull \hbox (43.90005pt too wide) in paragraph at lines 181--190
 [][][][] 
  []
 
-<C3/Figs/mc_eff/mc_eff_frt_MB.png, id=207, 505.89pt x 433.62pt>
+<C3/Figs/mc_eff/mc_eff_frt_MB.png, id=239, 505.89pt x 433.62pt>
 File: C3/Figs/mc_eff/mc_eff_frt_MB.png Graphic file (type png)
 <use C3/Figs/mc_eff/mc_eff_frt_MB.png>
 Package pdftex.def Info: C3/Figs/mc_eff/mc_eff_frt_MB.png  used on input line 1
 98.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/mc_eff/mc_eff_frt_MCU.png, id=209, 505.89pt x 433.62pt>
+<C3/Figs/mc_eff/mc_eff_frt_MCU.png, id=241, 505.89pt x 433.62pt>
 File: C3/Figs/mc_eff/mc_eff_frt_MCU.png Graphic file (type png)
 <use C3/Figs/mc_eff/mc_eff_frt_MCU.png>
 Package pdftex.def Info: C3/Figs/mc_eff/mc_eff_frt_MCU.png  used on input line 
 202.
 (pdftex.def)             Requested size: 144.54105pt x 144.54152pt.
-<C3/Figs/mc_eff/mc_eff_frt_CCU.png, id=211, 505.89pt x 433.62pt>
+<C3/Figs/mc_eff/mc_eff_frt_CCU.png, id=243, 505.89pt x 433.62pt>
 File: C3/Figs/mc_eff/mc_eff_frt_CCU.png Graphic file (type png)
 <use C3/Figs/mc_eff/mc_eff_frt_CCU.png>
 Package pdftex.def Info: C3/Figs/mc_eff/mc_eff_frt_CCU.png  used on input line 
@@ -996,38 +1077,40 @@ Overfull \hbox (43.90005pt too wide) in paragraph at lines 198--207
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16 <./C3/Figs/mc_eff/mc_eff_bs_MB.png> <./C3/Figs/mc_eff/mc_eff_bs_MCU.png> <
-./C3/Figs/mc_eff/mc_eff_bs_CCU.png>] [17 <./C3/Figs/mc_eff/mc_eff_dt_MB.png> <.
+ [20 <./C3/Figs/mc_eff/mc_eff_bs_MB.png> <./C3/Figs/mc_eff/mc_eff_bs_MCU.png> <
+./C3/Figs/mc_eff/mc_eff_bs_CCU.png>] [21 <./C3/Figs/mc_eff/mc_eff_dt_MB.png> <.
 /C3/Figs/mc_eff/mc_eff_dt_MCU.png> <./C3/Figs/mc_eff/mc_eff_dt_CCU.png> <./C3/F
 igs/mc_eff/mc_eff_sur_MB.png> <./C3/Figs/mc_eff/mc_eff_sur_MCU.png> <./C3/Figs/
 mc_eff/mc_eff_sur_CCU.png> <./C3/Figs/mc_eff/mc_eff_frt_MB.png> <./C3/Figs/mc_e
-ff/mc_eff_frt_MCU.png> <./C3/Figs/mc_eff/mc_eff_frt_CCU.png>]
+ff/mc_eff_frt_MCU.png> <./C3/Figs/mc_eff/mc_eff_frt_CCU.png>] [22
+
+
+]
 \openout2 = `C4/chapter4.aux'.
 
  (./C4/chapter4.tex
 Chapter 4.
-[18
-
+[23
 
 
 ]
-<C4/Figs/model.png, id=247, 830.1414pt x 1176.3147pt>
+<C4/Figs/model.png, id=282, 830.1414pt x 1176.3147pt>
 File: C4/Figs/model.png Graphic file (type png)
 <use C4/Figs/model.png>
 Package pdftex.def Info: C4/Figs/model.png  used on input line 29.
 (pdftex.def)             Requested size: 434.90039pt x 616.26419pt.
- [19] [20 <./C4/Figs/model.png>]
-<C4/Figs/fr.png, id=257, 578.16pt x 433.62pt>
+ [24] [25 <./C4/Figs/model.png>]
+<C4/Figs/fr.png, id=293, 578.16pt x 433.62pt>
 File: C4/Figs/fr.png Graphic file (type png)
 <use C4/Figs/fr.png>
 Package pdftex.def Info: C4/Figs/fr.png  used on input line 40.
 (pdftex.def)             Requested size: 326.1753pt x 236.87726pt.
-<C4/Figs/eff.png, id=259, 578.16pt x 433.62pt>
+<C4/Figs/eff.png, id=295, 578.16pt x 433.62pt>
 File: C4/Figs/eff.png Graphic file (type png)
 <use C4/Figs/eff.png>
 Package pdftex.def Info: C4/Figs/eff.png  used on input line 46.
 (pdftex.def)             Requested size: 326.1753pt x 236.87726pt.
-<C4/Figs/mc.png, id=261, 578.16pt x 433.62pt>
+<C4/Figs/mc.png, id=297, 578.16pt x 433.62pt>
 File: C4/Figs/mc.png Graphic file (type png)
 <use C4/Figs/mc.png>
 Package pdftex.def Info: C4/Figs/mc.png  used on input line 52.
@@ -1037,24 +1120,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--56
 
  []
 
-[21 <./C4/Figs/fr.png>] [22 <./C4/Figs/eff.png> <./C4/Figs/mc.png>]
-<C4/Figs/wtol.png, id=275, 578.16pt x 433.62pt>
+[26 <./C4/Figs/fr.png>] [27 <./C4/Figs/eff.png> <./C4/Figs/mc.png>]
+<C4/Figs/wtol.png, id=311, 578.16pt x 433.62pt>
 File: C4/Figs/wtol.png Graphic file (type png)
 <use C4/Figs/wtol.png>
 Package pdftex.def Info: C4/Figs/wtol.png  used on input line 61.
 (pdftex.def)             Requested size: 326.1753pt x 236.87726pt.
-<C4/Figs/larval_alive_sizec4.png, id=277, 462.528pt x 346.896pt>
+<C4/Figs/larval_alive_sizec4.png, id=313, 462.528pt x 346.896pt>
 File: C4/Figs/larval_alive_sizec4.png Graphic file (type png)
 <use C4/Figs/larval_alive_sizec4.png>
 Package pdftex.def Info: C4/Figs/larval_alive_sizec4.png  used on input line 69
 .
 (pdftex.def)             Requested size: 326.1753pt x 244.6411pt.
-<C4/Figs/larval_survc4.png, id=278, 462.528pt x 346.896pt>
+<C4/Figs/larval_survc4.png, id=314, 462.528pt x 346.896pt>
 File: C4/Figs/larval_survc4.png Graphic file (type png)
 <use C4/Figs/larval_survc4.png>
 Package pdftex.def Info: C4/Figs/larval_survc4.png  used on input line 75.
 (pdftex.def)             Requested size: 326.1753pt x 244.6411pt.
-<C4/Figs/larval_alive_devtc4.png, id=279, 462.528pt x 346.896pt>
+<C4/Figs/larval_alive_devtc4.png, id=315, 462.528pt x 346.896pt>
 File: C4/Figs/larval_alive_devtc4.png Graphic file (type png)
 <use C4/Figs/larval_alive_devtc4.png>
 Package pdftex.def Info: C4/Figs/larval_alive_devtc4.png  used on input line 81
@@ -1063,19 +1146,19 @@ Package pdftex.def Info: C4/Figs/larval_alive_devtc4.png  used on input line 81
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23 <./C4/Figs/wtol.png>] [24 <./C4/Figs/larval_alive_sizec4.png> <./C4/Figs/l
-arval_survc4.png>] [25 <./C4/Figs/larval_alive_devtc4.png>]
+ [28 <./C4/Figs/wtol.png>] [29 <./C4/Figs/larval_alive_sizec4.png> <./C4/Figs/l
+arval_survc4.png>] [30 <./C4/Figs/larval_alive_devtc4.png>]
 \openout2 = `C5/chapter5.aux'.
 
  (./C5/chapter5.tex
 Chapter 5.
-<C5/Figs/ivar/ivar_fr_eff_fr.png, id=296, 433.62pt x 433.62pt>
+<C5/Figs/ivar/ivar_fr_eff_fr.png, id=331, 433.62pt x 433.62pt>
 File: C5/Figs/ivar/ivar_fr_eff_fr.png Graphic file (type png)
 <use C5/Figs/ivar/ivar_fr_eff_fr.png>
 Package pdftex.def Info: C5/Figs/ivar/ivar_fr_eff_fr.png  used on input line 11
 .
 (pdftex.def)             Requested size: 217.4502pt x 217.45126pt.
-<C5/Figs/ivar/ivar_fr_eff_eff.png, id=297, 433.62pt x 433.62pt>
+<C5/Figs/ivar/ivar_fr_eff_eff.png, id=332, 433.62pt x 433.62pt>
 File: C5/Figs/ivar/ivar_fr_eff_eff.png Graphic file (type png)
 <use C5/Figs/ivar/ivar_fr_eff_eff.png>
 Package pdftex.def Info: C5/Figs/ivar/ivar_fr_eff_eff.png  used on input line 1
@@ -1086,13 +1169,13 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 11--16
 [][][] 
  []
 
-<C5/Figs/ivar/ivar_fr_mc_fr.png, id=298, 433.62pt x 433.62pt>
+<C5/Figs/ivar/ivar_fr_mc_fr.png, id=333, 433.62pt x 433.62pt>
 File: C5/Figs/ivar/ivar_fr_mc_fr.png Graphic file (type png)
 <use C5/Figs/ivar/ivar_fr_mc_fr.png>
 Package pdftex.def Info: C5/Figs/ivar/ivar_fr_mc_fr.png  used on input line 23.
 
 (pdftex.def)             Requested size: 217.4502pt x 217.45126pt.
-<C5/Figs/ivar/ivar_fr_mc_mc.png, id=299, 433.62pt x 433.62pt>
+<C5/Figs/ivar/ivar_fr_mc_mc.png, id=334, 433.62pt x 433.62pt>
 File: C5/Figs/ivar/ivar_fr_mc_mc.png Graphic file (type png)
 <use C5/Figs/ivar/ivar_fr_mc_mc.png>
 Package pdftex.def Info: C5/Figs/ivar/ivar_fr_mc_mc.png  used on input line 27.
@@ -1108,19 +1191,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--31
 
  []
 
-[26
+[31
 
 
 
-] [27] [28 <./C5/Figs/ivar/ivar_fr_eff_fr.png> <./C5/Figs/ivar/ivar_fr_eff_eff.
+
+] [32] [33 <./C5/Figs/ivar/ivar_fr_eff_fr.png> <./C5/Figs/ivar/ivar_fr_eff_eff.
 png> <./C5/Figs/ivar/ivar_fr_mc_fr.png> <./C5/Figs/ivar/ivar_fr_mc_mc.png>]
-<C5/Figs/ivar/ivar_mc_eff_eff.png, id=313, 433.62pt x 433.62pt>
+<C5/Figs/ivar/ivar_mc_eff_eff.png, id=348, 433.62pt x 433.62pt>
 File: C5/Figs/ivar/ivar_mc_eff_eff.png Graphic file (type png)
 <use C5/Figs/ivar/ivar_mc_eff_eff.png>
 Package pdftex.def Info: C5/Figs/ivar/ivar_mc_eff_eff.png  used on input line 3
 7.
 (pdftex.def)             Requested size: 217.4502pt x 217.45126pt.
-<C5/Figs/ivar/ivar_mc_eff_mc.png, id=314, 433.62pt x 433.62pt>
+<C5/Figs/ivar/ivar_mc_eff_mc.png, id=349, 433.62pt x 433.62pt>
 File: C5/Figs/ivar/ivar_mc_eff_mc.png Graphic file (type png)
 <use C5/Figs/ivar/ivar_mc_eff_mc.png>
 Package pdftex.def Info: C5/Figs/ivar/ivar_mc_eff_mc.png  used on input line 41
@@ -1131,25 +1215,25 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 37--42
 [][][] 
  []
 
-<C5/Figs/omg/omega_fr_eff_fr.png, id=315, 433.62pt x 433.62pt>
+<C5/Figs/omg/omega_fr_eff_fr.png, id=350, 433.62pt x 433.62pt>
 File: C5/Figs/omg/omega_fr_eff_fr.png Graphic file (type png)
 <use C5/Figs/omg/omega_fr_eff_fr.png>
 Package pdftex.def Info: C5/Figs/omg/omega_fr_eff_fr.png  used on input line 53
 .
 (pdftex.def)             Requested size: 217.4502pt x 217.45126pt.
-<C5/Figs/omg/omega_fr_eff_eff.png, id=316, 433.62pt x 433.62pt>
+<C5/Figs/omg/omega_fr_eff_eff.png, id=351, 433.62pt x 433.62pt>
 File: C5/Figs/omg/omega_fr_eff_eff.png Graphic file (type png)
 <use C5/Figs/omg/omega_fr_eff_eff.png>
 Package pdftex.def Info: C5/Figs/omg/omega_fr_eff_eff.png  used on input line 5
 7.
 (pdftex.def)             Requested size: 217.4502pt x 217.45126pt.
-<C5/Figs/omg/omega_fr_eff_mc.png, id=317, 433.62pt x 433.62pt>
+<C5/Figs/omg/omega_fr_eff_mc.png, id=352, 433.62pt x 433.62pt>
 File: C5/Figs/omg/omega_fr_eff_mc.png Graphic file (type png)
 <use C5/Figs/omg/omega_fr_eff_mc.png>
 Package pdftex.def Info: C5/Figs/omg/omega_fr_eff_mc.png  used on input line 61
 .
 (pdftex.def)             Requested size: 217.4502pt x 217.45126pt.
-<C5/Figs/omg/omega_fr_eff_wtol.png, id=318, 433.62pt x 433.62pt>
+<C5/Figs/omg/omega_fr_eff_wtol.png, id=353, 433.62pt x 433.62pt>
 File: C5/Figs/omg/omega_fr_eff_wtol.png Graphic file (type png)
 <use C5/Figs/omg/omega_fr_eff_wtol.png>
 Package pdftex.def Info: C5/Figs/omg/omega_fr_eff_wtol.png  used on input line 
@@ -1170,28 +1254,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--69
 
  []
 
-[29 <./C5/Figs/ivar/ivar_mc_eff_eff.png> <./C5/Figs/ivar/ivar_mc_eff_mc.png>]
-[30 <./C5/Figs/omg/omega_fr_eff_fr.png> <./C5/Figs/omg/omega_fr_eff_eff.png> <.
+[34 <./C5/Figs/ivar/ivar_mc_eff_eff.png> <./C5/Figs/ivar/ivar_mc_eff_mc.png>]
+[35 <./C5/Figs/omg/omega_fr_eff_fr.png> <./C5/Figs/omg/omega_fr_eff_eff.png> <.
 /C5/Figs/omg/omega_fr_eff_mc.png> <./C5/Figs/omg/omega_fr_eff_wtol.png>]
-<C5/Figs/omg/omega_fr_mc_fr.png, id=332, 433.62pt x 433.62pt>
+<C5/Figs/omg/omega_fr_mc_fr.png, id=366, 433.62pt x 433.62pt>
 File: C5/Figs/omg/omega_fr_mc_fr.png Graphic file (type png)
 <use C5/Figs/omg/omega_fr_mc_fr.png>
 Package pdftex.def Info: C5/Figs/omg/omega_fr_mc_fr.png  used on input line 77.
 
 (pdftex.def)             Requested size: 217.4502pt x 217.45126pt.
-<C5/Figs/omg/omega_fr_mc_eff.png, id=333, 433.62pt x 433.62pt>
+<C5/Figs/omg/omega_fr_mc_eff.png, id=367, 433.62pt x 433.62pt>
 File: C5/Figs/omg/omega_fr_mc_eff.png Graphic file (type png)
 <use C5/Figs/omg/omega_fr_mc_eff.png>
 Package pdftex.def Info: C5/Figs/omg/omega_fr_mc_eff.png  used on input line 81
 .
 (pdftex.def)             Requested size: 217.4502pt x 217.45126pt.
-<C5/Figs/omg/omega_fr_mc_mc.png, id=334, 433.62pt x 433.62pt>
+<C5/Figs/omg/omega_fr_mc_mc.png, id=368, 433.62pt x 433.62pt>
 File: C5/Figs/omg/omega_fr_mc_mc.png Graphic file (type png)
 <use C5/Figs/omg/omega_fr_mc_mc.png>
 Package pdftex.def Info: C5/Figs/omg/omega_fr_mc_mc.png  used on input line 85.
 
 (pdftex.def)             Requested size: 217.4502pt x 217.45126pt.
-<C5/Figs/omg/omega_fr_mc_wtol.png, id=335, 433.62pt x 433.62pt>
+<C5/Figs/omg/omega_fr_mc_wtol.png, id=369, 433.62pt x 433.62pt>
 File: C5/Figs/omg/omega_fr_mc_wtol.png Graphic file (type png)
 <use C5/Figs/omg/omega_fr_mc_wtol.png>
 Package pdftex.def Info: C5/Figs/omg/omega_fr_mc_wtol.png  used on input line 8
@@ -1207,25 +1291,25 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 77--90
 [][] 
  []
 
-<C5/Figs/omg/omega_mc_eff_fr.png, id=336, 433.62pt x 433.62pt>
+<C5/Figs/omg/omega_mc_eff_fr.png, id=370, 433.62pt x 433.62pt>
 File: C5/Figs/omg/omega_mc_eff_fr.png Graphic file (type png)
 <use C5/Figs/omg/omega_mc_eff_fr.png>
 Package pdftex.def Info: C5/Figs/omg/omega_mc_eff_fr.png  used on input line 97
 .
 (pdftex.def)             Requested size: 217.4502pt x 217.45126pt.
-<C5/Figs/omg/omega_mc_eff_eff.png, id=337, 433.62pt x 433.62pt>
+<C5/Figs/omg/omega_mc_eff_eff.png, id=371, 433.62pt x 433.62pt>
 File: C5/Figs/omg/omega_mc_eff_eff.png Graphic file (type png)
 <use C5/Figs/omg/omega_mc_eff_eff.png>
 Package pdftex.def Info: C5/Figs/omg/omega_mc_eff_eff.png  used on input line 1
 01.
 (pdftex.def)             Requested size: 217.4502pt x 217.45126pt.
-<C5/Figs/omg/omega_mc_eff_mc.png, id=338, 433.62pt x 433.62pt>
+<C5/Figs/omg/omega_mc_eff_mc.png, id=372, 433.62pt x 433.62pt>
 File: C5/Figs/omg/omega_mc_eff_mc.png Graphic file (type png)
 <use C5/Figs/omg/omega_mc_eff_mc.png>
 Package pdftex.def Info: C5/Figs/omg/omega_mc_eff_mc.png  used on input line 10
 5.
 (pdftex.def)             Requested size: 217.4502pt x 217.45126pt.
-<C5/Figs/omg/omega_mc_eff_wtol.png, id=339, 433.62pt x 433.62pt>
+<C5/Figs/omg/omega_mc_eff_wtol.png, id=373, 433.62pt x 433.62pt>
 File: C5/Figs/omg/omega_mc_eff_wtol.png Graphic file (type png)
 <use C5/Figs/omg/omega_mc_eff_wtol.png>
 Package pdftex.def Info: C5/Figs/omg/omega_mc_eff_wtol.png  used on input line 
@@ -1242,16 +1326,16 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 97--110
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 71--27
+Underfull \hbox (badness 10000) in paragraph at lines 71--40
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-[32 <./C5/Figs/omg/omega_fr_mc_fr.png> <./C5/Figs/omg/omega_fr_mc_eff.png> <./C
-5/Figs/omg/omega_fr_mc_mc.png> <./C5/Figs/omg/omega_fr_mc_wtol.png>] [33 <./C5/
+ [36]
+[37 <./C5/Figs/omg/omega_fr_mc_fr.png> <./C5/Figs/omg/omega_fr_mc_eff.png> <./C
+5/Figs/omg/omega_fr_mc_mc.png> <./C5/Figs/omg/omega_fr_mc_wtol.png>] [38 <./C5/
 Figs/omg/omega_mc_eff_fr.png> <./C5/Figs/omg/omega_mc_eff_eff.png> <./C5/Figs/o
 mg/omega_mc_eff_mc.png> <./C5/Figs/omg/omega_mc_eff_wtol.png>]
 \openout2 = `C6/chapter6.aux'.
@@ -1259,37 +1343,37 @@ mg/omega_mc_eff_mc.png> <./C5/Figs/omg/omega_mc_eff_wtol.png>]
 
 (./C6/chapter6.tex
 Chapter 6.
-<C6/Figs/devt_dist/alive_size_vs_devt_MB.png, id=357, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_size_vs_devt_MB.png, id=392, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_size_vs_devt_MB.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_size_vs_devt_MB.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_size_vs_devt_MB.png  used on i
 nput line 13.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_frt_vs_devt_MB.png, id=358, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_frt_vs_devt_MB.png, id=393, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_frt_vs_devt_MB.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_frt_vs_devt_MB.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_frt_vs_devt_MB.png  used on in
 put line 17.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_eff_vs_devt_MB.png, id=359, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_eff_vs_devt_MB.png, id=394, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_eff_vs_devt_MB.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_eff_vs_devt_MB.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_eff_vs_devt_MB.png  used on in
 put line 21.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_frc_vs_devt_MB.png, id=360, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_frc_vs_devt_MB.png, id=395, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_frc_vs_devt_MB.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_frc_vs_devt_MB.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_frc_vs_devt_MB.png  used on in
 put line 25.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_mc_vs_devt_MB.png, id=361, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_mc_vs_devt_MB.png, id=396, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_mc_vs_devt_MB.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_mc_vs_devt_MB.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_mc_vs_devt_MB.png  used on inp
 ut line 29.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_wt_vs_devt_MB.png, id=362, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_wt_vs_devt_MB.png, id=397, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_wt_vs_devt_MB.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_wt_vs_devt_MB.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_wt_vs_devt_MB.png  used on inp
@@ -1310,37 +1394,37 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 13--34
 [][] 
  []
 
-<C6/Figs/devt_dist/alive_size_vs_devt_MCU.png, id=363, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_size_vs_devt_MCU.png, id=398, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_size_vs_devt_MCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_size_vs_devt_MCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_size_vs_devt_MCU.png  used on 
 input line 41.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_frt_vs_devt_MCU.png, id=364, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_frt_vs_devt_MCU.png, id=399, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_frt_vs_devt_MCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_frt_vs_devt_MCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_frt_vs_devt_MCU.png  used on i
 nput line 45.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_eff_vs_devt_MCU.png, id=365, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_eff_vs_devt_MCU.png, id=400, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_eff_vs_devt_MCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_eff_vs_devt_MCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_eff_vs_devt_MCU.png  used on i
 nput line 49.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_frc_vs_devt_MCU.png, id=366, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_frc_vs_devt_MCU.png, id=401, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_frc_vs_devt_MCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_frc_vs_devt_MCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_frc_vs_devt_MCU.png  used on i
 nput line 53.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_mc_vs_devt_MCU.png, id=367, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_mc_vs_devt_MCU.png, id=402, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_mc_vs_devt_MCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_mc_vs_devt_MCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_mc_vs_devt_MCU.png  used on in
 put line 57.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_wt_vs_devt_MCU.png, id=368, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_wt_vs_devt_MCU.png, id=403, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_wt_vs_devt_MCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_wt_vs_devt_MCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_wt_vs_devt_MCU.png  used on in
@@ -1361,37 +1445,37 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 41--62
 [][] 
  []
 
-<C6/Figs/devt_dist/alive_size_vs_devt_CCU.png, id=369, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_size_vs_devt_CCU.png, id=404, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_size_vs_devt_CCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_size_vs_devt_CCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_size_vs_devt_CCU.png  used on 
 input line 69.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_frt_vs_devt_CCU.png, id=370, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_frt_vs_devt_CCU.png, id=405, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_frt_vs_devt_CCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_frt_vs_devt_CCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_frt_vs_devt_CCU.png  used on i
 nput line 73.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_eff_vs_devt_CCU.png, id=371, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_eff_vs_devt_CCU.png, id=406, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_eff_vs_devt_CCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_eff_vs_devt_CCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_eff_vs_devt_CCU.png  used on i
 nput line 77.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_frc_vs_devt_CCU.png, id=372, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_frc_vs_devt_CCU.png, id=407, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_frc_vs_devt_CCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_frc_vs_devt_CCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_frc_vs_devt_CCU.png  used on i
 nput line 81.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_mc_vs_devt_CCU.png, id=373, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_mc_vs_devt_CCU.png, id=408, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_mc_vs_devt_CCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_mc_vs_devt_CCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_mc_vs_devt_CCU.png  used on in
 put line 85.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_wt_vs_devt_CCU.png, id=374, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_wt_vs_devt_CCU.png, id=409, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_wt_vs_devt_CCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_wt_vs_devt_CCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_wt_vs_devt_CCU.png  used on in
@@ -1412,37 +1496,37 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 69--90
 [][] 
  []
 
-<C6/Figs/devt_dist/alive_size_vs_devt_LCU.png, id=375, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_size_vs_devt_LCU.png, id=410, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_size_vs_devt_LCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_size_vs_devt_LCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_size_vs_devt_LCU.png  used on 
 input line 97.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_frt_vs_devt_LCU.png, id=376, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_frt_vs_devt_LCU.png, id=411, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_frt_vs_devt_LCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_frt_vs_devt_LCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_frt_vs_devt_LCU.png  used on i
 nput line 101.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_eff_vs_devt_LCU.png, id=377, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_eff_vs_devt_LCU.png, id=412, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_eff_vs_devt_LCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_eff_vs_devt_LCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_eff_vs_devt_LCU.png  used on i
 nput line 105.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_frc_vs_devt_LCU.png, id=378, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_frc_vs_devt_LCU.png, id=413, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_frc_vs_devt_LCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_frc_vs_devt_LCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_frc_vs_devt_LCU.png  used on i
 nput line 109.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_mc_vs_devt_LCU.png, id=379, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_mc_vs_devt_LCU.png, id=414, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_mc_vs_devt_LCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_mc_vs_devt_LCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_mc_vs_devt_LCU.png  used on in
 put line 113.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/devt_dist/alive_wt_vs_devt_LCU.png, id=380, 462.528pt x 346.896pt>
+<C6/Figs/devt_dist/alive_wt_vs_devt_LCU.png, id=415, 462.528pt x 346.896pt>
 File: C6/Figs/devt_dist/alive_wt_vs_devt_LCU.png Graphic file (type png)
 <use C6/Figs/devt_dist/alive_wt_vs_devt_LCU.png>
 Package pdftex.def Info: C6/Figs/devt_dist/alive_wt_vs_devt_LCU.png  used on in
@@ -1483,46 +1567,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--121
 
  []
 
-[34
+[39
 
 
 
-] [35] [36 <./C6/Figs/devt_dist/alive_size_vs_devt_MB.png> <./C6/Figs/devt_dist
+
+] [40] [41 <./C6/Figs/devt_dist/alive_size_vs_devt_MB.png> <./C6/Figs/devt_dist
 /alive_frt_vs_devt_MB.png> <./C6/Figs/devt_dist/alive_eff_vs_devt_MB.png> <./C6
 /Figs/devt_dist/alive_frc_vs_devt_MB.png> <./C6/Figs/devt_dist/alive_mc_vs_devt
-_MB.png> <./C6/Figs/devt_dist/alive_wt_vs_devt_MB.png>] [37 <./C6/Figs/devt_dis
+_MB.png> <./C6/Figs/devt_dist/alive_wt_vs_devt_MB.png>] [42 <./C6/Figs/devt_dis
 t/alive_size_vs_devt_MCU.png> <./C6/Figs/devt_dist/alive_frt_vs_devt_MCU.png> <
 ./C6/Figs/devt_dist/alive_eff_vs_devt_MCU.png> <./C6/Figs/devt_dist/alive_frc_v
 s_devt_MCU.png> <./C6/Figs/devt_dist/alive_mc_vs_devt_MCU.png> <./C6/Figs/devt_
-dist/alive_wt_vs_devt_MCU.png>] [38 <./C6/Figs/devt_dist/alive_size_vs_devt_CCU
+dist/alive_wt_vs_devt_MCU.png>] [43 <./C6/Figs/devt_dist/alive_size_vs_devt_CCU
 .png> <./C6/Figs/devt_dist/alive_frt_vs_devt_CCU.png> <./C6/Figs/devt_dist/aliv
 e_eff_vs_devt_CCU.png> <./C6/Figs/devt_dist/alive_frc_vs_devt_CCU.png> <./C6/Fi
 gs/devt_dist/alive_mc_vs_devt_CCU.png> <./C6/Figs/devt_dist/alive_wt_vs_devt_CC
-U.png>] [39 <./C6/Figs/devt_dist/alive_size_vs_devt_LCU.png> <./C6/Figs/devt_di
+U.png>] [44 <./C6/Figs/devt_dist/alive_size_vs_devt_LCU.png> <./C6/Figs/devt_di
 st/alive_frt_vs_devt_LCU.png> <./C6/Figs/devt_dist/alive_eff_vs_devt_LCU.png> <
 ./C6/Figs/devt_dist/alive_frc_vs_devt_LCU.png> <./C6/Figs/devt_dist/alive_mc_vs
 _devt_LCU.png> <./C6/Figs/devt_dist/alive_wt_vs_devt_LCU.png>]
-<C6/Figs/neg_corr/neg_alive_frc_vs_devt_MB.png, id=424, 462.528pt x 346.896pt>
+<C6/Figs/neg_corr/neg_alive_frc_vs_devt_MB.png, id=459, 462.528pt x 346.896pt>
 File: C6/Figs/neg_corr/neg_alive_frc_vs_devt_MB.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_frc_vs_devt_MB.png>
 Package pdftex.def Info: C6/Figs/neg_corr/neg_alive_frc_vs_devt_MB.png  used on
  input line 136.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/neg_corr/neg_alive_frc_vs_devt_MCU.png, id=425, 462.528pt x 346.896pt>
+<C6/Figs/neg_corr/neg_alive_frc_vs_devt_MCU.png, id=460, 462.528pt x 346.896pt>
 
 File: C6/Figs/neg_corr/neg_alive_frc_vs_devt_MCU.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_frc_vs_devt_MCU.png>
 Package pdftex.def Info: C6/Figs/neg_corr/neg_alive_frc_vs_devt_MCU.png  used o
 n input line 140.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/neg_corr/neg_alive_frc_vs_devt_CCU.png, id=426, 462.528pt x 346.896pt>
+<C6/Figs/neg_corr/neg_alive_frc_vs_devt_CCU.png, id=461, 462.528pt x 346.896pt>
 
 File: C6/Figs/neg_corr/neg_alive_frc_vs_devt_CCU.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_frc_vs_devt_CCU.png>
 Package pdftex.def Info: C6/Figs/neg_corr/neg_alive_frc_vs_devt_CCU.png  used o
 n input line 144.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/neg_corr/neg_alive_frc_vs_devt_LCU.png, id=427, 462.528pt x 346.896pt>
+<C6/Figs/neg_corr/neg_alive_frc_vs_devt_LCU.png, id=462, 462.528pt x 346.896pt>
 
 File: C6/Figs/neg_corr/neg_alive_frc_vs_devt_LCU.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_frc_vs_devt_LCU.png>
@@ -1539,27 +1624,27 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 136--149
 [][] 
  []
 
-<C6/Figs/neg_corr/neg_alive_eff_vs_devt_MB.png, id=428, 462.528pt x 346.896pt>
+<C6/Figs/neg_corr/neg_alive_eff_vs_devt_MB.png, id=463, 462.528pt x 346.896pt>
 File: C6/Figs/neg_corr/neg_alive_eff_vs_devt_MB.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_eff_vs_devt_MB.png>
 Package pdftex.def Info: C6/Figs/neg_corr/neg_alive_eff_vs_devt_MB.png  used on
  input line 156.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/neg_corr/neg_alive_eff_vs_devt_MCU.png, id=429, 462.528pt x 346.896pt>
+<C6/Figs/neg_corr/neg_alive_eff_vs_devt_MCU.png, id=464, 462.528pt x 346.896pt>
 
 File: C6/Figs/neg_corr/neg_alive_eff_vs_devt_MCU.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_eff_vs_devt_MCU.png>
 Package pdftex.def Info: C6/Figs/neg_corr/neg_alive_eff_vs_devt_MCU.png  used o
 n input line 160.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/neg_corr/neg_alive_eff_vs_devt_CCU.png, id=430, 462.528pt x 346.896pt>
+<C6/Figs/neg_corr/neg_alive_eff_vs_devt_CCU.png, id=465, 462.528pt x 346.896pt>
 
 File: C6/Figs/neg_corr/neg_alive_eff_vs_devt_CCU.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_eff_vs_devt_CCU.png>
 Package pdftex.def Info: C6/Figs/neg_corr/neg_alive_eff_vs_devt_CCU.png  used o
 n input line 164.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/neg_corr/neg_alive_eff_vs_devt_LCU.png, id=431, 462.528pt x 346.896pt>
+<C6/Figs/neg_corr/neg_alive_eff_vs_devt_LCU.png, id=466, 462.528pt x 346.896pt>
 
 File: C6/Figs/neg_corr/neg_alive_eff_vs_devt_LCU.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_eff_vs_devt_LCU.png>
@@ -1576,27 +1661,27 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 156--169
 [][] 
  []
 
-<C6/Figs/neg_corr/neg_alive_frt_vs_devt_MB.png, id=432, 462.528pt x 346.896pt>
+<C6/Figs/neg_corr/neg_alive_frt_vs_devt_MB.png, id=467, 462.528pt x 346.896pt>
 File: C6/Figs/neg_corr/neg_alive_frt_vs_devt_MB.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_frt_vs_devt_MB.png>
 Package pdftex.def Info: C6/Figs/neg_corr/neg_alive_frt_vs_devt_MB.png  used on
  input line 176.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/neg_corr/neg_alive_frt_vs_devt_MCU.png, id=433, 462.528pt x 346.896pt>
+<C6/Figs/neg_corr/neg_alive_frt_vs_devt_MCU.png, id=468, 462.528pt x 346.896pt>
 
 File: C6/Figs/neg_corr/neg_alive_frt_vs_devt_MCU.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_frt_vs_devt_MCU.png>
 Package pdftex.def Info: C6/Figs/neg_corr/neg_alive_frt_vs_devt_MCU.png  used o
 n input line 180.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/neg_corr/neg_alive_frt_vs_devt_CCU.png, id=434, 462.528pt x 346.896pt>
+<C6/Figs/neg_corr/neg_alive_frt_vs_devt_CCU.png, id=469, 462.528pt x 346.896pt>
 
 File: C6/Figs/neg_corr/neg_alive_frt_vs_devt_CCU.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_frt_vs_devt_CCU.png>
 Package pdftex.def Info: C6/Figs/neg_corr/neg_alive_frt_vs_devt_CCU.png  used o
 n input line 184.
 (pdftex.def)             Requested size: 217.4502pt x 163.08878pt.
-<C6/Figs/neg_corr/neg_alive_frt_vs_devt_LCU.png, id=435, 462.528pt x 346.896pt>
+<C6/Figs/neg_corr/neg_alive_frt_vs_devt_LCU.png, id=470, 462.528pt x 346.896pt>
 
 File: C6/Figs/neg_corr/neg_alive_frt_vs_devt_LCU.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_frt_vs_devt_LCU.png>
@@ -1613,28 +1698,28 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 176--189
 [][] 
  []
 
-<C6/Figs/neg_corr/neg_alive_size_vs_devt_MB.png, id=436, 462.528pt x 345.4506pt
+<C6/Figs/neg_corr/neg_alive_size_vs_devt_MB.png, id=471, 462.528pt x 345.4506pt
 >
 File: C6/Figs/neg_corr/neg_alive_size_vs_devt_MB.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_size_vs_devt_MB.png>
 Package pdftex.def Info: C6/Figs/neg_corr/neg_alive_size_vs_devt_MB.png  used o
 n input line 196.
 (pdftex.def)             Requested size: 217.4502pt x 162.40924pt.
-<C6/Figs/neg_corr/neg_alive_size_vs_devt_MCU.png, id=437, 462.528pt x 345.4506p
+<C6/Figs/neg_corr/neg_alive_size_vs_devt_MCU.png, id=472, 462.528pt x 345.4506p
 t>
 File: C6/Figs/neg_corr/neg_alive_size_vs_devt_MCU.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_size_vs_devt_MCU.png>
 Package pdftex.def Info: C6/Figs/neg_corr/neg_alive_size_vs_devt_MCU.png  used 
 on input line 200.
 (pdftex.def)             Requested size: 217.4502pt x 162.40924pt.
-<C6/Figs/neg_corr/neg_alive_size_vs_devt_CCU.png, id=438, 462.528pt x 345.4506p
+<C6/Figs/neg_corr/neg_alive_size_vs_devt_CCU.png, id=473, 462.528pt x 345.4506p
 t>
 File: C6/Figs/neg_corr/neg_alive_size_vs_devt_CCU.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_size_vs_devt_CCU.png>
 Package pdftex.def Info: C6/Figs/neg_corr/neg_alive_size_vs_devt_CCU.png  used 
 on input line 204.
 (pdftex.def)             Requested size: 217.4502pt x 162.40924pt.
-<C6/Figs/neg_corr/neg_alive_size_vs_devt_LCU.png, id=439, 462.528pt x 345.4506p
+<C6/Figs/neg_corr/neg_alive_size_vs_devt_LCU.png, id=474, 462.528pt x 345.4506p
 t>
 File: C6/Figs/neg_corr/neg_alive_size_vs_devt_LCU.png Graphic file (type png)
 <use C6/Figs/neg_corr/neg_alive_size_vs_devt_LCU.png>
@@ -1652,25 +1737,28 @@ Overfull \hbox (15.6665pt too wide) in paragraph at lines 196--209
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 125--28
+Underfull \hbox (badness 10000) in paragraph at lines 125--42
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
-[41 <./C6/Figs/neg_corr/neg_alive_frc_vs_devt_MB.png> <./C6/Figs/neg_corr/neg_a
+ [45]
+[46 <./C6/Figs/neg_corr/neg_alive_frc_vs_devt_MB.png> <./C6/Figs/neg_corr/neg_a
 live_frc_vs_devt_MCU.png> <./C6/Figs/neg_corr/neg_alive_frc_vs_devt_CCU.png> <.
-/C6/Figs/neg_corr/neg_alive_frc_vs_devt_LCU.png>] [42 <./C6/Figs/neg_corr/neg_a
+/C6/Figs/neg_corr/neg_alive_frc_vs_devt_LCU.png>] [47 <./C6/Figs/neg_corr/neg_a
 live_eff_vs_devt_MB.png> <./C6/Figs/neg_corr/neg_alive_eff_vs_devt_MCU.png> <./
 C6/Figs/neg_corr/neg_alive_eff_vs_devt_CCU.png> <./C6/Figs/neg_corr/neg_alive_e
-ff_vs_devt_LCU.png>] [43 <./C6/Figs/neg_corr/neg_alive_frt_vs_devt_MB.png> <./C
+ff_vs_devt_LCU.png>] [48 <./C6/Figs/neg_corr/neg_alive_frt_vs_devt_MB.png> <./C
 6/Figs/neg_corr/neg_alive_frt_vs_devt_MCU.png> <./C6/Figs/neg_corr/neg_alive_fr
-t_vs_devt_CCU.png> <./C6/Figs/neg_corr/neg_alive_frt_vs_devt_LCU.png>] [44 <./C
+t_vs_devt_CCU.png> <./C6/Figs/neg_corr/neg_alive_frt_vs_devt_LCU.png>] [49 <./C
 6/Figs/neg_corr/neg_alive_size_vs_devt_MB.png> <./C6/Figs/neg_corr/neg_alive_si
 ze_vs_devt_MCU.png> <./C6/Figs/neg_corr/neg_alive_size_vs_devt_CCU.png> <./C6/F
-igs/neg_corr/neg_alive_size_vs_devt_LCU.png>]
+igs/neg_corr/neg_alive_size_vs_devt_LCU.png>] [50
+
+
+]
 \openout2 = `C7/discussion.aux'.
 
  (./C7/discussion.tex
@@ -1678,68 +1766,85 @@ Chapter 7.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45
-
+ [51
 
 
 ]
-Overfull \hbox (9.18082pt too wide) in paragraph at lines 31--31
+[52
+
+
+]
+Overfull \hbox (9.18082pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/it/12 2\OT1/cmr/m/n/12 (5), 941{951. []eprint: https://onlinelibrary
 .wiley.com/doi/pdf/10.1002/ece3.227.
  []
 
-[46
 
+Overfull \hbox (10.1159pt too wide) in paragraph at lines 47--47
+[][]\OT1/cmr/m/n/12 Godoy-Herrera, R. (1977). Inter- and in-trapop-u-la-tional 
+vari-a-tion in dig-ging in-Drosophila
+ []
+
+
+Overfull \hbox (1.1344pt too wide) in paragraph at lines 47--47
+\OT1/cmr/m/n/12 melanogaster lar-vae. \OT1/cmr/m/it/12 Be-hav-ior Ge-net-ics\OT
+1/cmr/m/n/12 , \OT1/cmr/m/it/12 7\OT1/cmr/m/n/12 (6), 433{439. doi:$10 . 1007 /
+ BF01066778$ 
+ []
+
+[53
 
 ]
-Overfull \hbox (75.95943pt too wide) in paragraph at lines 31--31
+Overfull \hbox (75.95943pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/12 176{184. []eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1
 111/j.1558-5646.1993.tb01208.x.
  []
 
-[47]
-Overfull \hbox (16.36143pt too wide) in paragraph at lines 31--31
+[54]
+Overfull \hbox (16.36143pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/12 468. []eprint: https://esajournals.onlinelibrary.wiley.com/doi/
 pdf/10.2307/1937628.
  []
 
 
-Overfull \hbox (84.51643pt too wide) in paragraph at lines 31--31
+Overfull \hbox (84.51643pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/12 Size. \OT1/cmr/m/it/12 Evo-lu-tion\OT1/cmr/m/n/12 , \OT1/cmr/m/
 it/12 51\OT1/cmr/m/n/12 (2), 420{432. []eprint: https://onlinelibrary.wiley.com
 /doi/pdf/10.1111/j.1558-
  []
 
 
-Overfull \hbox (221.88585pt too wide) in paragraph at lines 31--31
+Overfull \hbox (221.88585pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/12 men-tal Study Us-ing Drosophila. \OT1/cmr/m/it/12 Evo-lu-tion\O
 T1/cmr/m/n/12 , \OT1/cmr/m/it/12 51\OT1/cmr/m/n/12 (1), 163{172. []eprint: http
 s://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1558-
  []
 
-[48]
+[55] [56]
 \openout2 = `CA2/chapterA2.aux'.
 
  (./CA2/chapterA2.tex
 Appendix A.
-[49
+[57
 
 
-]) [50] (./Thesis.aux (./C0/Titlepage.aux) (./C1/intro.aux)
-(./C2/chapter2.aux) (./C3/chapter3.aux) (./C4/chapter4.aux) (./C5/chapter5.aux)
-(./C6/chapter6.aux) (./C7/discussion.aux) (./CA2/chapterA2.aux))
+
+]) [58] (./Thesis.aux (./C0/Titlepage.aux) (./C0/Certificate.aux)
+(./C0/Declarations.aux) (./C1/intro.aux) (./C2/chapter2.aux) (./C3/chapter3.aux
+) (./C4/chapter4.aux) (./C5/chapter5.aux) (./C6/chapter6.aux)
+(./C7/discussion.aux) (./CA2/chapterA2.aux))
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11348 strings out of 492164
- 223225 string characters out of 6129087
- 716704 words of memory out of 5000000
- 15430 multiletter control sequences out of 15000+600000
- 10159 words of font info for 35 fonts, out of 8000000 for 9000
+ 11569 strings out of 492164
+ 226886 string characters out of 6129087
+ 735609 words of memory out of 5000000
+ 15627 multiletter control sequences out of 15000+600000
+ 10518 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,10n,60p,2033b,3860s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,11n,60p,3375b,3860s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/20
 19/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-
@@ -1749,10 +1854,10 @@ blic/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:
 /texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis.pdf (57 pages, 10361660 bytes).
+Output written on Thesis.pdf (71 pages, 10376202 bytes).
 PDF statistics:
- 526 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
+ 571 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  782 words of extra memory for PDF output out of 10000 (max. 10000000)
 

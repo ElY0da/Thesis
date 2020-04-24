@@ -450,6 +450,101 @@
       \endverb
       \keyw{competitive ability,constancy,density-dependent selection,K-selection,life-history evolution,persistence,population dynamics,α-Selection}
     \endentry
+    \entry{godoy-herreraInterIntrapopulationalVariation1977}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=515a5ca5582a792e5379493e6a9a51f2}{%
+           family={{Godoy-Herrera}},
+           familyi={G\bibinitperiod},
+           given={Ra{ú}l},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{515a5ca5582a792e5379493e6a9a51f2}
+      \strng{fullhash}{515a5ca5582a792e5379493e6a9a51f2}
+      \strng{bibnamehash}{515a5ca5582a792e5379493e6a9a51f2}
+      \strng{authorbibnamehash}{515a5ca5582a792e5379493e6a9a51f2}
+      \strng{authornamehash}{515a5ca5582a792e5379493e6a9a51f2}
+      \strng{authorfullhash}{515a5ca5582a792e5379493e6a9a51f2}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The digging behavior of larvae from the following strains ofDrosophila melanogaster was studied: Oregon R-c, taxi, yellow, and vestigial. It was found that the time of stay of preadults in the culture medium, the number of larvae, and the illumination conditions can modify this behavior. The presence of this characteristic depends on the genetic composition of the population: the larvae of each strain used exhibited their own particular pattern of dispersal throughout the culture medium, independent of the experimental conditions under which this behavior was surveyed.}
+      \field{issn}{1573-3297}
+      \field{journaltitle}{Behavior Genetics}
+      \field{month}{11}
+      \field{number}{6}
+      \field{title}{Inter- and Intrapopulational Variation in Digging {{inDrosophila}} Melanogaster Larvae}
+      \field{volume}{7}
+      \field{year}{1977}
+      \field{pages}{433\bibrangedash 439}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/BF01066778
+      \endverb
+    \endentry
+    \entry{joshiGeneticsLarvalUrea1996}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8ba0c0ec19e6d4f3d675d984e271fcd}{%
+           family={Knight},
+           familyi={K\bibinitperiod},
+           given={Christopher\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=834e1220db6d5cb74bd36fc451f17b90}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Laurence\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{b435a5df6f3d67267ecedd62917117c1}
+      \strng{fullhash}{ee26a366cd23bac2ae654d237f785747}
+      \strng{bibnamehash}{ee26a366cd23bac2ae654d237f785747}
+      \strng{authorbibnamehash}{ee26a366cd23bac2ae654d237f785747}
+      \strng{authornamehash}{b435a5df6f3d67267ecedd62917117c1}
+      \strng{authorfullhash}{ee26a366cd23bac2ae654d237f785747}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The genetic control of larval tolerance to urea, a nitrogenous waste-product occurring naturally in crowded Drosophila cultures, was investigated in a set of five laboratory populations of D. melanogaster that had been successfully subjected to selection for increased larval urea tolerance. Larva to adult survivorship and development time at three different levels of urea were assayed on the five selected populations, their five matched controls and a set of 10 F1 hybrid populations derived from reciprocal crosses between pairs of selected and control populations. As expected from the results of previous studies, the selected populations exhibited greater larval tolerance to the toxic effects of urea, relative to their controls. Comparison of the hybrid and parental populations with respect to both survivorship and development time indicated that the genetic control of urea tolerance in the selected populations is largely dominant, and has a significant X-linked component. The data also suggested that females from the selected populations exercise a nongenetic maternal effect on the development time of their progeny, regardless of urea level.}
+      \field{issn}{1365-2540}
+      \field{journaltitle}{Heredity}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{Genetics of Larval Urea Tolerance in {{Drosophila}} Melanogaster}
+      \field{volume}{77}
+      \field{year}{1996}
+      \field{pages}{33\bibrangedash 39}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/hdy.1996.105
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\4PD3UI6Q\\Joshi et al. - 1996 - Genetics of larval urea tolerance in Drosophila me.pdf;C\:\\Users\\HP\\Zotero\\storage\\NTQTUJYZ\\hdy1996105.html
+      \endverb
+    \endentry
     \entry{joshiEvolutionHigherFeeding1988}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
@@ -543,7 +638,7 @@
       \keyw{Behavior,density-dependent natural selection,Drosophila melanogaster,K-selection,pupation height,r-selection,stabilizing selection}
     \endentry
     \entry{joshiDensitydependentNaturalSelection1996}{article}{}
-      \name{author}{2}{}{%
+      \name{author}{2}{ul=2}{%
         {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
            family={Joshi},
            familyi={J\bibinitperiod},
@@ -560,13 +655,12 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{021e5ae4044f3e0b7056846eb82358b3}
+      \strng{namehash}{045701de21bd2bebdb6b917ff32fa9cf}
       \strng{fullhash}{045701de21bd2bebdb6b917ff32fa9cf}
       \strng{bibnamehash}{045701de21bd2bebdb6b917ff32fa9cf}
       \strng{authorbibnamehash}{045701de21bd2bebdb6b917ff32fa9cf}
-      \strng{authornamehash}{021e5ae4044f3e0b7056846eb82358b3}
+      \strng{authornamehash}{045701de21bd2bebdb6b917ff32fa9cf}
       \strng{authorfullhash}{045701de21bd2bebdb6b917ff32fa9cf}
-      \field{extraname}{3}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{extradatescope}{labelyear}
@@ -621,7 +715,7 @@
       \strng{authorbibnamehash}{86430c77c23ec52ade67711d8360183a}
       \strng{authornamehash}{021e5ae4044f3e0b7056846eb82358b3}
       \strng{authorfullhash}{86430c77c23ec52ade67711d8360183a}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{extradatescope}{labelyear}
@@ -855,64 +949,64 @@
     \endentry
     \entry{nagarajanAdaptationLarvalCrowding2016}{article}{}
       \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=2fe30b3cf2dca71f2594313c6ce50d61}{%
+        {{un=0,uniquepart=base,hash=104b0f51795f60d15bbb5365417c4adb}{%
            family={Nagarajan},
            familyi={N\bibinitperiod},
-           given={ARCHANA},
+           given={Archana},
            giveni={A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=745386053b29e4ed7324fdc046511891}{%
-           family={NATARAJAN},
+        {{un=0,uniquepart=base,hash=1202356f1d7bf58c4d1a9f632e344d20}{%
+           family={Natarajan},
            familyi={N\bibinitperiod},
-           given={SHARMILA\bibnamedelima BHARATHI},
+           given={Sharmila\bibnamedelima Bharathi},
            giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=e6890256632b06e0bcddfcd6e315eb18}{%
-           family={JAYARAM},
+        {{un=0,uniquepart=base,hash=ff8ad2d469a5e438ca7760be8a79c810}{%
+           family={Jayaram},
            familyi={J\bibinitperiod},
-           given={MOHAN},
+           given={Mohan},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=bdede1fed78c78cf67a94a88f52e5c7e}{%
-           family={THAMMANNA},
+        {{un=0,uniquepart=base,hash=2d16da541b7c47dda4753f0e98960974}{%
+           family={Thammanna},
            familyi={T\bibinitperiod},
-           given={ANANDA},
+           given={Ananda},
            giveni={A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=d64a94f91c04aa8e1dc938dbf80e778d}{%
-           family={CHARI},
+        {{un=0,uniquepart=base,hash=d3771abf275261407ea56b2e1448c737}{%
+           family={Chari},
            familyi={C\bibinitperiod},
-           given={SUDARSHAN},
+           given={Sudarshan},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=2c8ed29e0245461fefba8d6b43b15cb6}{%
-           family={BOSE},
+        {{un=0,uniquepart=base,hash=9490c6ea84cdb2013a8d1cc72f6b51f7}{%
+           family={Bose},
            familyi={B\bibinitperiod},
-           given={JOY},
+           given={Joy},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=7a860f2d1e063e320310c69eecc04c4d}{%
-           family={JOIS},
+        {{un=0,uniquepart=base,hash=68f703f6cbeb156a4d02258210619e7f}{%
+           family={Jois},
            familyi={J\bibinitperiod},
-           given={SHREYAS\bibnamedelima V.},
+           given={Shreyas\bibnamedelima V.},
            giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=beab0efb9b36b4560ccd35423849250d}{%
-           family={JOSHI},
+        {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
+           family={Joshi},
            familyi={J\bibinitperiod},
-           given={AMITABH},
+           given={Amitabh},
            giveni={A\bibinitperiod},
            givenun=0}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{2fd7ad1f023a116cbd67dfdc701ecf42}
-      \strng{fullhash}{c10bcd0acf05ea870e5bff1da567627e}
-      \strng{bibnamehash}{dd6c7efe5243b3b30831b26071fa2b35}
-      \strng{authorbibnamehash}{dd6c7efe5243b3b30831b26071fa2b35}
-      \strng{authornamehash}{2fd7ad1f023a116cbd67dfdc701ecf42}
-      \strng{authorfullhash}{c10bcd0acf05ea870e5bff1da567627e}
+      \strng{namehash}{014108293698aee071ce65b7775ea4ac}
+      \strng{fullhash}{546de5cb4c6a6c60261c507b6738d72f}
+      \strng{bibnamehash}{e50ab1aec4c844d3bbc70765905be354}
+      \strng{authorbibnamehash}{e50ab1aec4c844d3bbc70765905be354}
+      \strng{authornamehash}{014108293698aee071ce65b7775ea4ac}
+      \strng{authorfullhash}{546de5cb4c6a6c60261c507b6738d72f}
       \field{sortinit}{N}
       \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{extradatescope}{labelyear}
@@ -1096,6 +1190,43 @@
       \endverb
       \keyw{Body size,critical size,density-dependent selection,development time,Drosophila melanogaster,efficiency,feeding rate,growth rate,trade-offs}
     \endentry
+    \entry{sarangiPreliminaryInvestigationsCauses2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be25d9e8b036a05867c94c7aeb2b7331}{%
+           family={Sarangi},
+           familyi={S\bibinitperiod},
+           given={Manaswini},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Jawaharlal Nehru Centre for Advanced Scientific Research}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \strng{fullhash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \strng{bibnamehash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \strng{authorbibnamehash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \strng{authornamehash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \strng{authorfullhash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Open Access}
+      \field{note}{Accepted: 2014-11-21T12:30:56Z}
+      \field{title}{Preliminary Investigations into the Causes for Alternative Routes to the Evolution of Competitive Ability in Populations of Drosophila Selected for Adaptation to Larval Crowding}
+      \field{type}{Thesis}
+      \field{year}{2013}
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\Q2TFDAB6\\Sarangi - 2013 - Preliminary investigations into the causes for alt.pdf;C\:\\Users\\HP\\Zotero\\storage\\FA8V4FFN\\1445.html
+      \endverb
+    \endentry
     \entry{sarangiEcologicalDetailsMediate2018}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=be25d9e8b036a05867c94c7aeb2b7331}{%
@@ -1117,11 +1248,11 @@
       \strng{authorbibnamehash}{be25d9e8b036a05867c94c7aeb2b7331}
       \strng{authornamehash}{be25d9e8b036a05867c94c7aeb2b7331}
       \strng{authorfullhash}{be25d9e8b036a05867c94c7aeb2b7331}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Recently single crystals of layered SnSe has created a paramount importance in thermoelectrics owing to their ultralow lattice thermal conductivity and high thermoelectric figure of merit (zT). However, nanocrystalline or polycrystalline SnSe offers a wide range of thermoelectric applications for the ease of its synthesis and machinability. Here, we demonstrate high zT of 2.1 at 873 K in two dimensional (2D) nanoplates of Ge doped SnSe synthesized by a simple hydrothermal route followed by spark plasma sintering (SPS). Anisotropic measurements also show a high zT of \textasciitilde{}1.8 at 873 K parallel to the SPS pressing direction. 3 mol\% Ge-doping in SnSe nanoplates significantly enhances the p-type carrier concentration which results in high electrical conductivity and power factor of \textasciitilde{}5.10 {$\mu$}W/cmK2 at 873 K. In addition to nanoscale grain boundary and high lattice anharmonicity in SnSe nanoplates, phonon scattering due to Ge precipitates in the SnSe matrix gives rise to the ultralow lattice thermal conductivity of \textasciitilde{}0.18 W/mK at 873 K.}
@@ -1132,6 +1263,71 @@
       \field{year}{2018}
       \verb{file}
       \verb C\:\\Users\\HP\\Zotero\\storage\\ECWMNLM6\\Sarangi - 2018 - Ecological details mediate different paths to the .pdf;C\:\\Users\\HP\\Zotero\\storage\\L9KKQIQA\\2722.html
+      \endverb
+    \endentry
+    \entry{sarangiEvolutionIncreasedLarval2016}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=be25d9e8b036a05867c94c7aeb2b7331}{%
+           family={Sarangi},
+           familyi={S\bibinitperiod},
+           given={Manaswini},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=104b0f51795f60d15bbb5365417c4adb}{%
+           family={Nagarajan},
+           familyi={N\bibinitperiod},
+           given={Archana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb701a47a564c56f1e3aa367ad08765e}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Snigdhadip},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9490c6ea84cdb2013a8d1cc72f6b51f7}{%
+           family={Bose},
+           familyi={B\bibinitperiod},
+           given={Joy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5a283fac6801cd44adaade0d96566ce8}
+      \strng{fullhash}{41e41c9792c1254ef28db9b19c35e60d}
+      \strng{bibnamehash}{41e41c9792c1254ef28db9b19c35e60d}
+      \strng{authorbibnamehash}{41e41c9792c1254ef28db9b19c35e60d}
+      \strng{authornamehash}{5a283fac6801cd44adaade0d96566ce8}
+      \strng{authorfullhash}{41e41c9792c1254ef28db9b19c35e60d}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multiple experimental evolution studies on Drosophila melanogaster in the 1980s and 1990s indicated that enhanced competitive ability evolved primarily through increased larval tolerance to nitrogenous wastes and increased larval feeding and foraging rate, at the cost of efficiency of food conversion to biomass, and this became the widely accepted view of how adaptation to larval crowding evolves in fruitflies. We recently showed that populations of D. ananassae and D. n. nasuta subjected to extreme larval crowding evolved greater competitive ability without evolving higher feeding rates, primarily through a combination of reduced larval duration, faster attainment of minimum critical size for pupation, greater efficiency of food conversion to biomass, increased pupation height and, perhaps, greater urea/ammonia tolerance. This was a very different suite of traits than that seen to evolve under similar selection in D. melanogaster and was closer to the expectations from the theory of K-selection. At that time, we suggested two possible reasons for the differences in the phenotypic correlates of greater competitive ability seen in the studies with D. melanogaster and the other two species. First, that D. ananassae and D. n. nasuta had a very different genetic architecture of traits affecting competitive ability compared to the long-term laboratory populations of D. melanogaster used in the earlier studies, either because the populations of the former two species were relatively recently wild-caught, or by virtue of being different species. Second, that the different evolutionary trajectories in D. ananassae and D. n. nasuta versus D. melanogaster were a reflection of differences in the manner in which larval crowding was imposed in the two sets of selection experiments. The D. melanogaster studies used a higher absolute density of eggs per unit volume of food, and a substantially larger total volume of food, than the studies on D. ananassae and D. n. nasuta. Here, we show that long-term laboratory populations of D. melanogaster, descended from some of the populations used in the earlier studies, evolve essentially the same set of traits as the D. ananassae and D. n. nasuta crowding-adapted populations when subjected to a similar larval density at low absolute volumes of food. As in the case of D. ananassae and D. n. nasuta, and in stark contrast to earlier studies with D. melanogaster, these crowding-adapted populations of D. melanogaster did not evolve greater larval feeding rates as a correlate of increased competitive ability. The present results clearly suggest that the suite of phenotypes through which the evolution of greater competitive ability is achieved in fruitflies depends critically not just on larval density per unit volume of food, but also on the total amount of food available in the culture vials. We discuss these results in the context of an hypothesis about how larval density and the height of the food column in culture vials might interact to alter the fitness costs and benefits of increased larval feeding rates, thus resulting in different routes to the evolution of greater competitive ability, depending on the details of exactly how the larval crowding was implemented.}
+      \field{issn}{0973-7731}
+      \field{journaltitle}{Journal of Genetics}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Evolution of Increased Larval Competitive Ability in {{Drosophila}} Melanogaster without Increased Larval Feeding Rate}
+      \field{volume}{95}
+      \field{year}{2016}
+      \field{pages}{491\bibrangedash 503}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s12041-016-0656-8
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\E88XL8Z4\\SARANGI et al. - 2016 - Evolution of increased larval competitive ability .pdf
       \endverb
     \endentry
     \entry{shiotsuguSymmetryCorrelatedSelection1997}{article}{}
@@ -1201,6 +1397,55 @@
       \verb C\:\\Users\\HP\\Zotero\\storage\\FHCHZ3UP\\Shiotsugu et al. - 1997 - The Symmetry of Correlated Selection Responses in .pdf;C\:\\Users\\HP\\Zotero\\storage\\4R854M2B\\j.1558-5646.1997.tb02397.html
       \endverb
       \keyw{Correlated responses,development,Drosophila,evolution,life history,senescence,stress resistance,urea}
+    \endentry
+    \entry{testaSexSpecificWeightLoss2013}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a51feb0faea4f3921542727988edb999}{%
+           family={Testa},
+           familyi={T\bibinitperiod},
+           given={Nicholas\bibnamedelima D.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fe5e59ce97efb7fad8fbee998a5cbfd}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Shampa\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03fe1f657d4e2375e8c1742b811fb7a4}{%
+           family={Shingleton},
+           familyi={S\bibinitperiod},
+           given={Alexander\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca452482c60d1360db8f35eadf68ac7e}
+      \strng{fullhash}{7400f506d76a845a31cc5f3bf0eef932}
+      \strng{bibnamehash}{7400f506d76a845a31cc5f3bf0eef932}
+      \strng{authorbibnamehash}{7400f506d76a845a31cc5f3bf0eef932}
+      \strng{authornamehash}{ca452482c60d1360db8f35eadf68ac7e}
+      \strng{authorfullhash}{7400f506d76a845a31cc5f3bf0eef932}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The selective pressures leading to the evolution of Sexual Size Dimorphism (SSD) have been well studied in many organisms, yet, the underlying developmental mechanisms are poorly understood. By generating a complete growth profile by sex in Drosophila melanogaster, we describe the sex-specific pattern of growth responsible for SSD. Growth rate and critical size for pupariation significantly contributed to adult SSD, whereas duration of growth did not. Surprisingly, SSD at peak larval mass was twice that of the uneclosed adult SSD with weight loss between peak larval mass and pupariation playing an important role in generating the final SSD. Our finding that weight loss is an important regulator of SSD adds additional complexity to our understanding of how body size is regulated in different sexes. Collectively, these data allow for the elucidation of the molecular-genetic mechanisms that generate SSD, an important component of understanding how SSD evolves.}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLoS ONE}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Sex-{{Specific Weight Loss Mediates Sexual Size Dimorphism}} in {{Drosophila}} Melanogaster}
+      \field{volume}{8}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0058936
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\DFTCJ4AT\\Testa et al. - 2013 - Sex-Specific Weight Loss Mediates Sexual Size Dimo.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

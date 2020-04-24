@@ -1,61 +1,69 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Certificate of Examination}{i}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Declaration}{ii}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{v}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{ix}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Modelling Larval Stage in a Vial}{4}%
+\contentsline {chapter}{\numberline {2}Modelling Larval Stage in a Vial}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Ecology of a Vial in Drosophila Cultures}{4}%
+\contentsline {section}{\numberline {2.1}Ecology of a Culture Vial}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Larval Stage Model}{5}%
+\contentsline {section}{\numberline {2.2}Larval Stage Model}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Simulations for Feeding Band Dynamics}{8}%
+\contentsline {section}{\numberline {2.3}Simulations for Feeding Band Dynamics}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Waste build-up dynamics results}{8}%
+\contentsline {subsection}{\numberline {2.3.1}Waste build-up dynamics results}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Food quality dynamics results}{9}%
+\contentsline {subsection}{\numberline {2.3.2}Food quality dynamics results}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Interplay between Larval Trait Parameters}{11}%
+\contentsline {chapter}{\numberline {3}Interplay between Larval Trait Parameters}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Initial Feeding Rate and Efficiency}{12}%
+\contentsline {section}{\numberline {3.1}Initial Feeding Rate and Efficiency}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Initial Feeding Rate and Critical Size}{14}%
+\contentsline {section}{\numberline {3.2}Initial Feeding Rate and Critical Size}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Critical Size and Efficiency}{16}%
+\contentsline {section}{\numberline {3.3}Critical Size and Efficiency}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Modelling Evolution of Life-history Traits}{18}%
+\contentsline {chapter}{\numberline {4}Modelling Evolution of Life-history Traits}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Modelling Adult Stage}{18}%
+\contentsline {section}{\numberline {4.1}Modelling Adult Stage}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Pupal stage}{18}%
+\contentsline {subsection}{\numberline {4.1.1}Pupal stage}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Fecundity}{19}%
+\contentsline {subsection}{\numberline {4.1.2}Fecundity}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Inheritance}{19}%
+\contentsline {subsection}{\numberline {4.1.3}Inheritance}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Effect of Laral Crowding on the Evolution of Larval Trait Parameters}{21}%
+\contentsline {section}{\numberline {4.2}Effect of Laral Crowding on the Evolution of Larval Trait Parameters}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Evolution of Other Life-history Traits}{23}%
+\contentsline {section}{\numberline {4.3}Evolution of Other Life-history Traits}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Effects of Variation on the Evolution of Larval Trait Parameters}{26}%
+\contentsline {chapter}{\numberline {5}Effects of Variation on the Evolution of Larval Trait Parameters}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Variation in the Initial Distribution of Larval Trait Parameters}{26}%
+\contentsline {section}{\numberline {5.1}Variation in the Initial Distribution of Larval Trait Parameters}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Heritability of Trait Parameters}{29}%
+\contentsline {section}{\numberline {5.2}Heritability of Trait Parameters}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Introducing Correlations in Larval Trait Parameters}{34}%
+\contentsline {chapter}{\numberline {6}Introducing Correlations in Larval Trait Parameters}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Distribution of Laral Traits with Development Time}{34}%
+\contentsline {section}{\numberline {6.1}Distribution of Laral Traits with Development Time}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Effects of Negative Correlation between Feeding Rate and Efficiency}{40}%
+\contentsline {section}{\numberline {6.2}Effects of Negative Correlation between Feeding Rate and Efficiency}{45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Discussion}{45}%
+\contentsline {chapter}{\numberline {7}Discussion}{51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{46}%
+\contentsline {chapter}{References}{53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Tables}{49}%
+\contentsline {chapter}{\numberline {A}Tables}{57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Larval Trait Parameters}{49}%
+\contentsline {section}{\numberline {A.1}Larval Trait Parameters}{57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Scaling Parameters}{49}%
+\contentsline {section}{\numberline {A.2}Scaling Parameters}{57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Other Larval Parameters}{50}%
+\contentsline {section}{\numberline {A.3}Other Larval Parameters}{58}%

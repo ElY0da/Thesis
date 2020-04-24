@@ -2,7 +2,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Larval stage maintenance in MB, MCU, CCU and LCU populations}}{4}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -16,8 +16,10 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces Distributions and values of larval trait parameters used for initiating the model}}{49}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.2}{\ignorespaces Values of scaling parameters used in the model}}{49}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Distributions and values of larval trait parameters used for initiating the model}}{57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.3}{\ignorespaces Values of larval parameters used for initiating the model}}{50}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Values of scaling parameters used in the model}}{57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {A.3}{\ignorespaces Values of larval parameters used for initiating the model}}{58}%
