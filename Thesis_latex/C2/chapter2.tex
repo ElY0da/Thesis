@@ -16,8 +16,10 @@ The inital size of all larvae is same and the growth is determined by larval tra
 In pre-critical stage of the larva, feeding rate is a linear function of time, given as:
 \[Fr_{i}(t) = fr_{i} + x_{1}\cdot t\]
 Here, \\
-$fr_{i}$: initial feeding rate of $i^{th}$ larva; $x_{1}$: scaling parameter, \\
-$t$: given time step; $Fr_{i}(t)$: Feeding rate at time $t$\\
+$fr_{i}$: initial feeding rate of $i^{th}$ larva; \\
+$x_{1}$: scaling parameter, \\
+$t$: given time step; \\
+$Fr_{i}(t)$: feeding rate at time $t$\\
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.8\textwidth]{C2/Figs/larval_model}
@@ -25,13 +27,13 @@ $t$: given time step; $Fr_{i}(t)$: Feeding rate at time $t$\\
   \label{fig:larval_model}
 \end{figure}
 
-\noindent Feeding rate stays constant During post-critical stage. During pre-critical growth Volume of food taken in one bite is taken as constant $V_{f}(pre)$ and during post-critical growth it is $V_{f}(post) = 1.5\cdot V_{f}(pre)$. Food consumed by all larvae at time step $t$ is given as:
+\noindent Feeding rate stays constant During post-critical stage (see \cite{santosDensityDependentNaturalSelection1997}). During pre-critical growth Volume of food taken in one bite is taken as constant $V_{f}(pre)$ and during post-critical growth it is $V_{f}(post) = 1.5\cdot V_{f}(pre)$. Food consumed by all larvae at time step $t$ is given as:
 \[FoodEaten(t) = \sum_{i}food\_eaten_{i}(t) = \sum_{i}Fr_{i}(t)\cdot V_{f}\]
 The increase in body size at time $t$ is $S_{i}(t+1)$ and give as:
 \[S_{i}(t+1) = S_{i}(t) + food\_eaten_{i}(t)\cdot \epsilon_{i}\cdot FQ_{fb}(t)\]
 Here,\\
-$\epsilon_{i}$: Efficiency to convert food eaten into biomass of $i^{th}$ larvae,\\
-$FQ_{fb}(t)$: Food quality of the feeding band at time $t$\\ \\
+$\epsilon_{i}$: efficiency to convert food eaten into biomass of $i^{th}$ larvae,\\
+$FQ_{fb}(t)$: food quality of the feeding band at time $t$\\ \\
 After feeding and utilizing food consumed at given time step, larva produces nitrogenous waste $waste\_prod_{i}(t)$. This affects the total waste produced by all the larvae after feeding:
 \[WasteProd(t) = \sum_{i}waste\_prod_{i} = \sum_{i}[food\_eaten_{i}(t)\cdot (1-\epsilon_{i}\cdot FQ(t))]\]
 Based on this waste produced, total waste accumulated till time step $t$ in feeding band and diffusion band is calculated considering $k_{d}$ proportion of waste in the feeding band diffuses into diffusion band at each time step.
@@ -47,8 +49,8 @@ $k_{d}$ is dependent on the food available in the vial and determines whether wa
 \end{enumerate}
 Each larva feeds and increase the body size in each time step based on the conditions for food available ($food$), food quality ($FQ(t)$), critical size ($sc_{i}$) and waste tolerance ($u_{i}$) described in fig~\ref{fig:larval_model}.\\
 
-\noindent Values for all parameters used in the larval stage of the model, are given in table~\ref{tab:trait_value}, table~\ref{tab:scale_param} and table~\ref{tab:food_param}. These values were obtianed by calibrating survivorship, body size and development time results similar to the empirical results in various larval densities \cite{sarangiEcologicalDetailsMediate2018}.
-\newpage
+\noindent Values for all parameters used in the larval stage of the model, are given in table~\ref{tab:trait_value}, table~\ref{tab:scale_param} and table~\ref{tab:food_param}. These values were obtianed by calibrating survivorship, body size and development time results similar to the empirical results in various larval densities \citep{sarangiEcologicalDetailsMediate2018}.
+\clearpage
 \section{Simulations for Feeding Band Dynamics}
 Simulations are performed for trait values in table~\ref{tab:trait_value} to observe the waste build up dynamics and food quality decrease in a food vial with different larval densities during larval feeding.
 \subsection{Waste build-up dynamics results}

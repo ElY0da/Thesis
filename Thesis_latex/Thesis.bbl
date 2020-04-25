@@ -435,7 +435,6 @@
       \field{abstract}{Density-dependent selection is expected to lead to population stability, especially if r and K tradeoff. Yet, there is no empirical evidence of adaptation to crowding leading to the evolution of stability. We show that populations of Drosophila ananassae selected for adaptation to larval crowding have higher K and lower r, and evolve greater stability than controls. We also show that increased population growth rates at high density can enhance stability, even in the absence of a decrease in r, by ensuring that the crowding adapted populations do not fall to very low sizes. We discuss our results in the context of traits known to have diverged between the selected and control populations, and compare our results with previous work on the evolution of stability in D. melanogaster. Overall, our results suggest that density-dependent selection may be an important factor promoting the evolution of relatively stable dynamics in natural populations.}
       \field{issn}{2045-7758}
       \field{journaltitle}{Ecology and Evolution}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ece3.227}
       \field{number}{5}
       \field{title}{Adaptation to Larval Crowding in {{Drosophila}} Ananassae Leads to the Evolution of Population Stability}
       \field{volume}{2}
@@ -622,7 +621,6 @@
       \field{abstract}{Six populations of Drosophila melanogaster have been kept at extreme population densities, three high and three low, for 175 generations. Larvae from the high density populations pupate 50\%-100\% higher than larvae from the low density populations. At high larval test densities there is both a directional and a stabilizing component to selection, with viabilities ranging from 0.14 to 0.992, depending on the choice of pupation site. The directional component is stronger on the populations which have evolved at low densities, while the stabilizing component is stronger on the populations which have evolved at high densities. There is no indication that the evolution of this trait, in response to density, has altered its phenotypic plasticity.}
       \field{issn}{1558-5646}
       \field{journaltitle}{Evolution}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1558-5646.1993.tb01208.x}
       \field{number}{1}
       \field{title}{Directional and {{Stabilizing Density}}-{{Dependent Natural Selection}} for {{Pupation Height}} in {{Drosophila Melanogaster}}}
       \field{volume}{47}
@@ -882,7 +880,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{The development of theory on density-dependent natural selection has seen a transition from very general, logistic growth-based models to theories that incorporate details of specific life histories. This transition has been justified by the need to make predictions that can then be tested experimentally with specific model systems like bacteria or Drosophila. The most general models predict that natural selection should increase density-dependent rates of population growth. When trade-offs exist, those genotypes favored in low-density environments will show reduced per capita growth rates under crowded conditions and vice versa for evolution in crowded environments. This central prediction has been verified twice in carefully controlled experiments with Drosophila. Empirical research in this field has also witnessed a major transition from field-based observations and conjecture to carefully controlled laboratory selection experiments. This change in approach has permitted crucial tests of theories of density-dependent natural selection and a deeper understanding of the mechanisms of adaptation to different levels of population crowding. Experimental research with Drosophila has identified several phenotypes important to adaptation, especially at high larval densities. This same research revealed that an important trade-off occurs between competitive ability and energetic efficiency.}
       \field{journaltitle}{Annual Review of Ecology and Systematics}
-      \field{note}{\_eprint: https://doi.org/10.1146/annurev.ecolsys.28.1.269}
       \field{number}{1}
       \field{title}{Theoretical and {{Empirical Examination}} of {{Density}}-{{Dependent Selection}}}
       \field{volume}{28}
@@ -1108,7 +1105,6 @@
       \field{abstract}{Density—{}dependent selective values illustrate the evolutionary effect of population—{}regulating processes that diminish an individual's probability of survival with increased crowding. The selective values, assumed to decrease as a linear function of density, lead in a mild environment to the evolution of phenotypes having a high carrying capacity, K, at the expense of a low intrinsic rate of increase, r. A graphical technique shows that selection causes evolution of phenotypes having a high r at the expense of a low K in harsh seasonal environments. A mathematical technique developed for analyzing evolution in coarse—{}grained seasonal environments reveals genetic mechanisms, including ones with full dominance, with which a moderately harsh seasonal environment causes stable polymorphism between high—{}r and high—{}K genes. The energy balance equation demonstrates the role of high—{}r and high—{}K phenotypes in the population's energy flow. A high—{}r phenotype makes a large expected contribution to the population's productivity under conditions of negligible crowding, and a high—{}K phenotype has, for a given contribution to the population's productivity under uncrowded conditions, a low sensitivity to having that contribution diminished by crowding.}
       \field{issn}{1939-9170}
       \field{journaltitle}{Ecology}
-      \field{note}{\_eprint: https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.2307/1937628}
       \field{number}{3}
       \field{title}{Density-{{Dependent Natural Selection}}}
       \field{volume}{52}
@@ -1174,7 +1170,6 @@
       \field{abstract}{Drosophila melanogaster populations subjected to extreme larval crowding (CU lines) in our laboratory have evolved higher larval feeding rates than their corresponding controls (UU lines). It has been suggested that this genetically based behavior may involve an energetic cost, which precludes natural selection in a density-regulated population to simultaneously maximize food acquisition and food conversion into biomass. If true, this stands against some basic predictions of the general theory of density-dependent natural selection. Here we investigate the evolutionary consequences of density-dependent natural selection on growth rate and body size in D. melanogaster. The CU populations showed a higher growth rate during the postcritical period of larval life than UU populations, but the sustained differences in weight did not translate into the adult stage. The simplest explanation for these findings (that natural selection in a crowded larval environment favors a faster food acquisition for the individual to attain the same final body size in a shorter period of time) was tested and rejected by looking at the larva-to-adult development times. Larvae of CU populations starved for different periods of time develop into comparatively smaller adults, suggesting that food seeking behavior in a food depleted environment carries a higher cost to these larvae than to their UU counterparts. The results have important implications for understanding the evolution of body size in natural populations of Drosophila, and stand against some widespread beliefs that body size may represent a compromise between the conflicting effects of genetic variation in larval and adult performance.}
       \field{issn}{1558-5646}
       \field{journaltitle}{Evolution}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1558-5646.1997.tb02429.x}
       \field{number}{2}
       \field{shorttitle}{Density-{{Dependent Natural Selection}} in {{Drosophila}}}
       \field{title}{Density-{{Dependent Natural Selection}} in {{Drosophila}}: {{Evolution}} of {{Growth Rate}} and {{Body Size}}}
@@ -1219,7 +1214,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Open Access}
-      \field{note}{Accepted: 2014-11-21T12:30:56Z}
       \field{title}{Preliminary Investigations into the Causes for Alternative Routes to the Evolution of Competitive Ability in Populations of Drosophila Selected for Adaptation to Larval Crowding}
       \field{type}{Thesis}
       \field{year}{2013}
@@ -1257,7 +1251,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Recently single crystals of layered SnSe has created a paramount importance in thermoelectrics owing to their ultralow lattice thermal conductivity and high thermoelectric figure of merit (zT). However, nanocrystalline or polycrystalline SnSe offers a wide range of thermoelectric applications for the ease of its synthesis and machinability. Here, we demonstrate high zT of 2.1 at 873 K in two dimensional (2D) nanoplates of Ge doped SnSe synthesized by a simple hydrothermal route followed by spark plasma sintering (SPS). Anisotropic measurements also show a high zT of \textasciitilde{}1.8 at 873 K parallel to the SPS pressing direction. 3 mol\% Ge-doping in SnSe nanoplates significantly enhances the p-type carrier concentration which results in high electrical conductivity and power factor of \textasciitilde{}5.10 {$\mu$}W/cmK2 at 873 K. In addition to nanoscale grain boundary and high lattice anharmonicity in SnSe nanoplates, phonon scattering due to Ge precipitates in the SnSe matrix gives rise to the ultralow lattice thermal conductivity of \textasciitilde{}0.18 W/mK at 873 K.}
       \field{month}{5}
-      \field{note}{Accepted: 2019-07-26T10:33:37Z}
       \field{title}{Ecological Details Mediate Different Paths to the Evolution of Larval Competitive Ability in {{Drosophila}}}
       \field{type}{Thesis}
       \field{year}{2018}
@@ -1382,7 +1375,6 @@
       \field{abstract}{The relationship between the processes of density-dependent and age-specific selection has been investigated by examining a common phenotype, urea resistance, which has apparently evolved in response to each of these selection mechanisms. Twenty populations that have experienced differing levels of age-specific selection show differences in egg-to-adult viability in environments with high levels of urea. Among this group of populations, it appears that resistance to urea is correlated with longevity, but not development time. Ten populations kept at extreme larval densities for many generations also show responses to urea: those kept at high larval densities appear to be most resistant to urea. However, these populations show no differences in adult longevity. An additional five populations were selected directly for urea resistance by adding this compound to the larval food environment. Again, there was a strong response to this artificial selection, with urea resistance increasing dramatically, but these populations showed no response in adult longevity or resistance to crowding when compared to five control populations. There is clearly no simple relationship between longevity and larval urea resistance. It may be that age-specific and density-dependent selection induce similar changes in this phenotype, but do so through different genetic and physiological pathways. We suggest that these data are not consistent with the view of constant and symmetric genetic variance-covariance matrices. These data support a more prominent role for observations of evolutionary trajectories rather than static measurements of genetic components of variance.}
       \field{issn}{1558-5646}
       \field{journaltitle}{Evolution}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1558-5646.1997.tb02397.x}
       \field{number}{1}
       \field{shorttitle}{The {{Symmetry}} of {{Correlated Selection Responses}} in {{Adaptive Evolution}}}
       \field{title}{The {{Symmetry}} of {{Correlated Selection Responses}} in {{Adaptive Evolution}}: {{An Experimental Study Using Drosophila}}}
@@ -1446,6 +1438,66 @@
       \verb{file}
       \verb C\:\\Users\\HP\\Zotero\\storage\\DFTCJ4AT\\Testa et al. - 2013 - Sex-Specific Weight Loss Mediates Sexual Size Dimo.pdf
       \endverb
+    \endentry
+    \entry{tungComplexInteractionResource2019}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2d9e4156e8ef30c86d6c2cd64e22693d}{%
+           family={Tung},
+           familyi={T\bibinitperiod},
+           given={Sudipta},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=771327e012a913c2c94defe1fa2a0c6b}{%
+           family={Rajamani},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89d8a1c5b9c20f732cf91dcba687cf15}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Amitabh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=234e6b700422de311447b208cffaa9c4}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Sutirth},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{49d21642d6f4cfdf8221388c1030cb5d}
+      \strng{fullhash}{2c95e0e814680bc84fc3585e1456ae04}
+      \strng{bibnamehash}{2c95e0e814680bc84fc3585e1456ae04}
+      \strng{authorbibnamehash}{2c95e0e814680bc84fc3585e1456ae04}
+      \strng{authornamehash}{49d21642d6f4cfdf8221388c1030cb5d}
+      \strng{authorfullhash}{2c95e0e814680bc84fc3585e1456ae04}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The dynamics of stage-structured populations facing stage-specific variability in resource availability and/or demographic factors like unequal sex-ratios, remains poorly understood. We addressed these issues using a stage-structured individual-based model that incorporates life-history parameters common to many holometabolous insects. The model was calibrated using time series data from a 49-generation experiment on laboratory populations of Drosophila melanogaster, subjected to four different combinations of larval and adult nutritional levels. The model was able to capture multiple qualitative and quantitative aspects of the empirical time series across three independent studies. We then simulated the model to explore the interaction of various life-history parameters and nutritional levels in determining population stability. In all nutritional regimes, constancy stability of the populations was reduced upon increasing egg-hatchability, critical mass, and proportion of body resource allocated to female fecundity. However, the effects of increasing sensitivity of female-fecundity to adult density on constancy stability varied across nutrition regimes. The effects of unequal sex-ratio and sex-specific culling were greatly influenced by fecundity but not by levels of juvenile nutrition. Finally, we investigated the implications of some of these insights on the efficiency of the widely-used pest control method, the Sterile Insect Technique (SIT). We show that increasing the amount of juvenile food had no effects on SIT efficiency when the density-independent fecundity is low, but reduces SIT efficiency when the density-independent fecundity is high.}
+      \field{issn}{0022-5193}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{month}{1}
+      \field{title}{Complex Interaction of Resource Availability, Life-History and Demography Determines the Dynamics and Stability of Stage-Structured Populations}
+      \field{volume}{460}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.jtbi.2018.10.019
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\4MWEQVKL\\S0022519318304880.html
+      \endverb
+      \keyw{Constancy,Fluctuation index,Minimum critical size,Persistence,Stability,Stage-structured model,Sterile Insect Technique,Time-series}
     \endentry
   \enddatalist
 \endrefsection
