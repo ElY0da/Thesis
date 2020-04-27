@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  27 APR 2020 14:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  27 APR 2020 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -657,11 +657,35 @@ _Mohali_logo.png>])
 ])
 \openout2 = `C0/Acknowledgements.aux'.
 
- (./C0/Acknowledgements.tex [5
+ (./C0/Acknowledgements.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--11
+
+ []
 
 
-]
-[6
+Underfull \hbox (badness 10000) in paragraph at lines 4--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--11
+
+ []
+
+[5
+
+
+] [6
 
 ])
 *geometry* verbose mode - [ newgeometry ] result:
@@ -724,6 +748,15 @@ Underfull \vbox (badness 1412) has occurred while \output is active []
 \openout2 = `C0/Abstract.aux'.
 
  (./C0/Abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--9
+
+ []
+
 [15
 
 ] [16
@@ -1885,17 +1918,61 @@ alive_size_vs_devt_MCU.png> <./C6/Figs/neg_corr/neg_alive_size_vs_devt_CCU.png>
  (./C7/discussion.tex
 Chapter 7.
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 2--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--59
+
+ []
+
+
+Underfull \vbox (badness 3701) has occurred while \output is active []
 
  [51
 
 
 
 ]
-[52
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+[55
 
 
-] [53]
+]
 Overfull \hbox (10.1159pt too wide) in paragraph at lines 63--63
 [][]\OT1/cmr/m/n/12 Godoy-Herrera, R. (1977). Inter- and in-trapop-u-la-tional 
 vari-a-tion in dig-ging in-Drosophila
@@ -1908,10 +1985,10 @@ Overfull \hbox (1.1344pt too wide) in paragraph at lines 63--63
  BF01066778$ 
  []
 
-[54] [55] [56] [57]
+[56] [57] [58] [59]
 \openout2 = `CA1/chapterA1.aux'.
 
- (./CA1/chapterA1.tex [58
+ (./CA1/chapterA1.tex [60
 
 
 ]
@@ -1919,47 +1996,50 @@ Appendix A.
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
-(./CA1/Scripts/larva_index_base.py [59]
+(./CA1/Scripts/larva_index_base.py [61]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61])
-(./CA1/Scripts/timeseries.py [62]
+ [62]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
+ [64])
+(./CA1/Scripts/timeseries.py [65]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65])
-<CA1/github_code.png, id=574, 200.75pt x 200.75pt>
+ [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68])
+<CA1/github_code.png, id=584, 200.75pt x 200.75pt>
 File: CA1/github_code.png Graphic file (type png)
 <use CA1/github_code.png>
 Package pdftex.def Info: CA1/github_code.png  used on input line 37.
 (pdftex.def)             Requested size: 130.47144pt x 130.47981pt.
 
-[66 <./CA1/github_code.png>])
+[69 <./CA1/github_code.png>])
 \openout2 = `CA2/chapterA2.aux'.
 
- (./CA2/chapterA2.tex
+ (./CA2/chapterA2.tex [70
+
+
+
+
+]
 Appendix B.
-[67
-
-
-
-
-] [68]
-<CA2/github_thesis_results.png, id=586, 200.75pt x 200.75pt>
+[71] [72]
+<CA2/github_thesis_results.png, id=598, 200.75pt x 200.75pt>
 File: CA2/github_thesis_results.png Graphic file (type png)
 <use CA2/github_thesis_results.png>
 Package pdftex.def Info: CA2/github_thesis_results.png  used on input line 116.
 
 (pdftex.def)             Requested size: 130.47144pt x 130.47981pt.
- [69
+ [73
 
  <./CA2/github_thesis_results.png>]) (./Thesis.aux
 (./C0/Titlepage.aux) (./C0/Certificate.aux) (./C0/Declarations.aux)
@@ -1972,10 +2052,10 @@ Package logreq Info: Writing requests to 'Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14515 strings out of 492164
- 264136 string characters out of 6129087
- 1178911 words of memory out of 5000000
- 18505 multiletter control sequences out of 15000+600000
+ 14516 strings out of 492164
+ 264151 string characters out of 6129087
+ 1214956 words of memory out of 5000000
+ 18506 multiletter control sequences out of 15000+600000
  11983 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,11n,60p,10427b,3860s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1991,10 +2071,10 @@ r12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:
 19/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2019/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Thesis.pdf (86 pages, 10439759 bytes).
+Output written on Thesis.pdf (90 pages, 10453707 bytes).
 PDF statistics:
- 636 PDF objects out of 1000 (max. 8388607)
- 273 compressed objects within 3 object streams
+ 648 PDF objects out of 1000 (max. 8388607)
+ 281 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  792 words of extra memory for PDF output out of 10000 (max. 10000000)
 

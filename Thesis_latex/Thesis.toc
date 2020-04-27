@@ -62,12 +62,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Discussion}{51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{52}%
+\contentsline {chapter}{References}{55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Code}{59}%
+\contentsline {chapter}{\numberline {A}Code}{61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Larval Stage}{59}%
+\contentsline {section}{\numberline {A.1}Larval Stage}{61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Adult Stage}{62}%
+\contentsline {section}{\numberline {A.2}Adult Stage}{65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Tables}{67}%
+\contentsline {chapter}{\numberline {B}Tables}{71}%
