@@ -1,2 +1,40 @@
 \chapter{Code}
-\pagebreak
+This appendix contains code written for larval stage and adult stage in the model. All code is written in Python 3.7 (\citeauthor{WelcomePythonOrg}, \url{www.python.org}).
+\lstset{
+  columns=fullflexible,
+  frame=single,
+  breaklines=true,
+  postbreak=\mbox{{$\hookrightarrow$}\space},
+}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+\section{Larval Stage}
+\lstinputlisting[language=Python]{CA1/Scripts/larva_index_base.py}
+\section{Adult Stage}
+\lstinputlisting[language=Python]{CA1/Scripts/timeseries.py}
+The entire code is on the following Github repository:\\
+\url{https://github.com/ElY0da/Thesis_code.git}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.3\textwidth]{CA1/github_code}
+  \caption{QR code for Github repository containing all codes}
+\end{figure}
+\clearpage

@@ -56,18 +56,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Introducing Correlations in Larval Trait Parameters}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Distribution of Laral Traits with Development Time}{39}%
+\contentsline {section}{\numberline {6.1}Distribution of Laral Traits with Development Time}{40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Negative Correlation between Feeding Rate and Efficiency}{45}%
+\contentsline {section}{\numberline {6.2}Negative Correlation between Feeding Rate and Efficiency}{46}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Discussion}{51}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{References}{52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Tables}{57}%
+\contentsline {chapter}{\numberline {A}Code}{59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Larval Trait Parameters}{57}%
+\contentsline {section}{\numberline {A.1}Larval Stage}{59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Scaling Parameters}{57}%
+\contentsline {section}{\numberline {A.2}Adult Stage}{62}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Other Larval Parameters}{58}%
+\contentsline {chapter}{\numberline {B}Tables}{67}%

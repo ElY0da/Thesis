@@ -67,6 +67,42 @@
       \verb C\:\\Users\\HP\\Zotero\\storage\\4EZ8EYXT\\284092.html
       \endverb
     \endentry
+    \entry{archanaGeneticArchitectureFitnessrelated2009}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=45c58e57c6689f427a91f08fc7cf9b90}{%
+           family={Archana},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Jawaharlal Nehru Centre for Advanced Scientific Research}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{45c58e57c6689f427a91f08fc7cf9b90}
+      \strng{fullhash}{45c58e57c6689f427a91f08fc7cf9b90}
+      \strng{bibnamehash}{45c58e57c6689f427a91f08fc7cf9b90}
+      \strng{authorbibnamehash}{45c58e57c6689f427a91f08fc7cf9b90}
+      \strng{authornamehash}{45c58e57c6689f427a91f08fc7cf9b90}
+      \strng{authorfullhash}{45c58e57c6689f427a91f08fc7cf9b90}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{I chose to work on the genetic architecture of fitness-related traits in populations of three species of Drosophila subjected to selection for adaptation to larval crowding, with the primary focus being on the following questions: 1. Is the network of genetic correlations among fitness-related traits under larval crowding similar in species of Drosophila other than D. melanogaster and, if not, does it vary with evolutionary distance? 2. Do D. ananassae populations selected for adaptation to larval crowding exhibit a polymorphism of different genotypes for exploiting temporal variation in the environment, as seen earlier in D. melanogaster? 3. Can maintenance regime have an effect on the genetic architecture of fitness-related traits through promoting assortative mating for development time under crowding? The first question is general and pertains to the degree to which the genetic architecture of fitness-related traits is conserved across congeners, whereas the other two questions arise from differences between my results and those obtained in earlier selection studies on adaptation to crowding in D. melanogaster. I chose to work on adaptation to crowding because previous studies in D. melanogaster involving selection for either adaptation to crowding or faster development, unlike studies where age at reproduction or stress tolerance was selected for, revealed a fairly consistent pattern of genetic correlations among traits like development time, pre-adult viability, larval feeding rate, larval competitive ability and weight at eclosion. Thus, adaptation to crowding seemed to be a good selection pressure 13 under which to examine the generality of the genetic architecture of these traits in other Drosophila species. I worked on three species of Drosophila —{} D. ananassae, D. nasuta and D. melanogaster. D. ananassae and D. melanogaster are closer evolutionarily as compared to D. nasuta, belong to the same sub-genus Sophophora and the Melanogaster species group, and diverged 12 MYA. D. nasuta belongs to a different sub-genus, Drosophila, and diverged from D. melanogaster ca. 50 MYA. Hence, to answer the first question, I inferred the signs of genetic correlations among fitness-related traits in these three species by examining correlated responses to selection for adaptation to larval crowding. In D. melanogaster, an earlier selection studies on six populations, three of which were selected for adaptation to low density (r-populations) and three for adaptation to high density (K-populations), revealed a trade-off in net productivity at the two densities. K-populations had higher net productivity at high densities and r-populations had higher net productivity at low density. K-populations also showed evolution of higher competitive ability and larval feeding rate as compared to the r-populations, with no change in development time and weight at eclosion, when assayed at moderate densities. A further study in D. melanogaster, with selection for crowding only at the larval stage, also showed evolution of almost similar life-history and related traits. The populations selected for adaptation to larval crowding showed evolution of higher larval feeding rate, competitive ability, and tolerance to urea and ammonia, as compared to the controls. In these lines also, there was no change in development time and weight at eclosion at moderate densities, even though lipid content at eclosion was higher at high density. In both studies, efficiency of food utilization was lower in the selected populations. Thus, the two studies of density- 14 dependent selection in D. melanogaster showed evolution of similar set of traits, and this pattern was also seen in populations of D. melanogaster selected for rapid egg to adult development. In my experiments, selection for larval crowding in D. ananassae showed evolution of traits which were different from the ones obtained in the earlier studies in D. melanogaster. The selected populations showed higher pre-adult survivorship and competitive ability at high density. The development time of selected populations decreased, whereas there was no change in dry weight and lipid content at eclosion, when assayed at either low and high densities. Moreover, there was no change in larval feeding rate, unlike in previous studies on D. melanogaster, where feeding rate was positively correlated with competitive ability. Moreover, D. ananassae populations selected for adaptation to larval crowding were found to be more efficient than the controls. The minimum feeding time (the minimum amount of time the larva needs to feed to reach the critical size necessary for pupation and eclosion) decreased in the selected populations and the feeding rate did not change. Thus, the flies were taking in less amount of food but were reaching the critical size early. The adult traits —{} life span, fecundity and starvation resistance —{} followed a trend similar to that seen in the earlier studies on D. melanogaster. There was no change in life span and fecundity in the selected populations, whereas starvation resistance was higher in flies raised at higher density in the selected populations as compared to controls. Overall, in D. ananassae, the network of genetic correlations among traits related to fitness under larval crowding was quite different from that seen in D. melanogaster in earlier studies. 15 Interestingly, selection for adaptation to larval crowding in my D. nasuta and D. melanogaster populations also showed the evolution of a suite of traits very similar to D. ananassae: selected populations evolved higher competitive ability, decreased development time and no change in larval feeding rate and weight at eclosion. Adult traits also showed similar results across all three species. Thus, even the D. melanogaster populations in my study showed a different pattern of genetic correlations than that seen in previous studies. Compared to the D. ananassae and D. nasuta populations that were relatively recently wild-caught, my D. melanogaster populations were derived from very long-term laboratory populations. The observation of a similar pattern of correlated responses to selection in all three species, therefore, suggests that differences in the duration of laboratory adaptation are not likely to be the cause for the observed differences between the traits that evolved in previous studies on D. melanogaster and in my D. ananassae and D. nasuta populations. A further possibility is that these differences in traits evolved in response to selection for adaptation to larval crowding could be due to a small difference in maintenance regime between my study and a previous study on D. melanogaster. I discuss this possibility at the end, because my next experiment further suggested that maintenance regime could have played a role in mediating the evolution of a different set of traits in my study. An earlier study in D. melanogaster had revealed the existence of a polymorphism in the crowding adapted populations. Early emerging genotypes from a crowded culture showed higher larval feeding rate but lower tolerance to nitrogenous wastes than late emerging genotypes. I also wanted to check if the D. ananassae populations selected for adaptation to larval crowding showed such a polymorphism. However, I found no evidence for such a polymorphism in the selected populations of D. ananassae, with the progeny of early and 16 late emerging flies in a crowded culture exhibiting almost similar larval feeding rate, development time and tolerance to nitrogenous wastes. One difference in the maintenance regime I used and that used in the previous study on D. melanogaster that revealed this polymorphism was in the collection of adult flies from the crowded larval vials. In my experiments, emerging flies from the larval vials were collected into a cage daily, implying that flies emerging on a particular day got pooled into the same cage with all the flies that had emerged on previous days. In the previous study on D. melanogaster, however, flies eclosing on a particular day were housed with others eclosing the same day for several days prior to being pooled into a cage. The latter regime, in principle, could have inadvertently induced assortative mating for development time in the crowding-adapted populations and this, in turn, could have driven the maintenance of the earlier discussed polymorphism. I examined this possibility further by doing a one-generation experiment, using D. melanogaster scarlet eye and red eye flies, in which I replicated the two maintenance regimes and then studied the mating system in both. In the set up replicating the earlier type of maintenance regime, I found proportionately more assortative mating for development time happening, as compared to the set up similar to my maintenance regime. This finding strengthens the view that the polymorphism seen in the earlier study might have been due to maintenance regime induced assortative mating among the early and late emerging flies. In principle, it is possible for differences in mating system to affect the pattern of genetic correlations and thus, explain the differences between my study and previous studies. However, the present data do not permit unequivocal conclusions to be drawn. It could also be the case that quantitative differences in the degree of crowding affect the fitness-weighting of different traits, thereby leading to varied patterns of correlated responses to 17 selection for adaptation to crowding in the different studies. Further experimental work will be required to probe this possibility. Overall, my study shows that the different congeneric species under similar selection pressures can show a fairly similar genetic architecture of fitness-related traits, even though evolutionarily they might be far apart. Although some pair-wise correlations were species-specific, the major correlations among traits relevant to fitness under crowding were quite similar across the three species I studied. My results also exemplify how seemingly trivial aspects of maintenance regime can have important evolutionary consequences, possibly even affecting the network of genetic correlations revealed under different selection pressures.}
+      \field{title}{The {{Genetic Architecture}} of {{Fitness}}-Related {{Traits}} in {{Populations}} of {{Three Species}} of {{Drosophila Subjected}} to {{Selection}} for {{Adaptation}} to {{Larval Crowding}}}
+      \field{type}{Thesis}
+      \field{year}{2009}
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\JJN97DSI\\Archana - 2009 - The Genetic Architecture of Fitness-related Traits.pdf;C\:\\Users\\HP\\Zotero\\storage\\BJ7PWPA7\\756.html
+      \endverb
+    \endentry
     \entry{asmussenDensityDependentSelectionIncorporating1983}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=59719cc6a67a5dd6bbb9ba4bf2f0fa76}{%
@@ -920,6 +956,7 @@
       \strng{authorbibnamehash}{d1e73f8458754c4af902233482aa56aa}
       \strng{authornamehash}{6c7aa0a6e8ecb22c31b2313c83dce2c5}
       \strng{authorfullhash}{d1e73f8458754c4af902233482aa56aa}
+      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
@@ -943,6 +980,54 @@
       \verb C\:\\Users\\HP\\Zotero\\storage\\VWG3ZAXC\\Mueller and Ayala - 1981 - Trade-off between r-selection and K-selection in D.pdf;C\:\\Users\\HP\\Zotero\\storage\\L3RL3746\\1303.html
       \endverb
       \keyw{density-dependent selection,Drosophila melanogaster,evolution,population dynamics}
+    \endentry
+    \entry{muellerModelEvolutionLarval2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=834e1220db6d5cb74bd36fc451f17b90}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Laurence\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d96565ca7c83a80a727ac43e2baad4f}{%
+           family={Barter},
+           familyi={B\bibinitperiod},
+           given={Thomas\bibnamedelima T.},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6c7aa0a6e8ecb22c31b2313c83dce2c5}
+      \strng{fullhash}{9311544968530aef44626c01f76fc718}
+      \strng{bibnamehash}{9311544968530aef44626c01f76fc718}
+      \strng{authorbibnamehash}{9311544968530aef44626c01f76fc718}
+      \strng{authornamehash}{6c7aa0a6e8ecb22c31b2313c83dce2c5}
+      \strng{authorfullhash}{9311544968530aef44626c01f76fc718}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Energy allocation is believed to drive trade-offs in life history evolution. We develop a physiological and genetic model of energy allocation that drives evolution of feeding rate in a well-studied model system. In a variety of stressful environments Drosophila larvae adapt by altering their rate of feeding. Drosophila larvae adapted to high levels of ammonia, urea, and the presence of parasitoids evolve lower feeding rates. Larvae adapted to crowded conditions evolve higher feeding rates. Feeding rates should affect gross food intake, metabolic rates, and efficiency of food utilization. We develop a model of larval net energy intake as a function of feeding rates. We show that when there are toxic compounds in the larval food that require energy for detoxification, larvae can maximize their energy intake by slowing their feeding rates. While the reduction in feeding rates may increase development time and decrease competitive ability, we show that genotypes with lower feeding rates can be favored by natural selection if they have a sufficiently elevated viability in the toxic environment. This work shows how a simple phenotype, larval feeding rates, may be of central importance in adaptation to a wide variety of stressful environments via its role in energy allocation.}
+      \field{issn}{1573-6857}
+      \field{journaltitle}{Genetica}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{A Model of the Evolution of Larval Feeding Rate in {{Drosophila}} Driven by Conflicting Energy Demands}
+      \field{volume}{143}
+      \field{year}{2015}
+      \field{pages}{93\bibrangedash 100}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/s10709-015-9818-5
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\ERISKD7C\\Mueller and Barter - 2015 - A model of the evolution of larval feeding rate in.pdf
+      \endverb
     \endentry
     \entry{nagarajanAdaptationLarvalCrowding2016}{article}{}
       \name{author}{8}{}{%
@@ -1075,6 +1160,25 @@
       \endverb
       \verb{file}
       \verb C\:\\Users\\HP\\Zotero\\storage\\QM4J78IH\\Prasad and Joshi - 2003 - What have two decades of laboratory life-history e.pdf
+      \endverb
+    \endentry
+    \entry{WelcomePythonOrg}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Python language reference. The official home of the Python Programming Language}
+      \field{howpublished}{https://www.python.org/}
+      \field{journaltitle}{Python.org}
+      \field{month}{6}
+      \field{title}{Python Software Foundation}
+      \field{year}{2018}
+      \verb{file}
+      \verb C\:\\Users\\HP\\Zotero\\storage\\8M7W9RAF\\www.python.org.html;C\:\\Users\\HP\\Zotero\\storage\\IMLFRDF3\\www.python.org.html
       \endverb
     \endentry
     \entry{roughgardenDensityDependentNaturalSelection1971}{article}{}
@@ -1498,6 +1602,218 @@
       \verb C\:\\Users\\HP\\Zotero\\storage\\4MWEQVKL\\S0022519318304880.html
       \endverb
       \keyw{Constancy,Fluctuation index,Minimum critical size,Persistence,Stability,Stage-structured model,Sterile Insect Technique,Time-series}
+    \endentry
+    \entry{michael_waskom_2017_883859}{software}{}
+      \name{author}{30}{}{%
+        {{un=0,uniquepart=base,hash=9f118467e509f7d2d04cfbdb8d33accf}{%
+           family={Waskom},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29b69341adb2c138932bbf16022ea0fa}{%
+           family={Botvinnik},
+           familyi={B\bibinitperiod},
+           given={Olga},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5b81e0fb68b44c4c059bffafb86032d}{%
+           family={O'Kane},
+           familyi={O\bibinitperiod},
+           given={Drew},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5afdc1d9153a448523bb9ccf9c80c87}{%
+           family={Hobson},
+           familyi={H\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a320db1a21a4178172047070e5f69fc}{%
+           family={Lukauskas},
+           familyi={L\bibinitperiod},
+           given={Saulius},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd008e3dab676b7e9077310a7e7445b3}{%
+           family={Gemperline},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima C},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bbb9cae798de875fe375cd78fdbc05e8}{%
+           family={Augspurger},
+           familyi={A\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8c2947581cc4374e604811c85379eb1}{%
+           family={Halchenko},
+           familyi={H\bibinitperiod},
+           given={Yaroslav},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2d6e1ae7f3e3b339d43f0e2d45e9363}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e24d438c0553f762091363a2a8cada76}{%
+           family={Warmenhoven},
+           familyi={W\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0eab3990e38e3616a47ebcd48920fb6f}{%
+           family={Ruiter},
+           familyi={R\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=ff0c4f1338832c07e301d71f43283ccf}{%
+           family={Pye},
+           familyi={P\bibinitperiod},
+           given={Cameron},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a22828b76006f42d747b699d2ef5167}{%
+           family={Hoyer},
+           familyi={H\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a08a00cf90823600b731a138afc28949}{%
+           family={Vanderplas},
+           familyi={V\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17ba00f01bf4a14995a8fc1ea2b0c854}{%
+           family={Villalba},
+           familyi={V\bibinitperiod},
+           given={Santi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c55b9e81f6189ec70b4c3a02c126d882}{%
+           family={Kunter},
+           familyi={K\bibinitperiod},
+           given={Gero},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aeee7c088044c3c1fa4b87eff626daf7}{%
+           family={Quintero},
+           familyi={Q\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07121a59e5e55d1f61501974f92d0324}{%
+           family={Bachant},
+           familyi={B\bibinitperiod},
+           given={Pete},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0449a5e93850e9dad7d069f67084aeb4}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0d1013ddfc5c7cc55ba2e8a52b12ea3}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34038453375ed6021c829d8bf04a4161}{%
+           family={Miles},
+           familyi={M\bibinitperiod},
+           given={Alistair},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5202a6b44b6107431daa2a93ec6684d4}{%
+           family={Ram},
+           familyi={R\bibinitperiod},
+           given={Yoav},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ef3de263c81c9443822f0beabf57c61}{%
+           family={Yarkoni},
+           familyi={Y\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56cb69161d4fe949370adfc398a1c573}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Mike\bibnamedelima Lee},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8e458db08d6f691f66f719a88f1389a}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Constantine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00ca2f3aec7fd0f59d04154070c51ab0}{%
+           family={Fitzgerald},
+           familyi={F\bibinitperiod},
+           given={Clark},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d236810821e8e83a025f2a83ea31820}{%
+           family={Brian},
+           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=0a492e1fb769281940e8b8a041189339}{%
+           family={Fonnesbeck},
+           familyi={F\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66a10017a89513b8272bcedcc279b8b4}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Antony},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=755294d26a8ecd0502e9ce6f1585f517}{%
+           family={Qalieh},
+           familyi={Q\bibinitperiod},
+           given={Adel},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{dfb4b1b2b521f6afe19180e9d7199232}
+      \strng{fullhash}{7c52146f2ff32c6e018fe6779cb8ebad}
+      \strng{bibnamehash}{310345355e938277f3c0fd84688abdcc}
+      \strng{authorbibnamehash}{310345355e938277f3c0fd84688abdcc}
+      \strng{authornamehash}{dfb4b1b2b521f6afe19180e9d7199232}
+      \strng{authorfullhash}{7c52146f2ff32c6e018fe6779cb8ebad}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{mwaskom/seaborn: v0.8.1 (September 2017)}
+      \field{version}{v0.8.1}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.5281/zenodo.883859
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.883859
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.883859
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
