@@ -64,10 +64,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{References}{55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Code}{61}%
+\contentsline {chapter}{\numberline {A}Supplementary Data}{61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Larval Stage}{61}%
+\contentsline {section}{\numberline {A.1}Code}{61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Adult Stage}{65}%
+\contentsline {section}{\numberline {A.2}Tables}{62}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Tables}{71}%
+\contentsline {section}{\numberline {A.3}Graphs}{64}%

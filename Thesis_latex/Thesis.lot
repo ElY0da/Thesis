@@ -18,14 +18,12 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Values of constant parameters used for initiating the model}}{62}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.1}{\ignorespaces Values of constant parameters used for initiating the model}}{71}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Distributions and values of larval trait parameters used for initiating the model}}{62}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.2}{\ignorespaces Distributions and values of larval trait parameters used for initiating the model}}{72}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces Mean values of trait parameters used for initiating simulations of mean trait value distribution (no correlation)}}{63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.3}{\ignorespaces Mean values of trait parameters used for initiating simulations of mean trait value distribution (no correlation)}}{72}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces Mean values of trait parameters used for initiating simulations of mean trait value distribution (negative correlation)}}{63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.4}{\ignorespaces Mean values of trait parameters used for initiating simulations of mean trait value distribution (negative correlation)}}{72}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.5}{\ignorespaces Values of scaling parameters used in the model}}{72}%
+\contentsline {table}{\numberline {A.5}{\ignorespaces Values of scaling parameters used in the model}}{63}%

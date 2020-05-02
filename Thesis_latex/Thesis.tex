@@ -7,6 +7,7 @@
 \usepackage{enumerate}
 \usepackage[caption=false]{subfig}
 \usepackage{emptypage}
+\usepackage{pdfpages}
 \usepackage{listings}
 \usepackage{xcolor}
 \definecolor{codegreen}{rgb}{0,0.6,0}
@@ -21,12 +22,14 @@
   \include{C0/Titlepage}
   \pagenumbering{roman}
 
+  \newgeometry{left=0in,right=0in,top=0in,bottom=1in}
   \addcontentsline{toc}{chapter}{Certificate of Examination}
   \include{C0/Certificate}
 
   \addcontentsline{toc}{chapter}{Declaration}
   \include{C0/Declarations}
 
+  \newgeometry{left=1.25in,right=1in,top=2.5in,bottom=1in}
   \addcontentsline{toc}{chapter}{Acknowledgements}
   \include{C0/Acknowledgements}
 
@@ -65,6 +68,5 @@
   \renewcommand{\baselinestretch}{1.5}
   \appendix
   \include{CA1/chapterA1}
-  \include{CA2/chapterA2}
 
 \end{document}
