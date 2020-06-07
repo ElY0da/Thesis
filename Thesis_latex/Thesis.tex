@@ -1,43 +1,64 @@
 \documentclass[a4paper,12pt,twoside]{report}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=3cm]{geometry}
+\usepackage[left=1.25in,right=1in,top=2.5in,bottom=1in]{geometry}
 \usepackage{graphicx}
-
-
+%\usepackage[backend=biber,style=apa,maxcitenames=1,natbib=true]{biblatex}
+%\addbibresource{References.bib}
 \usepackage{enumerate}
-%\geometry{a4}
-%\include{preamble}
-%
-
-\title{\LARGE {Moran Model}}\\
-\vspace*{6mm}}
-
-\author{Manu M}
+\usepackage{emptypage}
+\usepackage{pdfpages}
+\usepackage{listings}
 \renewcommand{\baselinestretch}{1.5}
+\usepackage{amsmath}
 
 \newtheorem{defn}{Definitions}
 \newtheorem{thm}{Theorem}[section]
 \newtheorem{lem}{Lemma}[section]
 \newtheorem{cor}{Corollary}[section]
+
 \begin{document}
+  \include{C0/Titlepage}
+  \pagenumbering{roman}
+  \newgeometry{left=0in,right=0in,top=0in,bottom=1in}
+  \addcontentsline{toc}{chapter}{Certificate of Examination}
+  \include{C0/Certificate}
 
-\maketitle
-\newpage
-%\include{C0/Declarations}
-%\include{C0/Certificate}
-%\include{C0/Acknowledgements}
-%\include{C0/Dedication}
-\setcounter{tocdepth}{2}
-\tableofcontents
+  \addcontentsline{toc}{chapter}{Declaration}
+  \include{C0/Declarations}
 
-\setcounter{page}{1}
-\newpage
+  \newgeometry{left=1.25in,right=1in,top=2.5in,bottom=1in}
+  \addcontentsline{toc}{chapter}{Acknowledgements}
+  \include{C0/Acknowledgements}
 
-\include{C1/intro}
-\include{C2/chapter2}
-\include{C3/chapter3}
-\include{C4/chapter4}
-%\include{C5/chapter5}
+  \newgeometry{left=1.25in,right=1in,top=1in,bottom=1in}
 
-%\appendix
-%\include{CA1/chapterA1}
+  \addcontentsline{toc}{chapter}{List of Figures}
+  \listoffigures
+
+  \addcontentsline{toc}{chapter}{List of Tables}
+  \listoftables
+
+  \setcounter{tocdepth}{1}
+  \tableofcontents
+
+  \include{C0/Abstract}
+
+  \pagenumbering{arabic}
+  \include{C1/intro}
+
+  \include{C2/chapter2}
+
+  \include{C3/chapter3}
+
+  \include{C4/chapter4}
+
+  \include{C5/chapter5}
+
+  \setlength\bibitemsep{\baselineskip}
+  %\addcontentsline{toc}{chapter}{References}
+  %\printbibliography[title=References]
+
+  \renewcommand{\baselinestretch}{1.5}
+  \appendix
+  \include{CA1/chapterA1}
+
 \end{document}

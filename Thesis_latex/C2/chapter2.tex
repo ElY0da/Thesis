@@ -10,7 +10,7 @@ From the existing population, one individual is chosen randomly to give birth an
 
 Markov chains often describe the movements of a system between various states. In this paper, we will discuss \emph{discrete-time} Markov chains, meaning that at each step our system can either stay in the state it is in or change to another state. We denote the random variable $X_n$ as a sort of marker of what state our system is in at step $n$. $X_n$ can take the value of any $i \in I$, where each $i$ is a \emph{state} in the \emph{state-space}, $I$. States are usually just denoted as numbers and our state-space as a countable set.
 
-We will call $\lambda$ = ($\lambda_{i_1}$, $\lambda_{i_2}$, $\ldots$) = ($\lambda_{i}$ \, $|$ \, i \in I) the \emph{probability distribution} on $X_{n}$ if:
+We will call $\lambda$ = ($\lambda_{i1}$, $\lambda_{i2}$, $\ldots$) = ($\lambda_{i}$ , $|$ , i \in I) the \emph{probability distribution} on $X_{n}$ if:
 \newline
 $\lambda_{i}$ = $P(X_{n} = i)$ and $\sum_{i \in I}$ $\lambda_{i}$ = $1$. Also, a matrix $P = \{ p_{ij} \}$, where $i,j \in I$, is called \emph{stochastic} if $\sum_{j \in I} \lambda_{ij} = 1$, $\forall i \in I$, i.e. every row of the matrix is a distribution. Now we can define a Markov chain explicitly.
 \newline
